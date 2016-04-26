@@ -1,0 +1,273 @@
+<div class="container medium">
+    <div class="api_doc_info">
+        <h2 class="underline" id="introduction">Introduction</h2>
+        <p>The Icelandic movie API is a free REST service for obtaining information about movies showing in Icelandic cinemas. To use this service please fill out the short registration form <a href="#register" class="hvr-underline-from-center">here below</a>.</p>
+        <br/>
+        <p>The API is mainly built with data from <a href="http://www.kvikmyndir.is" target="_blank" class="hvr-underline-from-center"><i class="material-icons mdl-list__item-icon">open_in_new</i>kvikmyndir.is</a>. Special thanks to them for their contribution.
+        In addition I have added data from <a href="http://www.bioparadis.is/" target="_blank" class="hvr-underline-from-center"><i class="material-icons mdl-list__item-icon">open_in_new</i>bioparadis.is</a> and other services such as <a href="http://www.omdbapi.com/" target="_blank" class="hvr-underline-from-center"><i class="material-icons mdl-list__item-icon">open_in_new</i>OMDB API</a> and <a href="https://www.themoviedb.org/" class="hvr-underline-from-center"><i class="material-icons mdl-list__item-icon">open_in_new</i>The Movie Database API</a>. The data from the API is updated daily.</p>
+        
+        <hr/>
+        <!-- Authentication -->
+        <h2 class="underline" id="authentication">Authentication</h2>
+        <p>The API is for non commercial purposes only because of third party data. Please explain briefly in the register form for what purpose you are going to use the API.</p>
+        
+        <div>
+            <button data-id="register" class="modal-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="register">Register</button>
+        </div>
+        <br/>
+        <p>The API uses token based authentication. Before you can access any data from the API you will have to make an authentication POST request.</p>
+        <p>Below is an example of how you can authenticate and receive your token. First make a POST request to <a href="/authenticate" target="_blank" class="hvr-underline-from-center"><i class="material-icons mdl-list__item-icon">open_in_new</i>http://api.biomynd.is/authenticate</a> with your username and password as credentials. If the credentials match your user the server will send back JSON response which will include your token. Your token will expire after 24 hours.</p>
+        <button data-id="token" class="modal-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">jQuery example</button>
+        <hr/>
+        <h2 class="underline" id="examples">Example</h2>
+
+        <br/>
+        <p>All requests to the API will have to include a token for authentication. A GET request to <a href="/movies" target="_blank" class="hvr-underline-from-center"><i class="material-icons mdl-list__item-icon">open_in_new</i>http://api.biomynd.is/movies</a> can either have header field set as 'x-access-token' or have a token included as a query string parameter. If the token is correct the server will respond with data from the server.</p>
+        <button data-id="example_request" class="modal-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+            jQuery GET Request
+        </button>
+
+        <hr/>
+        <!-- API documentation -->
+        <h2 class="underline" id="docs">Endpoints</h2>
+        <p>Below is a list of all available endpoints in the API. All responses are in JSON format. For testing I recommend using applications such as <a href="https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en" class="hvr-underline-from-center" target="_blank"><i class="material-icons mdl-list__item-icon">open_in_new</i>Postman</a>, <a href="https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo" class="hvr-underline-from-center" target="_blank"><i class="material-icons mdl-list__item-icon">open_in_new</i>Advanced REST client</a> or <a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en" class="hvr-underline-from-center" target="_blank"><i class="material-icons mdl-list__item-icon">open_in_new</i>JSONView</a>.</p>
+        <br/>
+        <p>If you have any problems or questions regarding the API than please feel free to <a href="#" data-id="sendmail" class="hvr-underline-from-center modal-button">contact me</a>.</p>
+        <br/>
+        <hr/>
+        <!-- MOVIES -->
+        <h2 class="underline">Now playing</h2>
+        <br/>
+        
+        <div class="table-responsive">
+            <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                <thead>
+                    <tr>
+                        <th>Method</th>
+                        <th>Requests</th>
+                        <th>Params</th>
+                        <th>Description</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td>GET</td>
+                        <td>/movies</td>
+                        <td>
+                            <p>/</p>
+                            <p>title</p>
+                            <p>imdbid</p>
+                            <p>imdbrating</p>
+                            <p>showtime</p>
+                            <p>certificate</p>
+                            <p>actor</p>
+                            <p>director</p>
+                            <p>mongoid</p>
+                        </td>
+                        <td>
+                            <p>All movies now playing in cinemas</p>
+                            <p>Filters movies by title name</p>
+                            <p>Filters movies by imdbid</p>
+                            <p>Filters movies with bigger rating than number</p>
+                            <p>Filters movies by showtime bigger than time</p>
+                            <p>Filters movies by certificate</p>
+                            <p>Filters movies by actor</p>
+                            <p>Filters movies by director</p>
+                            <p>Filters movies by mongoid</p>
+                        </td>
+                         <td>
+                            <p>N/A</p>
+                            <p>/movies?title=The Revenant</p>
+                            <p>/movies?imdbid=tt1663202</p>
+                            <p>/movies?imdbrating=8.0</p>
+                            <p>/movies?showtime=20:00</p>
+                            <p>/movies?certificate=16</p>
+                            <p>/movies?actor=Tom Hardy</p>
+                            <p>/movies?director=Alejandro</p>
+                            <p>/movies?mongoid=56e50...</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="text-center">
+            <button data-id="movies" class="modal-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                JSON example
+            </button>
+        </div>
+        <hr/>
+
+        
+        <!-- UPCOMING -->
+        <h2 class="underline">Coming soon</h2>
+        <br/>
+        <div class="table-responsive">
+            <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                <thead>
+                    <tr>
+                        <th>Method</th>
+                        <th>Requests</th>
+                        <th>Params</th>
+                        <th>Description</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>GET</td>
+                        <td>/upcoming</td>
+                        <td>
+                            <p>/</p>
+                            <p>title</p>
+                            <p>imdbid</p>
+                            <p>actor</p>
+                            <p>director</p>
+                            <p>mongoid</p>
+                        </td>
+                        <td>
+                            <p>All upcoming movies</p>
+                            <p>Filters movies by title name</p>
+                            <p>Filters movies by imdbid</p>
+                            <p>Filters movies by actor</p>
+                            <p>Filters movies by director</p>
+                            <p>Filters movies by mongoid</p>
+                        </td>
+                        <td>
+                            <p>N/A</p>
+                            <p>/upcoming?title=The Revenant</p>
+                            <p>/upcoming?imdbid=tt1663202</p>
+                            <p>/upcoming?actor=Tom Hardy</p>
+                            <p>/upcoming?director=Alejandro</p>
+                            <p>/upcoming?mongoid=56e50...</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="text-center">
+            <button data-id="upcoming" class="modal-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                JSON response
+            </button>
+        </div>
+        <hr/>
+        
+        
+        <!-- EXTRA IMAGES -->
+        <h2 class="underline">Posters and backdrops</h2>
+        <p>For additional posters and backdrops make a request to TMDB and construct path from given JSON data from the response.</p>
+        <p>Instructions:</p>
+        <p><span class="orange">Baseurl:</span>  http://image.tmdb.org/t/p/<p>
+        <p><span class="orange">Image width:</span>  w500, w1000, w1920<p>
+        <p><span class="orange">Filepath:</span>  eTILB3qfPlj0Z01Meb1eBkXDnSa.jpg<p>
+        <p><span class="orange">Url:</span> http://image.tmdb.org/t/p/w1920/eTILB3qfPlj0Z01Meb1eBkXDnSa.jpg<p>
+        <br/>
+        <div class="table-responsive">
+            <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                <thead>
+                    <tr>
+                        <th>Method</th>
+                        <th>Requests</th>
+                        <th>Params</th>
+                        <th>Description</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>GET</td>
+                        <td>/images</td>
+                        <td>
+                            <p>/</p>
+                            <p>imdbid</p>
+                        </td>
+                        <td>
+                            <p>All movies with extra images</p>
+                            <p>Filters movies by imdbid</p>
+                        </td>
+                        <td>
+                            <p>N/A</p>
+                            <p>/images?imdbid=tt1663202</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="text-center">
+            <button data-id="images" class="modal-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                JSON response
+            </button>
+        </div>
+        <hr/>
+        
+        <!-- GENRES -->
+        <h2 class="underline">Genres</h2>
+        <br/>
+        <div class="table-responsive">
+            <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                <thead>
+                    <tr>
+                        <th>Method</th>
+                        <th>Requests</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td>GET</td>
+                        <td>/genres</td>
+                        <td>
+                            <p>List of all genres</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="text-center">
+            <button data-id="genres" class="modal-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                JSON response
+            </button>
+        </div>
+        <hr/>
+        
+        <!-- cinemas -->
+        <h2 class="underline">Cinemas</h2>
+        <br/>
+        
+        <div class="table-responsive">
+            <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                <thead>
+                    <tr>
+                        <th>Method</th>
+                        <th>Requests</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td>GET</td>
+                        <td>/cinemas</td>
+                        <td>
+                            <p>List of all Icelandic cinemas</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="text-center">
+            <button data-id="cinemas" class="modal-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                JSON response
+            </button>
+        </div>
+        <hr/>
+        
+    </div>
+</div>

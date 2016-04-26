@@ -1,0 +1,44 @@
+<!-- MODALS FOR MESSAGES -->
+<div class="modal_custom" data-id="deleteusermodal">
+    <span class="icon-exit form" data-id="deleteusermodal">
+            <svg class="icon icon-exit">
+                <use xlink:href="#icon-exit" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+            </svg>
+        </span>
+    <div class="modal_custom__body">
+        <div class="message_container updateuser_form_container animated fadeInUp">
+
+            
+            <!-- Client side error message -->
+            <div class="errors animated fadeInUp" ng-if="errorMessage !== ''">
+                <p><i class="material-icons mdl-list__item-icon">error</i>{{errorMessage}}</p>
+            </div>
+            
+            <!-- Success message -->
+            <div class="success animated fadeInUp text-center" ng-if="successMessage">
+                {{successMessage}}
+            </div>
+            
+            <div class="text-center title_heading">
+                <h2 class="underline">Delete user</h2>
+            </div>
+            
+            <!-- Warning -->
+            <div class="errors animated fadeInUp text-center">
+                <p ><i class="material-icons mdl-list__item-icon">warning</i>Are you sure you want to delete user</p>
+                <p>{{UserToDelete.fullname}}?</p>
+            </div>
+                
+            <br/>
+            <br/>    
+            <div class="flex-row">
+                <div class="margin-right-10 grid-item">
+                    <button type="submit" class="full-width mdl-button red mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent red exit-button" data-id="deleteusermodal">CANCEL</button>
+                </div>
+                <div class="margin-left-10 grid-item">
+                    <button type="submit" ng-click="DeleteUser(UserToDelete.id)" class="full-width mdl-button green mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent red">DELETE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

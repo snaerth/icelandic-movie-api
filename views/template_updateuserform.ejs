@@ -1,0 +1,146 @@
+<!-- MODALS FOR MESSAGES -->
+<div class="modal_custom" data-id="updateuserform">
+    <span class="icon-exit form" data-id="updateuserform">
+            <svg class="icon icon-exit">
+                <use xlink:href="#icon-exit" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+            </svg>
+        </span>
+    <div class="modal_custom__body">
+        <div class="message_container updateuser_form_container animated fadeInUp">
+
+            
+            <!-- Client side error message -->
+            <div class="errors animated fadeInUp" ng-if="errorMessageUpdate !== ''">
+                <p ng-repeat="error in errorMessageUpdate"><i class="material-icons mdl-list__item-icon">error</i>{{error}}</p>
+            </div>
+            
+            <!-- Success message -->
+            <div class="success animated fadeInUp text-center" ng-if="successMessage">
+                {{successMessage}}
+            </div>
+            
+            <!-- MESSAGE FORM -->
+            <form novalidate method="post" id="updateuser_form" name="form" autocomplete="off" ng-class="(successMessage == '') ? '' : 'hidden'">
+                <input type="hidden" id="id" name="id" ng-model="user._id"/>
+                
+                <div class="text-center title_heading"><h2 class="underline">Update user</h2></div>
+                <!-- NAME -->
+                <div class="form-group">
+                    <span class="input input--nao">
+                        <input class="input__field input__field--nao smaller-font" type="text" id="fullname" name="fullname" ng-model="user.fullname"/>
+                        <label class="input__label input__label--nao" for="fullname">
+                            <span class="input__label-content input__label-content--nao">Name</span>
+                        </label>
+                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                        </svg>
+                    </span>
+                </div>
+                <!-- NAME ENDS -->
+                
+                <!-- EMAIL -->
+                <div class="form-group">
+                    <span class="input input--nao">
+                        <input class="input__field input__field--nao smaller-font" type="text" id="email" name="email" ng-model="user.email"/>
+                        <label class="input__label input__label--nao" for="email">
+                            <span class="input__label-content input__label-content--nao">Email</span>
+                        </label>
+                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                        </svg>
+                    </span>
+                </div>
+                <!-- EMAIL ENDS -->
+                
+                <!-- USERNAME -->
+                <div class="form-group">
+                    <span class="input input--nao">
+                        <input class="input__field input__field--nao smaller-font" type="text" id="username" name="username" autocomplete="off" ng-model="user.username"/>
+                        <label class="input__label input__label--nao" for="username">
+                            <span class="input__label-content input__label-content--nao">Username</span>
+                        </label>
+                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                        </svg>
+                    </span>
+                </div>
+                <!-- USERNAME ENDS -->
+                
+                <!-- PASSWORD -->
+                <div class="form-group">
+                    <span class="input input--nao">
+                        <input class="input_password input__field input__field--nao smaller-font" type="password" id="password" name="password" autocomplete="off" ng-model="user.password"/>
+                        <label class="input__label input__label--nao" for="password">
+                            <span class="input__label-content input__label-content--nao">Password</span>
+                        </label>
+                        <i class="material-icons mdl-list__item-icon password" >visibility</i>
+                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                        </svg>
+                    </span>
+                </div>
+                <!-- PASSWORD ENDS -->
+                
+                <!-- DOMAIN -->
+                <div class="form-group">
+                    <span class="input input--nao">
+                        <input class="input__field input__field--nao smaller-font" type="text" id="domain" name="domain" ng-model="user.domain"/>
+                        <label class="input__label input__label--nao" for="domain">
+                            <span class="input__label-content input__label-content--nao">Domain</span>
+                        </label>
+                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                        </svg>
+                    </span>
+                </div>
+                <!-- <DOMAIN></DOMAIN> ENDS -->
+                
+                <!-- MESSAGE -->
+                <div class="form-group">
+                    <span class="input input--nao textarea">
+                        <textarea class="input__field input__field--nao smaller-font" id="message" name="message" ng-model="user.message"></textarea>
+                        <label class="input__label input__label--nao" for="message">
+                            <span class="input__label-content input__label-content--nao">How do you intend to use the API?</span>
+                        </label>
+                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                        </svg>
+                    </span>
+                </div>
+                <!-- MESSAGE ENDS -->
+                
+                                <!-- GLOBAL USER -->
+                <div class="checkbox_container margin-t-b-10 full-width">
+                    <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="globaladmin">
+                        <input type="checkbox" id="globaladmin" name="globaladmin" class="mdl-checkbox__input"  checklist-value="globaladmin" ng-model="user.globaladmin">
+                        <span class="mdl-checkbox__label">Global admin user</span>
+                    </label>
+                </div>
+                <!-- GLOBAL USER ENDS -->
+                
+                <!-- ADMIN USER -->
+                <div class="checkbox_container margin-t-b-10 full-width">
+                    <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="admin">
+                        <input type="checkbox" id="admin" name="admin" class="mdl-checkbox__input"  checklist-value="admin" ng-model="user.admin">
+                        <span class="mdl-checkbox__label">Admin user</span>
+                    </label>
+                </div>
+                <!-- ADMIN USER ENDS -->
+                
+                <!-- ACTIVE USER -->
+                <div class="checkbox_container margin-t-b-10 full-width">
+                    <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="active">
+                        <input type="checkbox" id="active" name="active" class="mdl-checkbox__input"  checklist-value="active" ng-model="user.active">
+                        <span class="mdl-checkbox__label">Active user</span>
+                    </label>
+                </div>
+                <!-- ACTIVE USER ENDS -->
+                
+                <div class="text-center">
+                    <button type="submit" ng-click="UpdateUser(form)" class="full-width mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">SEND</button>
+                </div>
+            </form>
+            <!-- MESSAGE FORM ENDS -->
+        </div>
+    </div>
+</div>

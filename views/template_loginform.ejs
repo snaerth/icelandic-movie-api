@@ -1,0 +1,66 @@
+
+<div class="modal_custom single show" data-id="loginform">
+    <div class="modal_custom__body center">
+        <span class="back_button_container">
+            <a href="/" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">         
+                <i class="material-icons mdl-list__item-icon">home</i>
+                Home
+            </a>
+        </span> 
+        <div class="message_container login_form_container animated fadeInUp">
+            <% if(errors) { %>
+            <!-- Error messages -->
+                <div class="errors animated fadeInUp">
+                <p><a href="#<%- errors[0]%>"><i class="material-icons mdl-list__item-icon">error</i><%- errors[0]%></a></p>
+                </div>
+            <% } %>
+            
+            <% if(msg) { %>
+            <!-- Success message -->
+                <div class="success animated fadeInUp text-center">
+                    <%- msg[0] %>
+                </div>
+            <% } %>
+            
+            <!-- MESSAGE FORM -->
+            <form action="/login" method="post" id="login_form" autocomplete="off">
+                <div class="text-center title_heading"><h2 class="underline">Login</h2></div>
+                
+                <!-- USERNAME -->
+                <div class="form-group">
+                    <span class="input input--nao">
+                        <input class="input__field input__field--nao smaller-font" type="text" id="username" name="username" value="<% if(postParams) { %><%- postParams[0].username %><% } %>"/>
+                        <label class="input__label input__label--nao" for="username">
+                            <span class="input__label-content input__label-content--nao">Username</span>
+                        </label>
+                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                        </svg>
+                    </span>
+                </div>
+                <!-- USERNAME ENDS -->
+                
+                <!-- PASSWORD -->
+                <div class="form-group">
+                    <span class="input input--nao">
+                        <input class="input_password input__field input__field--nao smaller-font" type="password" id="password" name="password" value="<% if(postParams) { %><%- postParams[0].password %><% } %>"/>
+                        <label class="input__label input__label--nao" for="password">
+                            <span class="input__label-content input__label-content--nao">Password</span>
+                        </label>
+                        <i class="material-icons mdl-list__item-icon password" >visibility</i>
+                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                        </svg>
+                    </span>
+                </div>
+                <!-- PASSWORD ENDS -->
+
+                <div class="text-center">
+                    <button type="submit" class="full-width mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">LOGIN</button>
+                </div>
+                <a href="/newpassword" title="newpassword" class="hvr-underline-from-center">Change password?</a> 
+            </form>
+            <!-- MESSAGE FORM ENDS -->
+        </div>
+    </div>
+</div>

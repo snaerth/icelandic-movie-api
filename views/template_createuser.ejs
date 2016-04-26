@@ -1,0 +1,140 @@
+<!-- MODALS FOR MESSAGES -->
+<div class="modal_custom single show" data-id="signup">
+    <span class="back_button_container">
+        <a href="/" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">         
+            <i class="material-icons mdl-list__item-icon">home</i>
+            Home
+        </a>
+        <a href="/users" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="margin-left:10px;">         
+            <i class="material-icons mdl-list__item-icon">group</i>
+            Users
+        </a>
+    </span> 
+    <div class="modal_custom__body">
+        <div class="message_container form_container animated fadeInUp">
+            <% if(errors) { %>
+            <!-- Error messages -->
+                <div class="errors animated fadeInUp">
+                    <% for(var err in errors[0]) { %>
+                        <p><a href="#<%- err%>"><i class="material-icons mdl-list__item-icon">error</i><%- errors[0][err]%></a></p>
+                    <% } %>
+                </div>
+            <% } %>
+            
+            <% if(msg) { %>
+            <!-- Success message -->
+                <div class="success animated fadeInUp text-center">
+                    <%- msg[0] %>
+                    </div>
+            <% } %>
+            
+            <!-- MESSAGE FORM -->
+            <form action="/createuser" method="post" id="form" class="<% if(msg) { %>hidden<% } %>" autocomplete="off">
+                <div class="text-center title_heading"><h2 class="underline">Create user</h2></div>
+                <!-- NAME -->
+                <div class="form-group">
+                    <span class="input input--nao">
+                        <input class="input__field input__field--nao smaller-font" type="text" id="fullname" name="fullname" value="<% if(postParams) { %><%- postParams[0].fullname %><% } %>"/>
+                        <label class="input__label input__label--nao" for="fullname">
+                            <span class="input__label-content input__label-content--nao">Full name</span>
+                        </label>
+                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                        </svg>
+                    </span>
+                </div>
+                <!-- NAME ENDS -->
+                
+                <!-- email -->
+                <div class="form-group">
+                    <span class="input input--nao">
+                        <input class="input__field input__field--nao smaller-font" type="text" id="email" name="email" value="<% if(postParams) { %><%- postParams[0].email %><% } %>"/>
+                        <label class="input__label input__label--nao" for="email">
+                            <span class="input__label-content input__label-content--nao">email</span>
+                        </label>
+                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                        </svg>
+                    </span>
+                </div>
+                <!-- email ENDS -->
+                
+                <!-- username -->
+                <div class="form-group">
+                    <span class="input input--nao">
+                        <input class="input__field input__field--nao smaller-font" type="text" id="username" name="username" autocomplete="off" value="<% if(postParams) { %><%- postParams[0].username %><% } %>"/>
+                        <label class="input__label input__label--nao" for="username">
+                            <span class="input__label-content input__label-content--nao">username</span>
+                        </label>
+                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                        </svg>
+                    </span>
+                </div>
+                <!-- username ENDS -->
+                
+                <!-- password -->
+                <div class="form-group">
+                    <span class="input input--nao">
+                        <input class="input_password input__field input__field--nao smaller-font" type="password" id="password" name="password" autocomplete="off" value="<% if(postParams) { %><%- postParams[0].password %><% } %>"/>
+                        <label class="input__label input__label--nao" for="password">
+                            <span class="input__label-content input__label-content--nao">password</span>
+                        </label>
+                        <i class="material-icons mdl-list__item-icon password" >visibility</i>
+                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                        </svg>
+                    </span>
+                </div>
+                <!-- password ENDS -->
+                
+                <!-- MESSAGE -->
+                <div class="form-group">
+                    <span class="input input--nao textarea">
+                        <textarea class="input__field input__field--nao smaller-font" id="message" name="message"><% if(postParams) { %><%- postParams[0].message %><% } %></textarea>
+                        <label class="input__label input__label--nao" for="message">
+                            <span class="input__label-content input__label-content--nao">How do you intend to use the API?</span>
+                        </label>
+                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                        </svg>
+                    </span>
+                </div>
+                <!-- MESSAGE ENDS -->
+                
+                <!-- GLOBAL USER -->
+                <div class="checkbox_container margin-t-b-10 full-width">
+                    <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="globaladmin">
+                        <input type="checkbox" id="globaladmin" name="globaladmin" class="mdl-checkbox__input"  checklist-value="globaladmin">
+                        <span class="mdl-checkbox__label">Global admin user</span>
+                    </label>
+                </div>
+                <!-- GLOBAL USER ENDS -->
+                
+                <!-- ADMIN USER -->
+                <div class="checkbox_container margin-t-b-10 full-width">
+                    <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="admin">
+                        <input type="checkbox" id="admin" name="admin" class="mdl-checkbox__input"  checklist-value="admin">
+                        <span class="mdl-checkbox__label">Admin user</span>
+                    </label>
+                </div>
+                <!-- ADMIN USER ENDS -->
+                
+                <!-- ACTIVE USER -->
+                <div class="checkbox_container margin-t-b-10 full-width">
+                    <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="active">
+                        <input type="checkbox" id="active" name="active" class="mdl-checkbox__input"  checklist-value="active">
+                        <span class="mdl-checkbox__label">Active user</span>
+                    </label>
+                </div>
+                <!-- ACTIVE USER ENDS -->
+                
+
+                <div class="text-center">
+                    <button type="submit" class="full-width mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">SEND</button>
+                </div>
+            </form>
+            <!-- MESSAGE FORM ENDS -->
+        </div>
+    </div>
+</div>

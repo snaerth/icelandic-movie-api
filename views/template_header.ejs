@@ -1,0 +1,36 @@
+<header>
+    <% if(user) { %>
+        <div class="user_container logged" id="demo-menu-lower-right">
+            <% if(user) { %>
+                <span>Hi, <%= user.username %></span>
+            <% } else { %>
+                <a href="/login" class="menu_link"><i class="material-icons mdl-list__item-icon">lock</i>Login</a>                        
+            <% } %>
+            
+            <!-- Right aligned menu below button -->
+            <button id="login_person" class="mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons mdl-list__item-icon">person</i>
+            </button>
+
+            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right">
+                <li class="mdl-menu__item"><a href="/createuser" class="menu_link">Create user</a></li>
+                <li class="mdl-menu__item"><a href="/users" class="menu_link">Users</a></li>
+                <li class="mdl-menu__item"><a href="/newpassword" class="menu_link">Change password</a></li>
+                <li class="mdl-menu__item"><a href="/logout" class="menu_link">Logout<i class="material-icons mdl-list__item-icon">lock</i></a></li>
+            </ul>
+        </div>
+        <% } else { %>
+            <div class="user_container">
+                <a href="/login"><span>Login</span><i class="material-icons mdl-list__item-icon">lock</i></a>                        
+            </div>
+        <% } %>
+    <nav class="menu menu-top">
+        <ul class="menu_list">
+            <li class="menu_item"><a href="/" class="menu_link">Home</a></li>
+            <li class="menu_item"><a href="#" class="menu_link modal-button" data-id="register"><span>Register</span><i class="material-icons mdl-list__item-icon">person_add</i></a></li>
+        </ul>
+    </nav>
+    <div class="button_menu_container">
+        <button class="trigger_menu"><span>Menu</span></button><span class="trigger_menu__text">MENU</span>
+    </div>
+</header>

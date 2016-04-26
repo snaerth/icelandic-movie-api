@@ -1,0 +1,886 @@
+[
+  {
+    "inTheaters": false,
+    "href": "http://bioparadis.is/kvikmyndir/mia-madre/",
+    "title": "Mia Madre",
+    "poster": "http://bioparadis.is/wp-content/uploads/2016/03/MiaMadre-Poster-page-001-350x495.jpg",
+    "posterLocal": null,
+    "extraimage": [
+      "http://bioparadis.is/wp-content/themes/bioparadis/library/images/placeholders/cover.gif"
+    ],
+    "id": "8531",
+    "ids": {
+      "imdb": null,
+      "rotten": null,
+      "tmdb": null
+    },
+    "alternativeTitles": "Mia Madre",
+    "year": "2015",
+    "certificateIS": "Mynd þessi er ekki við hæfi yngri en 9 ára",
+    "certificateExtra": {
+      "color": "orange",
+      "number": "9"
+    },
+    "durationMinutes": 106,
+    "country": [
+      "Ítalía",
+      "Frakkland",
+      "Þýskaland"
+    ],
+    "releaseDate": "8. Apríl 2016",
+    "language": "Ítalska, enska, franska með íslenskum texta",
+    "genres": [
+      "Drama"
+    ],
+    "actors_abridged": [
+      {
+        "name": "Margherita Buy"
+      },
+      {
+        "name": "John Turturro"
+      },
+      {
+        "name": "Giulia Lazzarini"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Nanni Moretti"
+      }
+    ],
+    "writers_abridged": [],
+    "ratings": {
+      "imdb": null,
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": 12,
+        "schedule": [
+          "17:45",
+          "20:00"
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Mia Madre",
+        "Year": "2015",
+        "Rated": "R",
+        "Released": "25 Mar 2016",
+        "Runtime": "106 min",
+        "Genre": "Drama",
+        "Director": "Nanni Moretti",
+        "Writer": "Nanni Moretti (story), Valia Santella (story), Gaia Manzini (story), Chiara Valerio (story), Nanni Moretti (screenplay), Francesco Piccolo (screenplay), Valia Santella (screenplay)",
+        "Actors": "Margherita Buy, John Turturro, Giulia Lazzarini, Nanni Moretti",
+        "Plot": "Margherita, a director in the middle of an existential crisis, has to deal with the inevitable and still unacceptable loss of her mother.",
+        "Language": "Italian, English, French",
+        "Country": "Italy, France, Germany",
+        "Awards": "7 wins & 18 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTA5MTc4MDE5OTdeQTJeQWpwZ15BbWU4MDg3MTg3NjUx._V1_SX300.jpg",
+        "Metascore": "66",
+        "imdbRating": "7.0",
+        "imdbVotes": "3,453",
+        "imdbID": "tt3013610",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 315872,
+        "results": [
+          {
+            "id": "56aab48d9251410e8f00072e",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "oIWLTh7fdeI",
+            "name": "Trailer 1",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "inTheaters": false,
+    "href": "http://bioparadis.is/kvikmyndir/o-brazen-age/",
+    "title": "O, Brazen Age",
+    "poster": "http://bioparadis.is/wp-content/uploads/2016/03/O_Brazen_Age_poster-350x495.jpg",
+    "posterLocal": null,
+    "extraimage": [
+      "http://bioparadis.is/wp-content/themes/bioparadis/library/images/placeholders/cover.gif"
+    ],
+    "id": "8752",
+    "ids": {
+      "imdb": null,
+      "rotten": null,
+      "tmdb": null
+    },
+    "alternativeTitles": "O, Brazen Age",
+    "year": "2015",
+    "certificateIS": {
+      "color": "green",
+      "number": "L"
+    },
+    "certificateExtra": {
+      "color": null,
+      "Number": null
+    },
+    "durationMinutes": 80,
+    "country": [
+      "Kanada"
+    ],
+    "releaseDate": "7. Apríl 2016",
+    "language": "Enska",
+    "genres": [],
+    "actors_abridged": [
+      {
+        "name": "Lauren Saarimaki"
+      },
+      {
+        "name": "Deragh Campbell"
+      },
+      {
+        "name": "Kaelen Ohm"
+      },
+      {
+        "name": "Atli Bollason"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Alexander Carson"
+      }
+    ],
+    "writers_abridged": [],
+    "ratings": {
+      "imdb": null,
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": 12,
+        "schedule": [
+          "18:00"
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "O, Brazen Age",
+        "Year": "2015",
+        "Rated": "N/A",
+        "Released": "24 Sep 2015",
+        "Runtime": "80 min",
+        "Genre": "Drama",
+        "Director": "Alexander Carson",
+        "Writer": "Alexander Carson",
+        "Actors": "Deragh Campbell, Kaelen Ohm, Lauren Saarimaki, Joe Perry",
+        "Plot": "Part coming-of-age story, part art-cinema meditation on photography, souvenirs, and collections, O, Brazen Age creates a tender and haunting portrait of friendship and faith in the 21st century.",
+        "Language": "English",
+        "Country": "Canada",
+        "Awards": "N/A",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTEzMzU2Nzk4OTFeQTJeQWpwZ15BbWU4MDA3NDk4ODYx._V1_SX300.jpg",
+        "Metascore": "N/A",
+        "imdbRating": "7.9",
+        "imdbVotes": "10",
+        "imdbID": "tt3949056",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "http://www.rottentomatoes.com/m/o_brazen_age/",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 357308,
+        "results": []
+      }
+    ]
+  },
+  {
+    "inTheaters": false,
+    "href": "http://bioparadis.is/kvikmyndir/reykjavik/",
+    "title": "Reykjavík",
+    "poster": "http://bioparadis.is/wp-content/uploads/2016/03/reykjavik-poster-350x495.jpg",
+    "posterLocal": null,
+    "extraimage": [
+      "http://bioparadis.is/wp-content/themes/bioparadis/library/images/placeholders/cover.gif"
+    ],
+    "id": "8709",
+    "ids": {
+      "imdb": null,
+      "rotten": null,
+      "tmdb": null
+    },
+    "alternativeTitles": "Reykjavík",
+    "year": "2016",
+    "certificateIS": {
+      "color": null,
+      "number": null
+    },
+    "certificateExtra": {
+      "color": null,
+      "Number": null
+    },
+    "durationMinutes": 92,
+    "country": [
+      "Ísland"
+    ],
+    "releaseDate": "23. Mars 2016",
+    "language": "Íslenska með enskum texta",
+    "genres": [
+      "Gaman",
+      "Drama"
+    ],
+    "actors_abridged": [
+      {
+        "name": "Atli Rafn Sigurðsson"
+      },
+      {
+        "name": "Nanna Kristín Magnúsdóttir"
+      },
+      {
+        "name": "Gudmundur Thorvaldsson"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Ásgrímur Sverrisson"
+      }
+    ],
+    "writers_abridged": [
+      {
+        "name": "Ásgrímur Sverrisson"
+      }
+    ],
+    "ratings": {
+      "imdb": null,
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": 12,
+        "schedule": [
+          "18:00"
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Response": "False",
+        "Error": "Movie not found!"
+      }
+    ],
+    "trailers": []
+  },
+  {
+    "inTheaters": false,
+    "href": "http://bioparadis.is/kvikmyndir/fyrir-framan-annad-folk-2/",
+    "title": "Fyrir framan annað fólk",
+    "poster": "http://bioparadis.is/wp-content/uploads/2016/04/fyrir_framan-1451310281-350x495.png",
+    "posterLocal": null,
+    "extraimage": [
+      "http://bioparadis.is/wp-content/themes/bioparadis/library/images/placeholders/cover.gif"
+    ],
+    "id": "8868",
+    "ids": {
+      "imdb": null,
+      "rotten": null,
+      "tmdb": null
+    },
+    "alternativeTitles": "Fyrir framan annað fólk",
+    "year": "2016",
+    "certificateIS": "Mynd þessi er leyfð öllum aldurshópum",
+    "certificateExtra": {
+      "color": "green",
+      "number": "L"
+    },
+    "durationMinutes": 90,
+    "country": [
+      "Ísland"
+    ],
+    "releaseDate": "8. Apríl 2016",
+    "language": "Íslenska með enskum texta",
+    "genres": [
+      "Gamanmynd"
+    ],
+    "actors_abridged": [
+      {
+        "name": "Snorri Engilbertsson"
+      },
+      {
+        "name": "Ingvar Eggert Sigurðsson"
+      },
+      {
+        "name": "Pálmi Gestsson"
+      },
+      {
+        "name": "Svandis Dora Einarsdottir Hilmir Snær Guðnason,"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Óskar Jónasson"
+      }
+    ],
+    "writers_abridged": [],
+    "ratings": {
+      "imdb": null,
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": 12,
+        "schedule": [
+          "20:00"
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Response": "False",
+        "Error": "Movie not found!"
+      }
+    ],
+    "trailers": []
+  },
+  {
+    "inTheaters": false,
+    "href": "http://bioparadis.is/kvikmyndir/hrutar-rams/",
+    "title": "Rams",
+    "poster": "http://bioparadis.is/wp-content/uploads/2015/05/RAMS_poster-350x495.jpg",
+    "posterLocal": null,
+    "extraimage": [
+      "http://bioparadis.is/wp-content/themes/bioparadis/library/images/placeholders/cover.gif"
+    ],
+    "id": "4520",
+    "ids": {
+      "imdb": null,
+      "rotten": null,
+      "tmdb": null
+    },
+    "alternativeTitles": "Rams",
+    "year": "2015",
+    "certificateIS": "Mynd þessi er ekki við hæfi yngri en 6 ára",
+    "certificateExtra": {
+      "color": "green",
+      "number": "6"
+    },
+    "durationMinutes": 90,
+    "country": [
+      "Ísland"
+    ],
+    "releaseDate": null,
+    "language": "Íslenska með enskum texta",
+    "genres": [
+      "Gaman",
+      "Drama"
+    ],
+    "actors_abridged": [
+      {
+        "name": "Sigurður Sigurjónsson"
+      },
+      {
+        "name": "Theódór Júlíusson"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Grímur Hákonarson"
+      }
+    ],
+    "writers_abridged": [],
+    "ratings": {
+      "imdb": null,
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": 12,
+        "schedule": [
+          "20:00"
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Rams",
+        "Year": "2015",
+        "Rated": "R",
+        "Released": "28 May 2015",
+        "Runtime": "93 min",
+        "Genre": "Drama",
+        "Director": "Grímur Hákonarson",
+        "Writer": "Grímur Hákonarson",
+        "Actors": "Sigurður Sigurjónsson, Theodór Júlíusson, Charlotte Bøving, Jon Benonysson",
+        "Plot": "In a remote Icelandic farming valley, two brothers who haven't spoken in 40 years have to come together in order to save what's dearest to them - their sheep.",
+        "Language": "Icelandic",
+        "Country": "Iceland, Denmark, Norway, Poland",
+        "Awards": "24 wins & 11 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BNDc5MjI4MjQwNV5BMl5BanBnXkFtZTgwODE4MDE2NTE@._V1_SX300.jpg",
+        "Metascore": "N/A",
+        "imdbRating": "7.4",
+        "imdbVotes": "2,691",
+        "imdbID": "tt3296658",
+        "Type": "movie",
+        "tomatoMeter": "97",
+        "tomatoImage": "certified",
+        "tomatoRating": "7.8",
+        "tomatoReviews": "63",
+        "tomatoFresh": "61",
+        "tomatoRotten": "2",
+        "tomatoConsensus": "Rams transcends its remote location -- and somewhat esoteric storyline -- by using the easily relatable dynamic between two stubborn brothers to speak universal truths.",
+        "tomatoUserMeter": "84",
+        "tomatoUserRating": "4.0",
+        "tomatoUserReviews": "1246",
+        "tomatoURL": "http://www.rottentomatoes.com/m/hrutar/",
+        "DVD": "N/A",
+        "BoxOffice": "$94.3k",
+        "Production": "Cohen Media Group",
+        "Website": "http://cohenmedia.net/films/rams",
+        "Response": "True"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 336222,
+        "results": [
+          {
+            "id": "56b0bb679251410b3d002794",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "PWVmUVAdi5Y",
+            "name": "Trailer 1",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "inTheaters": false,
+    "href": "http://bioparadis.is/kvikmyndir/the-witch-nornin/",
+    "title": "The Witch",
+    "poster": "http://bioparadis.is/wp-content/uploads/2016/02/thewitch-350x495.jpg",
+    "posterLocal": null,
+    "extraimage": [
+      "http://bioparadis.is/wp-content/themes/bioparadis/library/images/placeholders/cover.gif"
+    ],
+    "id": "7944",
+    "ids": {
+      "imdb": null,
+      "rotten": null,
+      "tmdb": null
+    },
+    "alternativeTitles": "The Witch",
+    "year": "2015",
+    "certificateIS": "Mynd þessi er ekki við hæfi yngri en 16 ára",
+    "certificateExtra": {
+      "color": "red",
+      "number": "16"
+    },
+    "durationMinutes": 90,
+    "country": [
+      "Bandaríkin"
+    ],
+    "releaseDate": "11. Mars 2016",
+    "language": "Enska",
+    "genres": [
+      "Hryllingsmynd",
+      "Mystería"
+    ],
+    "actors_abridged": [
+      {
+        "name": "Anya Taylor-Joy"
+      },
+      {
+        "name": "Ralph Ineson"
+      },
+      {
+        "name": "Kate Dickie"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Robert Eggers"
+      }
+    ],
+    "writers_abridged": [],
+    "ratings": {
+      "imdb": null,
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": 12,
+        "schedule": [
+          "22:15"
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "The Witch",
+        "Year": "2015",
+        "Rated": "R",
+        "Released": "19 Feb 2016",
+        "Runtime": "92 min",
+        "Genre": "Horror, Mystery",
+        "Director": "Robert Eggers",
+        "Writer": "Robert Eggers",
+        "Actors": "Anya Taylor-Joy, Ralph Ineson, Kate Dickie, Harvey Scrimshaw",
+        "Plot": "A family in 1630s New England is torn apart by the forces of witchcraft, black magic and possession.",
+        "Language": "English",
+        "Country": "USA, UK, Canada, Brazil",
+        "Awards": "6 wins & 2 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTY4MTU2NjMyNV5BMl5BanBnXkFtZTgwMzUwMDk4NzE@._V1_SX300.jpg",
+        "Metascore": "83",
+        "imdbRating": "7.4",
+        "imdbVotes": "12,301",
+        "imdbID": "tt4263482",
+        "Type": "movie",
+        "tomatoMeter": "90",
+        "tomatoImage": "certified",
+        "tomatoRating": "7.8",
+        "tomatoReviews": "196",
+        "tomatoFresh": "176",
+        "tomatoRotten": "20",
+        "tomatoConsensus": "As thought-provoking as it is visually compelling, The Witch delivers a deeply unsettling exercise in slow-building horror that suggests great things for debuting writer-director Robert Eggers.",
+        "tomatoUserMeter": "53",
+        "tomatoUserRating": "3.0",
+        "tomatoUserReviews": "26252",
+        "tomatoURL": "http://www.rottentomatoes.com/m/the_witch_2015/",
+        "DVD": "N/A",
+        "BoxOffice": "$24.1M",
+        "Production": "A24 Films",
+        "Website": "http://thewitch-movie.com/",
+        "Response": "True"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 310131,
+        "results": [
+          {
+            "id": "564b9086c3a3686026004542",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "gy_-pupKvxg",
+            "name": "The Witch Official Trailer 1 2016 HD",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer"
+          },
+          {
+            "id": "56aab2b19251417e110008b2",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "feRupW34rUU",
+            "name": "Trailer 2",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "inTheaters": false,
+    "href": "http://bioparadis.is/kvikmyndir/anomalisa/",
+    "title": "Anomalisa",
+    "poster": "http://bioparadis.is/wp-content/uploads/2016/01/anomalisa2-350x495.jpg",
+    "posterLocal": null,
+    "extraimage": [
+      "http://bioparadis.is/wp-content/themes/bioparadis/library/images/placeholders/cover.gif"
+    ],
+    "id": "7625",
+    "ids": {
+      "imdb": null,
+      "rotten": null,
+      "tmdb": null
+    },
+    "alternativeTitles": "Anomalisa",
+    "year": "2015",
+    "certificateIS": "Mynd þessi er ekki við hæfi yngri en 12 ára",
+    "certificateExtra": {
+      "color": "yellow",
+      "number": "12"
+    },
+    "durationMinutes": 90,
+    "country": [
+      "Bandaríkin"
+    ],
+    "releaseDate": "4. Mars 2016",
+    "language": "Enska",
+    "genres": [
+      "Gaman",
+      "Drama",
+      "Animation"
+    ],
+    "actors_abridged": [
+      {
+        "name": "David Thewlis"
+      },
+      {
+        "name": "Jennifer Jason Leigh"
+      },
+      {
+        "name": "Tom Noonan"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Duke Johnson"
+      },
+      {
+        "name": "Charlie Kaufman"
+      }
+    ],
+    "writers_abridged": [
+      {
+        "name": "Charlie Kaufman"
+      }
+    ],
+    "ratings": {
+      "imdb": null,
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": 12,
+        "schedule": [
+          "22:00"
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Anomalisa",
+        "Year": "2015",
+        "Rated": "R",
+        "Released": "21 Jan 2016",
+        "Runtime": "90 min",
+        "Genre": "Animation, Comedy, Drama",
+        "Director": "Duke Johnson, Charlie Kaufman",
+        "Writer": "Charlie Kaufman, Charlie Kaufman (play)",
+        "Actors": "David Thewlis, Jennifer Jason Leigh, Tom Noonan",
+        "Plot": "A man crippled by the mundanity of his life experiences something out of the ordinary.",
+        "Language": "English, Italian, Japanese",
+        "Country": "USA",
+        "Awards": "Nominated for 1 Oscar. Another 18 wins & 66 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTkyMzI2MzQ1N15BMl5BanBnXkFtZTgwNDg0MzQxNzE@._V1_SX300.jpg",
+        "Metascore": "88",
+        "imdbRating": "7.4",
+        "imdbVotes": "20,470",
+        "imdbID": "tt2401878",
+        "Type": "movie",
+        "tomatoMeter": "92",
+        "tomatoImage": "certified",
+        "tomatoRating": "8.4",
+        "tomatoReviews": "214",
+        "tomatoFresh": "197",
+        "tomatoRotten": "17",
+        "tomatoConsensus": "Anomalisa marks another brilliant and utterly distinctive highlight in Charlie Kaufman's filmography, and a thought-provoking treat for fans of introspective cinema.",
+        "tomatoUserMeter": "73",
+        "tomatoUserRating": "3.7",
+        "tomatoUserReviews": "15035",
+        "tomatoURL": "http://www.rottentomatoes.com/m/anomalisa/",
+        "DVD": "N/A",
+        "BoxOffice": "$3.4M",
+        "Production": "Starburns Industries",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 291270,
+        "results": [
+          {
+            "id": "563934e7c3a3681b5201fd70",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "WQkHA3fHk_0",
+            "name": "Official Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer"
+          },
+          {
+            "id": "56698478c3a3683699005a08",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "LUloSK4x3qc",
+            "name": "Featurette",
+            "site": "YouTube",
+            "size": 720,
+            "type": "Featurette"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "inTheaters": false,
+    "href": "http://bioparadis.is/kvikmyndir/spotlight/",
+    "title": "Spotlight",
+    "poster": "http://bioparadis.is/wp-content/uploads/2016/02/spotlight-poster-350x495.jpg",
+    "posterLocal": null,
+    "extraimage": [
+      "http://bioparadis.is/wp-content/themes/bioparadis/library/images/placeholders/cover.gif"
+    ],
+    "id": "8220",
+    "ids": {
+      "imdb": null,
+      "rotten": null,
+      "tmdb": null
+    },
+    "alternativeTitles": "Spotlight",
+    "year": "2015",
+    "certificateIS": "Mynd þessi er leyfð öllum aldurshópum",
+    "certificateExtra": {
+      "color": "green",
+      "number": "L"
+    },
+    "durationMinutes": 128,
+    "country": [
+      "Bandaríkin",
+      "Kanada"
+    ],
+    "releaseDate": "29. Febrúar 2016",
+    "language": "Enska",
+    "genres": [
+      "Drama",
+      "Saga",
+      "ævisaga"
+    ],
+    "actors_abridged": [
+      {
+        "name": "Mark Ruffalo"
+      },
+      {
+        "name": "Michael Keaton"
+      },
+      {
+        "name": "Rachel McAdams"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Tom McCarthy"
+      }
+    ],
+    "writers_abridged": [],
+    "ratings": {
+      "imdb": null,
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": 12,
+        "schedule": [
+          "22:00"
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Spotlight",
+        "Year": "2015",
+        "Rated": "R",
+        "Released": "25 Nov 2015",
+        "Runtime": "128 min",
+        "Genre": "Biography, Drama, History",
+        "Director": "Tom McCarthy",
+        "Writer": "Josh Singer, Tom McCarthy",
+        "Actors": "Mark Ruffalo, Michael Keaton, Rachel McAdams, Liev Schreiber",
+        "Plot": "The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core.",
+        "Language": "English",
+        "Country": "USA, Canada",
+        "Awards": "Won 2 Oscars. Another 106 wins & 121 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMjIyOTM5OTIzNV5BMl5BanBnXkFtZTgwMDkzODE2NjE@._V1_SX300.jpg",
+        "Metascore": "93",
+        "imdbRating": "8.2",
+        "imdbVotes": "128,701",
+        "imdbID": "tt1895587",
+        "Type": "movie",
+        "tomatoMeter": "96",
+        "tomatoImage": "certified",
+        "tomatoRating": "8.8",
+        "tomatoReviews": "276",
+        "tomatoFresh": "265",
+        "tomatoRotten": "11",
+        "tomatoConsensus": "Spotlight gracefully handles the lurid details of its fact-based story while resisting the temptation to lionize its heroes, resulting in a drama that honors the audience as well as its real-life subjects.",
+        "tomatoUserMeter": "94",
+        "tomatoUserRating": "4.4",
+        "tomatoUserReviews": "59611",
+        "tomatoURL": "http://www.rottentomatoes.com/m/untitled_boston_globe_project/",
+        "DVD": "23 Feb 2016",
+        "BoxOffice": "$44.6M",
+        "Production": "Open Road Films",
+        "Website": "http://SpotlightTheFilm.com",
+        "Response": "True"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 314365,
+        "results": [
+          {
+            "id": "565a0683c3a3680ac5000b14",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "40Rh7tEi1dE",
+            "name": "Spotlight Official Trailer 1 HD",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer"
+          }
+        ]
+      }
+    ]
+  }
+]

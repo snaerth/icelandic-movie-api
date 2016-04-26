@@ -1,0 +1,114 @@
+    <div class="menu_container menu_multilevel_mobile">
+        <div class="menu_container_header">
+            <span class="icon-exit">
+                <svg class="icon icon-exit">
+                    <use xlink:href="#icon-exit" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                </svg>
+            </span>
+        </div>
+        <ul class="menu_level active">
+            <li class="no_link">
+                <span class="level_2 heading"></span>
+            </li>
+            <li class="level_2"><a href="/" class="level_2">Home</a></li>
+            <li class="level_2"><a href="#" data-id="register" class="level_2 modal-button">Register</a></li>
+            <li class="level_2"><a href="/login" class="level_2">Login</a></li>
+            <li class="no_link">
+                <span class="level_2 heading">API endpoints</span>
+            </li>
+            <li class="level_2 first">
+                <a href="/movies" class="level_2">/movies
+                    <span class="next_level">
+                        <svg class="icon icon-arrow-right">
+                            <use xlink:href="#icon-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                    </span>
+                </a>
+                <ul class="menu_level">
+                    <li class="back">
+                        <a href="#" class="back">Back
+                            <span class="prev_level">
+                                <svg class="icon icon-arrow-left prev_level">
+                                    <use xlink:href="#icon-arrow-left" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                </svg>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="no_link"><span class="level_2 heading">Querys for /movies</span></li>
+                    <li class="level_2"><a href="/movies?title=" class="level_2">?title=</a></li>
+                    <li class="level_2"><a href="/movies?imdbid=" class="level_2">?imdbid=</a></li>
+                    <li class="level_2"><a href="/movies?imdbrating=" class="level_2">?imdbrating=</a></li>
+                    <li class="level_2"><a href="/movies?showtime=" class="level_2">?showtime=</a></li>
+                    <li class="level_2"><a href="/movies?certificate=" class="level_2">?certificate=</a></li>
+                    <li class="level_2"><a href="/movies?actor=" class="level_2">?actor=</a></li>
+                    <li class="level_2"><a href="/movies?director=" class="level_2">?director=</a></li>
+                    <li class="level_2"><a href="/movies?mongoid=" class="level_2">?mongoid=</a></li>
+                </ul>
+            </li>
+            <li class="level_2">
+                <a href="/upcoming" class="level_2">/upcoming
+                    <span class="next_level">
+                        <svg class="icon icon-arrow-right">
+                            <use xlink:href="#icon-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                    </span>
+                </a>
+                <ul class="menu_level">
+                    <li class="back">
+                        <a href="#" class="back">Back
+                            <span class="prev_level">
+                                <svg class="icon icon-arrow-left prev_level">
+                                    <use xlink:href="#icon-arrow-left" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                </svg>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="no_link"><span class="level_2 heading">Querys for /upcoming</span></li>
+                    <li class="level_2"><a href="/upcoming?title=" class="level_2">?title=</a></li>
+                    <li class="level_2"><a href="/upcoming?imdbid=" class="level_2">?imdbid=</a></li>
+                    <li class="level_2"><a href="/upcoming?actor=" class="level_2">?actor=</a></li>
+                    <li class="level_2"><a href="/upcoming?director=" class="level_2">?director=</a></li>
+                    <li class="level_2"><a href="/upcoming?mongoid=" class="level_2">?mongoid=</a></li>
+                </ul>
+            </li>
+            <li class="level_2">
+                <a href="/images" class="level_2">/images
+                    <span class="next_level">
+                        <svg class="icon icon-arrow-right">
+                            <use xlink:href="#icon-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                    </span>
+                </a>
+                <ul class="menu_level">
+                    <li class="back">
+                        <a href="#" class="back">Back
+                            <span class="prev_level">
+                                <svg class="icon icon-arrow-left prev_level">
+                                    <use xlink:href="#icon-arrow-left" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                </svg>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="no_link"><span class="level_2 heading">Querys for /images</span></li>
+                    <li class="level_2"><a href="/images?imdbid=" class="level_2">?imdbid=</a></li>
+                </ul>
+            </li>
+            <li class="level_2"><a href="/genres" class="level_2">/genres</a></li>
+            <li class="level_2"><a href="/theaters" class="level_2">/theaters</a></li>
+            <li class="no_link">
+                <span  class="level_2 heading">MOVIE APPLICATION OVERVIEW</span>
+            </li>
+            <li class="level_2"><a href="http://www.biomynd.is" class="level_2">In theaters</a></li>
+            <li class="level_2"><a href="http://www.biomynd.is/#/vaentanlegt" class="level_2">Upcoming</a></li>
+            <li class="level_2"><a href="http://www.biomynd.is/#/app" class="level_2">App</a></li>
+            <% if(user) { %>
+                <li class="no_link">
+                    <span class="level_2 heading">USER INFORMATION</span>
+                </li>
+                <li class="level_2"><a href="/createuser" class="level_2">Create user</a></li>
+                <li class="level_2"><a href="/newpassword" class="level_2">Change password</a></li>
+                <li class="level_2"><a href="/logout" class="level_2">Logout</a></li>
+                <li class="level_2"><a href="/users" class="level_2">Users</a></li>
+            <% } %>
+        </ul>
+    </div>

@@ -1,0 +1,80 @@
+ 
+<!-- MODALS FOR MESSAGES -->
+<div class="modal_custom" data-id="sendmail">
+    <span class="icon-exit form" data-id="sendmail">
+            <svg class="icon icon-exit">
+                <use xlink:href="#icon-exit" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+            </svg>
+        </span>
+    <div class="modal_custom__body">
+        <div class="message_container contact_form_container animated fadeInUp">
+            <% if(errors) { %>
+            <!-- Error messages -->
+                <div class="errors animated fadeInUp">
+                    <% for(var err in errors[0]) { %>
+                        <p><a href="#<%- err%>"><i class="material-icons mdl-list__item-icon">error</i><%- errors[0][err]%></a></p>
+                    <% } %>
+                </div>
+            <% } %>
+            
+            <% if(msg) { %>
+            <!-- Success message -->
+                <div class="success animated fadeInUp text-center">
+                    <%- msg[0] %>
+                    </div>
+            <% } %>
+            
+            <!-- MESSAGE FORM -->
+            <form action="/" method="post" id="contact_form" class="<% if(msg) { %>hidden<% } %>" autocomplete="off">
+                <input type="hidden" name="contactform"/>
+                
+                <div class="text-center title_heading"><h2 class="underline">Contact</h2></div>
+                <!-- NAME -->
+                <div class="form-group">
+                    <span class="input input--nao">
+                        <input class="input__field input__field--nao smaller-font" type="text" id="Name" name="Name" value="<% if(postParams) { %><%- postParams[0].Name %><% } %>"/>
+                        <label class="input__label input__label--nao" for="Name">
+                            <span class="input__label-content input__label-content--nao">Name</span>
+                        </label>
+                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                        </svg>
+                    </span>
+                </div>
+                <!-- NAME ENDS -->
+                
+                <!-- EMAIL -->
+                <div class="form-group">
+                    <span class="input input--nao">
+                        <input class="input__field input__field--nao smaller-font" type="text" id="Email" name="Email" value="<% if(postParams) { %><%- postParams[0].Email %><% } %>"/>
+                        <label class="input__label input__label--nao" for="Email">
+                            <span class="input__label-content input__label-content--nao">Email</span>
+                        </label>
+                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                        </svg>
+                    </span>
+                </div>
+                <!-- EMAIL ENDS -->
+                
+                <!-- MESSAGE -->
+                <div class="form-group">
+                    <span class="input input--nao textarea">
+                        <textarea class="input__field input__field--nao smaller-font" id="Message" name="Message"><% if(postParams) { %><%- postParams[0].Message %><% } %></textarea>
+                        <label class="input__label input__label--nao" for="Message">
+                            <span class="input__label-content input__label-content--nao">Message</span>
+                        </label>
+                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                        </svg>
+                    </span>
+                </div>
+                <!-- MESSAGE ENDS -->
+                <div class="text-center">
+                    <button type="submit" class="full-width mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">SEND MESSAGE</button>
+                </div>
+            </form>
+            <!-- MESSAGE FORM ENDS -->
+        </div>
+    </div>
+</div>
