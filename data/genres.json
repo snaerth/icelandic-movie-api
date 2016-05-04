@@ -1,1 +1,187 @@
-"\t[\n  {\n    \"ID\":1,\n    \"Name\":\"Spennumynd\",\n    \"NameEN\\t\":\"Action\"\n  },\n  {\n    \"ID\":2,\n    \"Name\":\"Gamanmynd\",\n    \"NameEN\\t\":\"Comedy\"\n  },\n  {\n    \"ID\":3,\n    \"Name\":\"R\\u00f3mant\\u00edsk\",\n    \"NameEN\\t\":\"Romance\"\n  },\n  {\n    \"ID\":4,\n    \"Name\":\"Drama\",\n    \"NameEN\\t\":\"Drama\"\n  },\n  {\n    \"ID\":5,\n    \"Name\":\"Hrollvekja\",\n    \"NameEN\\t\":\"Horror\"\n  },\n  {\n    \"ID\":6,\n    \"Name\":\"Spennutryllir\",\n    \"NameEN\\t\":\"Thriller\"\n  },\n  {\n    \"ID\":7,\n    \"Name\":\"Vestri\",\n    \"NameEN\\t\":\"Western\"\n  },\n  {\n    \"ID\":8,\n    \"Name\":\"Gl\\u00e6pamynd\",\n    \"NameEN\\t\":\"Crime\"\n  },\n  {\n    \"ID\":31,\n    \"Name\":\"V\\u00edsindask\\u00e1ldskapur\",\n    \"NameEN\\t\":\"Sci-Fi\"\n  },\n  {\n    \"ID\":32,\n    \"Name\":\"\\u00c6vint\\u00fdramynd\",\n    \"NameEN\\t\":\"Adventure\"\n  },\n  {\n    \"ID\":33,\n    \"Name\":\"Barnamynd\",\n    \"NameEN\\t\":\"Children\"\n  },\n  {\n    \"ID\":34,\n    \"Name\":\"Fj\\u00f6lskyldumynd\",\n    \"NameEN\\t\":\"Family\"\n  },\n  {\n    \"ID\":35,\n    \"Name\":\"S\\u00f6ngleikur\",\n    \"NameEN\\t\":\"Musical\"\n  },\n  {\n    \"ID\":36,\n    \"Name\":\"Str\\u00ed\\u00f0smynd\",\n    \"NameEN\\t\":\"War\"\n  },\n  {\n    \"ID\":37,\n    \"Name\":\"T\\u00f3nlistarmynd\",\n    \"NameEN\\t\":\"Music\"\n  },\n  {\n    \"ID\":38,\n    \"Name\":\"R\\u00e1\\u00f0g\\u00e1ta\",\n    \"NameEN\\t\":\"Mystery\"\n  },\n  {\n    \"ID\":39,\n    \"Name\":\"Heimildarmynd\",\n    \"NameEN\\t\":\"Documentary\"\n  },\n  {\n    \"ID\":40,\n    \"Name\":\"S\\u00f6guleg\",\n    \"NameEN\\t\":\"History\"\n  },\n  {\n    \"ID\":41,\n    \"Name\":\"Stuttmynd\",\n    \"NameEN\\t\":\"Short\"\n  },\n  {\n    \"ID\":42,\n    \"Name\":\"\\u00c6vi\\u00e1grip\",\n    \"NameEN\\t\":\"Biography\"\n  },\n  {\n    \"ID\":43,\n    \"Name\":\"D\\u00fdral\\u00edfsmynd\",\n    \"NameEN\\t\":\"Wildlife\"\n  },\n  {\n    \"ID\":44,\n    \"Name\":\"Fr\\u00e6\\u00f0slumynd\",\n    \"NameEN\\t\":\"Educational\"\n  },\n  {\n    \"ID\":45,\n    \"Name\":\"Er\\u00f3t\\u00edk\",\n    \"NameEN\\t\":\"Adult\"\n  },\n  {\n    \"ID\":69,\n    \"Name\":\"RIFF\",\n    \"NameEN\\t\":\"RIFF\"\n  },\n  {\n    \"ID\":70,\n    \"Name\":\"Teiknimynd\",\n    \"NameEN\\t\":\"Animation\"\n  },\n  {\n    \"ID\":71,\n    \"Name\":\"Svarthv\\u00edt\",\n    \"NameEN\\t\":\"Black and White\"\n  },\n  {\n    \"ID\":72,\n    \"Name\":\"Bardagamynd\",\n    \"NameEN\\t\":null\n  },\n  {\n    \"ID\":73,\n    \"Name\":\"Dansmynd\",\n    \"NameEN\\t\":\"Dance\"\n  },\n  {\n    \"ID\":74,\n    \"Name\":\"Unglingamynd\",\n    \"NameEN\\t\":\"Teenage\"\n  },\n  {\n    \"ID\":75,\n    \"Name\":\"\\u00cdslensk mynd\",\n    \"NameEN\\t\":\"Icelandic movie\"\n  },\n  {\n    \"ID\":76,\n    \"Name\":\"Sj\\u00f3nvarpsmynd\",\n    \"NameEN\\t\":\"TV movie\"\n  },\n  {\n    \"ID\":77,\n    \"Name\":\"Sj\\u00f3nvarpsser\\u00eda\",\n    \"NameEN\\t\":\"TV series\"\n  },\n  {\n    \"ID\":78,\n    \"Name\":\"Sj\\u00f3nvarps\\u00fe\\u00e1ttur\",\n    \"NameEN\\t\":\"TV show\"\n  },\n  {\n    \"ID\":79,\n    \"Name\":\"Beint \\u00e1 v\\u00edde\\u00f3\",\n    \"NameEN\\t\":\"Video\"\n  },\n  {\n    \"ID\":80,\n    \"Name\":\"\\u00cd\\u00fer\\u00f3ttamynd\",\n    \"NameEN\\t\":\"Sport\"\n  },\n  {\n    \"ID\":81,\n    \"Name\":\"\\u00cdslensk me\\u00f0framlei\\u00f0sla\",\n    \"NameEN\\t\":\"Icelandic co-production\"\n  },\n  {\n    \"ID\":82,\n    \"Name\":\"Myndlist\",\n    \"NameEN\\t\":\"Art video\"\n  }\n]"
+[
+  {
+    "ID": 1,
+    "Name": "Spennumynd",
+    "NameEN\t": "Action"
+  },
+  {
+    "ID": 2,
+    "Name": "Gamanmynd",
+    "NameEN\t": "Comedy"
+  },
+  {
+    "ID": 3,
+    "Name": "Rómantísk",
+    "NameEN\t": "Romance"
+  },
+  {
+    "ID": 4,
+    "Name": "Drama",
+    "NameEN\t": "Drama"
+  },
+  {
+    "ID": 5,
+    "Name": "Hrollvekja",
+    "NameEN\t": "Horror"
+  },
+  {
+    "ID": 6,
+    "Name": "Spennutryllir",
+    "NameEN\t": "Thriller"
+  },
+  {
+    "ID": 7,
+    "Name": "Vestri",
+    "NameEN\t": "Western"
+  },
+  {
+    "ID": 8,
+    "Name": "Glæpamynd",
+    "NameEN\t": "Crime"
+  },
+  {
+    "ID": 31,
+    "Name": "Vísindaskáldskapur",
+    "NameEN\t": "Sci-Fi"
+  },
+  {
+    "ID": 32,
+    "Name": "Ævintýramynd",
+    "NameEN\t": "Adventure"
+  },
+  {
+    "ID": 33,
+    "Name": "Barnamynd",
+    "NameEN\t": "Children"
+  },
+  {
+    "ID": 34,
+    "Name": "Fjölskyldumynd",
+    "NameEN\t": "Family"
+  },
+  {
+    "ID": 35,
+    "Name": "Söngleikur",
+    "NameEN\t": "Musical"
+  },
+  {
+    "ID": 36,
+    "Name": "Stríðsmynd",
+    "NameEN\t": "War"
+  },
+  {
+    "ID": 37,
+    "Name": "Tónlistarmynd",
+    "NameEN\t": "Music"
+  },
+  {
+    "ID": 38,
+    "Name": "Ráðgáta",
+    "NameEN\t": "Mystery"
+  },
+  {
+    "ID": 39,
+    "Name": "Heimildarmynd",
+    "NameEN\t": "Documentary"
+  },
+  {
+    "ID": 40,
+    "Name": "Söguleg",
+    "NameEN\t": "History"
+  },
+  {
+    "ID": 41,
+    "Name": "Stuttmynd",
+    "NameEN\t": "Short"
+  },
+  {
+    "ID": 42,
+    "Name": "Æviágrip",
+    "NameEN\t": "Biography"
+  },
+  {
+    "ID": 43,
+    "Name": "Dýralífsmynd",
+    "NameEN\t": "Wildlife"
+  },
+  {
+    "ID": 44,
+    "Name": "Fræðslumynd",
+    "NameEN\t": "Educational"
+  },
+  {
+    "ID": 45,
+    "Name": "Erótík",
+    "NameEN\t": "Adult"
+  },
+  {
+    "ID": 69,
+    "Name": "RIFF",
+    "NameEN\t": "RIFF"
+  },
+  {
+    "ID": 70,
+    "Name": "Teiknimynd",
+    "NameEN\t": "Animation"
+  },
+  {
+    "ID": 71,
+    "Name": "Svarthvít",
+    "NameEN\t": "Black and White"
+  },
+  {
+    "ID": 72,
+    "Name": "Bardagamynd",
+    "NameEN\t": null
+  },
+  {
+    "ID": 73,
+    "Name": "Dansmynd",
+    "NameEN\t": "Dance"
+  },
+  {
+    "ID": 74,
+    "Name": "Unglingamynd",
+    "NameEN\t": "Teenage"
+  },
+  {
+    "ID": 75,
+    "Name": "Íslensk mynd",
+    "NameEN\t": "Icelandic movie"
+  },
+  {
+    "ID": 76,
+    "Name": "Sjónvarpsmynd",
+    "NameEN\t": "TV movie"
+  },
+  {
+    "ID": 77,
+    "Name": "Sjónvarpssería",
+    "NameEN\t": "TV series"
+  },
+  {
+    "ID": 78,
+    "Name": "Sjónvarpsþáttur",
+    "NameEN\t": "TV show"
+  },
+  {
+    "ID": 79,
+    "Name": "Beint á vídeó",
+    "NameEN\t": "Video"
+  },
+  {
+    "ID": 80,
+    "Name": "Íþróttamynd",
+    "NameEN\t": "Sport"
+  },
+  {
+    "ID": 81,
+    "Name": "Íslensk meðframleiðsla",
+    "NameEN\t": "Icelandic co-production"
+  },
+  {
+    "ID": 82,
+    "Name": "Myndlist",
+    "NameEN\t": "Art video"
+  }
+]

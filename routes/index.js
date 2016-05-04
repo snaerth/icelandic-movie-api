@@ -109,7 +109,7 @@ module.exports = function(passport) {
                 // API key form
                 else {
                     user.username = user.username.toLowerCase();
-                    req.flash('msg', '<h2>Thank you</h2><p>A notification of your account activation will be sent to ' + user.email + ' as soon as possible.</p>');
+                    req.flash('msg', '<h2>Thank you</h2><p>' + user.username + ' account has been activated. Please use it responsibly.</p>');
                     // Create user in database
                     DBService.insertAny(user, 'users', function(err, document) {
                         if (err) {
@@ -150,7 +150,23 @@ module.exports = function(passport) {
         
         // movies 
         .get('/movies', tokenAuthentication, function(req, res, next) {
-            queryMovies(req, res, next, 'movies', config.allmoviesfilepath);    
+            queryMovies(req, res, next, 'movies0', config.dataBasePath + '/movies0.json');    
+        })
+        
+        // movies by date
+        // Where 0 is today and 1 is tomorrow
+        // Days to get are between 0 and 4. Four being the maximum
+        // This is only for global admins
+        .get('/movies-by-dates/:id', tokenAuthentication, function(req, res, next) {
+            var day = req.params.id;
+            if(day < 5) {
+                queryMovies(req, res, next, 'movies' + day, config.dataBasePath + '/movies' + day +' .json');    
+            } else {
+                res.json({
+                    error: true,
+                    message : 'Movies by date limit is between 0-4'
+                });
+            }
         })
 
         // images 
@@ -161,16 +177,6 @@ module.exports = function(passport) {
         // upcoming
         .get('/upcoming', tokenAuthentication, function(req, res, next) {
             queryMovies(req, res, next, 'upcoming', config.upcommingfilepath);
-        })
-
-        // bioparadis
-        .get('/bioparadis', tokenAuthentication, function(req, res, next) {
-            readAndResponse(config.paradisfilepath, res, req);
-        })
-
-        // kvikmyndir
-        .get('/kvikmyndir', tokenAuthentication, function(req, res, next) {
-            readAndResponse(config.showtimesfilepath, res, req);
         })
 
         // theaters 
@@ -212,9 +218,23 @@ function tokenAuthentication(req, res, next) {
                     error: err
                 });
             } else {
-                // if everything is good, save to request for use in other routes
-                req.decoded = decoded;
-                next();
+                if(req.path.indexOf("movies-by-date") > -1 ) {
+                    if(decoded.admin) {
+                        // if everything is good, save to request for use in other routes
+                        req.decoded = decoded;
+                        next();
+                    } else {
+                        // return an error
+                        return res.status(403).send({
+                            success: false,
+                            message: 'This route is for admin only'
+                        });
+                    }
+                } else {
+                    // if everything is good, save to request for use in other routes
+                    req.decoded = decoded;
+                    next();
+                }
             }
         });
     } else {

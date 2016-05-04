@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="/css/menu-component.css">
     <link rel="stylesheet" href="/css/animate.css">
     <link rel="stylesheet" href="/css/material.orange-amber.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
@@ -56,15 +57,14 @@
             </div>
         </div>
         <%- include template_users.ejs %>
-        <%- include template_footer.ejs %>
     </div>
     <!-- MODALS -->
     <%- include template_deleteusermodal.ejs %>
     <%- include template_updateuserform.ejs %>
-    <%- include template_contactform.ejs %>
     
     <!-- SCRIPTS -->
     <script src="/js/lib/angular.min.js"></script>
+    <script src="/js/lib/dirPagination.js"></script>
     <script src="/js/lib/jquery-2.2.2.min.js"></script>
     <script src="/js/lib/material.min.js"></script>
     <script src="/js/lib/prism.js"></script>
@@ -76,3 +76,4 @@
 </body>
 
 </html>
+

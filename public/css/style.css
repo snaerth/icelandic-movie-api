@@ -258,6 +258,11 @@ svg.icon-filter:hover {
     flex-grow: 1;
 }
 
+.font-white {
+    color:white
+}
+
+
 @media only screen and (min-width: 1900px) {
     .container-fluid {
         max-width:1900px;
@@ -878,6 +883,12 @@ User in header
 .user_container i.material-icons.mdl-list__item-icon  {
     color: white;
     position: relative;
+}
+
+.items_per_page {
+    position: absolute;
+    right: 0;
+    top: 65px;
 }
 
 .link_button_icon {

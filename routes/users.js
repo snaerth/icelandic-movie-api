@@ -21,7 +21,7 @@ module.exports = function(passport) {
     // Route for domain/users
     router
         // show the users site
-        .get('/', isLoggedIn, function(req, res) {
+        .get('/', isLoggedIn,function(req, res) {
             var error = req.flash('errors'),
                 msg = req.flash('msg'),
                 user = req.user;

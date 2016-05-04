@@ -3,7 +3,7 @@
 Init and configs
 ========================================================================== 
 */
-var app = angular.module('app', []);
+var app = angular.module('app', ['angularUtils.directives.dirPagination']);
 
 /* 
 ==========================================================================
@@ -17,6 +17,9 @@ var MainController = function ($scope, httpservice) {
     $scope.errorMessageUpdate = "";
     $scope.errorMessage = "";
     $scope.successMessage = "";
+    
+    $scope.currentPage = 1;
+    $scope.pageSize = 10;
     
     // initalize
     $scope.init = function () {

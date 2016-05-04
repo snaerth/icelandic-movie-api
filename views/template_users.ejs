@@ -1,5 +1,5 @@
 <div class="container medium">
-    
+
     <div class="users_list_container">
         <!-- LOADING ANIMATION -->
         <div ng-class="isLoading ? 'loading_container' : 'loading_container hidden'">
@@ -15,34 +15,34 @@
         <div class="errors animated fadeInUp" ng-if="errorMessage !== ''">
             <p><i class="material-icons mdl-list__item-icon">error</i>{{errorMessage}}</p>
         </div>
-        
+
+s
         <div class="table-responsive" ng-if="userslist.length > 0">
-            <!-- SEARCH -->
-            <div class="text-center">
+            <div class="success animated fadeInUp" ng-if="successMessage">
+                <p>{{successMessage}}</p>
+            </div>
+            <div class="col-md-8 col-sm-9">
                 <div>
                     <span class="input input--nao">
                         <input class="input__field input__field--nao smaller-font" type="text" id="search" name="search" ng-model="searchQuery"/>
                         <label class="input__label input__label--nao" for="fullname">
                             <span class="input__label-content input__label-content--nao">Search</span>
-                        </label>
-                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                    </label>
+                    <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
                             <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
                         </svg>
                     </span>
                 </div>
             </div>
-            <!-- SEARCH ENDS -->
-                
-            <!-- Success message -->
-            <div class="success animated fadeInUp" ng-if="successMessage">
-                <p>{{successMessage}}</p>
+
+            <div class="col-md-2 col-sm-3 items_per_page">
+                <label for="search" class="font-white">Items per page:</label>
+                <input type="number" min="1" max="100" class="form-control" ng-model="pageSize">
             </div>
-            
             <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp small">
                 <thead>
                     <tr>
                         <th>Name</th>
-                        <th>Id</th>
                         <th>Username</th>
                         <th>Email</th>
                         <th>Options</th>
@@ -52,37 +52,44 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr ng-repeat="user in userslist | filter : searchQuery">
+                    <tr dir-paginate="user in userslist | filter: searchQuery | itemsPerPage: pageSize" current-page="currentPage" "> 
                         <td>{{user.fullname}}</td>
-                        <td>{{user._id}}</td>
                         <td>{{user.username}}</td>
                         <td>{{user.email}}</td>
                         <td>
-                            <div class="text-center">
-                                <i id="edit{{$index}}" class="modal-button material-icons mdl-list__item-icon white" ng-click="GetUser(user._id)">mode_edit</i>
-                                <i id="delete{{$index}}" class="modal-button material-icons mdl-list__item-icon white" ng-click="OpenDeleteUserModal(user)">delete</i>
+                            <div class="text-center ">
+                                <i id="edit{{$index}} " class="modal-button material-icons mdl-list__item-icon white
+                        " ng-click="GetUser(user._id) ">mode_edit</i>
+                                <i id="delete{{$index}} " class="modal-button material-icons mdl-list__item-icon white
+                        " ng-click="OpenDeleteUserModal(user) ">delete</i>
                             </div>
                         </td>
-                        <td ng-if="user.globaladmin">
-                            <p class="text-center"><i class="material-icons mdl-list__item-icon green">done</i></p>
+                        <td ng-if="user.globaladmin ">
+                            <p class="text-center "><i class="material-icons mdl-list__item-icon green ">done</i></p>
                         </td>
-                        <td ng-if="!user.globaladmin"></td>
-                        <td ng-if="user.admin">
-                            <p class="text-center"><i class="material-icons mdl-list__item-icon green">done</i></p>
+                        <td ng-if="!user.globaladmin "></td>
+                        <td ng-if="user.admin ">
+                            <p class="text-center "><i class="material-icons mdl-list__item-icon green ">done</i></p>
                         </td>
-                        <td ng-if="!user.admin"></td>
-                        <td ng-if="user.active">
-                            <div class="text-center"><i class="material-icons mdl-list__item-icon green">done</i></div>
+                        <td ng-if="!user.admin "></td>
+                        <td ng-if="user.active ">
+                            <div class="text-center "><i class="material-icons mdl-list__item-icon green ">done</i></div>
                         </td>
-                        <td ng-if="!user.active"></td>
+                        <td ng-if="!user.active "></td>
                     </tr>
                 </tbody>
             </table>
         </div>
-        <div class="link_button_icon">
-            <a href="/createuser" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="margin-left:10px;">
-                <i class="material-icons mdl-list__item-icon">person_add</i> CREATE USER
-            </a>
+        <div class="text-center ">
+            <dir-pagination-controls boundary-links="true " template-url="./templates/dirPagination.tpl.html "></dir-pagination-controls>
+        </div>
+        <div class="text-center ">
+            <div>
+                <a href="/createuser " class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent
+                    " style="margin-left:10px; ">
+                    <i class="material-icons mdl-list__item-icon ">person_add</i> CREATE USER
+                </a>
+            </div>
         </div>
     </div>
 </div>

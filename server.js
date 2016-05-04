@@ -21,13 +21,19 @@ var cors = require('cors')
 require('./config/passport')(passport);
 
 var app = express();
+/*
+initServices(function() {
+    console.log('Everything is done');
+});*/
+
 
 // Task that runs every day at 5 AM
-new CronJob('00 00 05 * * 0-6', function () {
+new CronJob('00 00 08 * * 0-6', function () {
     // Initalize Services for api
     logService.resetLogs();
     initServices(function() {
-        mailService.sendMail('Icelandic movie api', configEmail.email, 'IMA sync has finished', 'Icelandic movie api synced at ' + utils.getFormattedDate(false), '');    
+        // Callback function when service sync has finished
+        //mailService.sendMail('Icelandic movie api', configEmail.email, 'IMA sync has finished', 'Icelandic movie api synced at ' + utils.getFormattedDate(false), '');    
     });
 }, null, true, 'Atlantic/Reykjavik');
 

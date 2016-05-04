@@ -2,6 +2,7 @@
 var config = require('../config/api');
 var HttpService = require('./httpservice');
 var FileService = require('./fileservice');
+var fs = require('fs-extra');
 var movieObject = require('../models/moviemodels');
 var request = require('request');
 var logger = require('./logservice');
@@ -11,6 +12,7 @@ var q = require('q');
 var extraImageService = require('./extraimageservice');
 var DBService = require('./dbservice');
 var _underscore = require('underscore');
+var readFile = require('fs-readfile-promise');
 
 /**
  * The movie database limits 30 request per 10 second
@@ -20,11 +22,10 @@ var _underscore = require('underscore');
  * @param {obj} films 
  * @param {string} filepath to save
  * @param {string} extraImagePath to pass to next service
- * @param {bool} isShowtimes check if films are from showtimes path from kvikmyndir.is
  * @param {string} collectionName for database
  * @param {function} callback to run when all extra services have finished
  */
-var getData = function (films, filepath, extraImagePath, isShowtimes, collectionName, callback) {
+var getData = function (films, filepath, extraImagePath, collectionName, callback) {
     var maxLength = 30;
     if(films.length > maxLength) {
         var tempMovies = [];
@@ -51,7 +52,7 @@ var getData = function (films, filepath, extraImagePath, isShowtimes, collection
                                     mergedFilms.push(tempMovies[i][j]);    
                                 }
                             }
-                            inserFilmsToServices(mergedFilms, filepath, extraImagePath, isShowtimes, collectionName, callback)
+                            inserFilmsToServices(mergedFilms, filepath, extraImagePath, collectionName, callback)
                         });
                     } 
                 }, (i + 1) * 15000); // Set the request limit to 15 seconds to be sure
@@ -59,7 +60,7 @@ var getData = function (films, filepath, extraImagePath, isShowtimes, collection
         }       
     } else {
         getExtraFromServices(films, filepath, function(films) {
-            inserFilmsToServices(films, filepath, extraImagePath, isShowtimes, collectionName, callback);
+            inserFilmsToServices(films, filepath, extraImagePath, collectionName, callback);
         });
     }
 }
@@ -75,31 +76,31 @@ var getData = function (films, filepath, extraImagePath, isShowtimes, collection
  */
 var getExtraFromServices = function(films, filepath, callback) {
     var promises = [];
-    films.forEach(function (film, i) {
+    films.forEach(function (film, i) {       
         // if showtimes is empty then remove from films
         if(film.showtimes && film.showtimes.length === 0) {
             films.splice(i,1);
         }
         if (film.certificateIS) {
-            film.certificateExtra = utils.certificateExtra(film.certificateIS);
+            film.certificate = utils.certificateExtra(film.certificateIS);
         }
         film.trailers = [];
         film.omdb = [];
 
-        var imdbid = film.ids.imdb;
+        var imdbid = film.ids.imdb.replace("tt", "");
         if (imdbid) {
-            //------------------------------------- 
+            //-------------------------------------------------- 
             // Get youtube information for trailers from moviedb
-            //-------------------------------------
+            //--------------------------------------------------
             promises.push(HttpService.getContent(config.themoviedburl + 'tt' + imdbid + '/videos?api_key=' + config.themoviedbkey).then(function (data) {
                 film.trailers.push(JSON.parse(data));
             }).catch(function (err) {
                 logger.error().info('Error getting ' + film.title + ' from youtube, ErrorMessage : ' + err);
             }));
                         
-            //------------------------------------- 
+            //----------------------------
             // Get plot from kvikmyndir.is
-            //-------------------------------------
+            //----------------------------
             promises.push(HttpService.getContent(config.kvikmyndirimdbid + imdbid + '&key=' + config.kvikmyndirkey).then(function (data) {
                 var result = JSON.parse(data);
                 if (result.plot) {
@@ -126,6 +127,63 @@ var getExtraFromServices = function(films, filepath, callback) {
             }).catch(function (err) {
                 logger.error().info('Error getting ' + film.title + ' from omdb, ErrorMessage : ' + err);
             }));
+            
+            //------------------------------------------------
+            // Read from genres json file and update genres array 
+            // in film object with genres names instead of id'
+            //------------------------------------------------
+            if (fs.existsSync(config.genresfilepath)) {
+                promises.push(readFile(config.genresfilepath).then(function(buffer) {
+                    if(buffer) {
+                        var genres = JSON.parse(buffer.toString());
+                        var tempArr = [];
+                        if(film.genres) {
+                            film.genres.forEach(function(id) {
+                                var id = id;
+                                genres.forEach(function(genre) {
+                                    if(genre.ID && genre.ID === id) {
+                                        tempArr.push(genre);
+                                    }
+                                }, this);
+                            }, this);
+                        }
+                        if(tempArr.length > 0) {
+                            film.genres = tempArr;    
+                        }
+                    }
+                }).catch(function(err) {
+                    logger.error().info('Error reading from ' + film.title + ' from omdb, ErrorMessage : ' + err);
+                }));
+            }
+            
+            //------------------------------------------------
+            // Read from genres json file and update genres array 
+            // in film object with genres names instead of id'
+            //------------------------------------------------
+            if (fs.existsSync(config.theatersfilepath)) {
+                promises.push(readFile(config.theatersfilepath).then(function(buffer) {
+                    if(buffer) {
+                        var theaters = JSON.parse(buffer.toString());
+                        var tempArr = [];
+                        if(film.showtimes) {
+                            film.showtimes.forEach(function(showtime) {
+                                if(showtime.cinema) {
+                                    theaters.forEach(function(theater) {
+                                        if(theater.id && theater.id == showtime.cinema) {
+                                            showtime.cinema = {
+                                                id : theater.id,
+                                                name : theater.name
+                                            };
+                                        }
+                                    }, this);
+                                }
+                            }, this);
+                        }
+                    }
+                }).catch(function(err) {
+                    logger.error().info('Error reading from ' + film.title + ' from omdb, ErrorMessage : ' + err);
+                }));
+            }
         }
     });
     
@@ -133,7 +191,7 @@ var getExtraFromServices = function(films, filepath, callback) {
     // When all requests have finished run callback
     //---------------------------------------------
     Promise.all(promises).then(function (data) {
-        callback(films);
+        callback(films);    
     });
 }
 
@@ -146,35 +204,35 @@ var getExtraFromServices = function(films, filepath, callback) {
  * @param {obj} films 
  * @param {string} filepath to save
  * @param {string} extraImagePath to pass to next service
- * @param {bool} isShowtimes check if films are from showtimes path from kvikmyndir.is
  * @param {string} collectionName for database
  * @param {function} callback to run when all extra services have finished
  */
-var inserFilmsToServices = function(films, filepath, extraImagePath, isShowtimes, collectionName, callback) {
+var inserFilmsToServices = function(films, filepath, extraImagePath, collectionName, callback) {
     utils.DeepTrim(films);
     FileService.writeToJson(films, filepath);
-    if(isShowtimes) {
-        // Insert movies into all movies collection
-        DBService.insertDocument(films, 'allmovies', function (err, result) {
-            if (err) logger.databaseError().info('Error inserting document to database, Error: ' + err);
-        });
-    }
+
     // Insert films into database
     DBService.insertDocument(films, collectionName, function (err, result) {
         if (err) logger.databaseError().info('Error inserting document to database, Error: ' + err);
     });
-
-    setTimeout(function () {
-        extraImageService(films, extraImagePath, 'extraimages', callback ? callback : null);
-    }, 1000 * 15); // Because of moviedb request limit is 30 requests per 10 second*/
+    
+    if(extraImagePath) {
+        setTimeout(function () {
+            extraImageService(films, extraImagePath, 'extraimages', callback ? callback : null);
+        }, 1000 * 15); // Because of moviedb request limit is 30 requests per 10 second*/
+    } else {
+        if(callback) {
+            callback();    
+        }
+    }
 }
 
 /**
  * Intialize main service for extra data
  */
 var extraData = {
-    addExtraToMovies: function (films, filepath, extraImagePath, isShowtimes, collectionName, callback) {
-        getData(films, filepath, extraImagePath, isShowtimes, collectionName, callback);
+    addExtraToMovies: function (films, filepath, extraImagePath, collectionName, callback) {
+        getData(films, filepath, extraImagePath, collectionName, callback);
     }
 };
 

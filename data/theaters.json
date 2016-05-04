@@ -108,16 +108,5 @@
     "website":"www.sambioin.is",
     "description":"\r\nSamb\u00ed\u00f3in Keflav\u00edk voru fyrsta Samb\u00ed\u00f3i\u00f0 , \u00fea\u00f0 var byggt \u00e1ri\u00f0 1941 af Eyj\u00f3lfi \u00c1sberg. Samb\u00ed\u00f3in keflav\u00edk er b\u00fai\u00f0 2 s\u00f6lum. Salur eitt var endurreistur \u00e1ri\u00f0 1998 og salur 2 var bygg\u00f0ur 2001",
     "google_map":""
-  },
-  {
-    "id":12,
-    "name":"Bíó paradís",
-    "address\t":"Hverfisgötu 54",
-    "city":"101 Reykjavík",
-    "phone":"412-7711",
-    "website":"www.bioparadis.is",
-    "description":"Bíó Paradís sýnir nýjar áhugaverðar kvikmyndir frá öllum heimshornum auk hverskyns eldri mynda erlendra sem innlendra, hýsir kvikmyndahátíðir og stendur fyrir fjölbreyttum kvikmyndatengdum viðburðum.",
-    "google_map":""
-  }
-  
+  }  
 ]

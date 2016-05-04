@@ -39,7 +39,7 @@ function createGuid() {
  * @Returns {obj} with Icelandic certificates + colors
  */
 function certificateExtra(certificate) {
-    var extra = { color: null, number: null };
+    var extra = { is : certificate, color: null, number: null };
     if (certificate) {
         if (certificate.indexOf('NC-17') > -1) {
             extra.color = "red";

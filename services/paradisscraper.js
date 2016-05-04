@@ -183,10 +183,6 @@ var setExtraData = function (films, callback) {
                 // Merge files
                 FileService.mergeJsonFiles(config.showtimesfilepath,config.paradisfilepath,config.allmoviesfilepath);
 
-                // Insert movies into all movies collection
-                DBService.insertDocument(films, 'allmovies', function (err, result) {
-                    if (err) logger.databaseError().info('Error inserting document to database, Error: ' + err);
-                });
                 // Insert into movies in theaters now
                 DBService.insertDocument(films, 'movies', function (err, result) {
                     if (err) logger.databaseError().info('Error inserting document to database, Error: ' + err);
