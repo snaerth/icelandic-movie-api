@@ -116,25 +116,13 @@ module.exports = function(passport) {
                             logger.databaseError().info('Error creating user ' + user.username + ', Error: ' + err);
                         } else {
                             if (user) {
-                                var applicationHeader = '<h1>API user ' + document.ops[0].fullname + ' was activated</h1><p>Enjoy the API!</p>';
-                                var applicationTable = '<table border="1">';
-                                for (var key in postParams) {
-                                    applicationTable += '<tr><td>' + key.substring(key.indexOf('_') + 1, key.length) + '</td>' + '<td>' + postParams[key] + '</td></tr>';
-                                }
-                                applicationTable += '</table>';
-                                
                                 var userHeader = "<h1>" + document.ops[0].username + " was created in database</h1>";
                                 var userTable = utils.createHtmlTableFromObjectProperty(document.ops[0]);
-                                
                                 // Send email to me
-                                mailService.sendMail(emailConfig.email, emailConfig.email, "Application for user " + document.ops[0].fullname, '', applicationHeader  + applicationTable + userHeader + userTable);
-                                
-                                // Send email to user
-                                mailService.sendMail(emailConfig.email, document.ops[0].email, "API user " + document.ops[0].fullname + ' was activated.', '', applicationHeader  + applicationTable);
+                                mailService.sendMail(emailConfig.email, emailConfig.email, "Application for user " + document.ops[0].fullname, '', userHeader + userTable);
                             }
                         }
                     });
-
                 }
             } else {
                 req.flash('postParams', postParams);
