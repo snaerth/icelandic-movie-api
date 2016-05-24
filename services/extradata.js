@@ -93,7 +93,13 @@ var getExtraFromServices = function(films, filepath, callback) {
             // Get youtube information for trailers from moviedb
             //--------------------------------------------------
             promises.push(HttpService.getContent(config.themoviedburl + 'tt' + imdbid + '/videos?api_key=' + config.themoviedbkey).then(function (data) {
-                film.trailers.push(JSON.parse(data));
+                var trailers = JSON.parse(data);
+                if(trailers.results && trailers.results.length > 0) {
+                    for(var t = 0; t < trailers.results.length; t++) {
+                        trailers.results[t].url = 'https://www.youtube.com/embed/' + trailers.results[t].key + '?rel=0';
+                    }
+                }
+                film.trailers.push(trailers);
             }).catch(function (err) {
                 logger.error().info('Error getting ' + film.title + ' from youtube, ErrorMessage : ' + err);
             }));
