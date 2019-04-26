@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -11,31 +11,30 @@ var session = require('express-session');
 var passport = require('passport');
 // Reference to all run all services
 var initServices = require('./services/initservices.js');
-var mailService = require('./services/mailservice.js');
-var utils = require('./utils/utils.js');
 var logService = require('./services/logservice.js');
 var config = require('./config/config');
-var configEmail = require('./config/email');
-var cors = require('cors')
+var cors = require('cors');
 
 require('./config/passport')(passport);
 
 var app = express();
-/*
-initServices(function() {
-    console.log('Everything is done');
-});*/
 
+initServices(function() {
+  console.log('Everything is done');
+});
 
 // Task that runs every day at 5 AM
-new CronJob('00 00 08 * * 0-6', function () {
+new CronJob(
+  '00 00 08 * * 0-6',
+  function() {
     // Initalize Services for api
     logService.resetLogs();
-    initServices(function() {
-        // Callback function when service sync has finished
-        //mailService.sendMail('Icelandic movie api', configEmail.email, 'IMA sync has finished', 'Icelandic movie api synced at ' + utils.getFormattedDate(false), '');    
-    });
-}, null, true, 'Atlantic/Reykjavik');
+    initServices(function() {});
+  },
+  null,
+  true,
+  'Atlantic/Reykjavik'
+);
 
 // configuration ===============================================================
 
@@ -51,17 +50,19 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser('DarthVader'));
-app.use(session({
+app.use(
+  session({
     secret: 'DarthVader',
     resave: false,
     saveUninitialized: true,
-    cookie: { maxAge : 86400 } //24 Hours
-}));
+    cookie: { maxAge: 86400 } //24 Hours
+  })
+);
 
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(flash());
-app.use(cors({credentials: true, origin: true}));
+app.use(cors({ credentials: true, origin: true }));
 
 // Routes ======================================================================
 
@@ -83,7 +84,6 @@ app.use('/users', users);
 app.use('/logs', logs);
 app.use('/newpassword', newpassword);
 
-
 app.use(function(req, res, next) {
   res.locals.message = req.flash();
   next();
@@ -91,30 +91,30 @@ app.use(function(req, res, next) {
 
 // Error handlers
 // catch 404 and forward to error handler
-app.use(function (req, res, next) {
-    var err = new Error('404 Page Not Found');
-    err.status = 404;
-    if (req.isAuthenticated() && req.user.globaladmin) {
-        return next(err);
-    }
-    next(err);
+app.use(function(req, res, next) {
+  var err = new Error('404 Page Not Found');
+  err.status = 404;
+  if (req.isAuthenticated() && req.user.globaladmin) {
+    return next(err);
+  }
+  next(err);
 });
 
 // production error handler
 // no stacktraces leaked to user
 app.use(function(err, req, res, next) {
-    res.status(err.status || 500);
-    res.render('error', {
-        message: err.message,
-        error: {},
-        errors: false, 
-        postParams: false,
-        msg : false,
-        user: false
-    });
+  res.status(err.status || 500);
+  res.render('error', {
+    message: err.message,
+    error: {},
+    errors: false,
+    postParams: false,
+    msg: false,
+    user: false
+  });
 });
 
 // launch ======================================================================
-app.listen(80);
+app.listen(process.env.NODE_ENV === 'development' ? 3000 : 9002);
 
 module.exports = app;
