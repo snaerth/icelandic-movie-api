@@ -47,16 +47,7 @@ var extraImageService = function(films, FilePath, collectionName, callback) {
                 obj.results = JSON.parse(data);
                 extraImagesArr.push(obj);
               })
-              .catch(function(err) {
-                logger
-                  .error()
-                  .info(
-                    'Error getting images for id: ' +
-                      imdbid +
-                      ' from moviedb, ErrorMessage : ' +
-                      err
-                  );
-              });
+              .catch(function(err) {});
           })
         );
       }

@@ -8,12 +8,16 @@ var bodyParser = require('body-parser');
 var flash = require('connect-flash');
 var CronJob = require('cron').CronJob;
 var session = require('express-session');
+var MongoStore = require('connect-mongo');
 var passport = require('passport');
 // Reference to all run all services
 var initServices = require('./services/initservices.js');
 var logService = require('./services/logservice.js');
 var config = require('./config/config');
+var dbConfig = require('./config/database');
 var cors = require('cors');
+
+var isDevelopment = process.env.NODE_ENV === 'development';
 
 require('./config/passport')(passport);
 
@@ -50,14 +54,18 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser('DarthVader'));
-app.use(
-  session({
-    secret: 'DarthVader',
-    resave: false,
-    saveUninitialized: true,
-    cookie: { maxAge: 86400 } //24 Hours
+
+var MongoStoreSession = MongoStore(session);
+var sessionOptions = {
+  secret: 'DarthVader',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { maxAge: 86400 }, //24 Hours
+  store: new MongoStoreSession({
+    url: isDevelopment ? dbConfig.MongoDBUrlDev : dbConfig.MongoDBUrlPro
   })
-);
+};
+app.use(session(sessionOptions));
 
 app.use(passport.initialize());
 app.use(passport.session());
@@ -115,6 +123,6 @@ app.use(function(err, req, res, next) {
 });
 
 // launch ======================================================================
-app.listen(process.env.NODE_ENV === 'development' ? 3000 : 9002);
+app.listen(isDevelopment ? 3000 : 80);
 
 module.exports = app;
