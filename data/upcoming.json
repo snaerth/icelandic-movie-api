@@ -1,5 +1,218 @@
 [
   {
+    "id": 11480,
+    "ids": {
+      "imdb": "5598292",
+      "rotten": "",
+      "tmdb": null
+    },
+    "title": "Polaroid",
+    "poster": "https://kvikmyndir.is/images/poster/pola-1507819571.jpg",
+    "alternativeTitles": "",
+    "year": "2019",
+    "release-dateIS": "2019-05-03",
+    "genres": [
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 5,
+        "Name": "Hrollvekja",
+        "NameEN\t": "Horror"
+      },
+      {
+        "ID": 6,
+        "Name": "Spennutryllir",
+        "NameEN\t": "Thriller"
+      }
+    ],
+    "actors_abridged": [
+      {
+        "name": "Kathryn Prescott"
+      },
+      {
+        "name": "Shauna Macdonald"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Lars Klevberg"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 431075,
+        "results": []
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Polaroid",
+        "Year": "2019",
+        "Rated": "PG-13",
+        "Released": "10 Jan 2019",
+        "Runtime": "88 min",
+        "Genre": "Drama, Horror, Thriller",
+        "Director": "Lars Klevberg",
+        "Writer": "Blair Butler (screenplay by)",
+        "Actors": "Kathryn Prescott, Tyler Young, Samantha Logan, Keenan Tracey",
+        "Plot": "High school loner Bird Fitcher has no idea what dark secrets are tied to the mysterious Polaroid vintage camera she stumbles upon, but it doesn't take long to discover that those who have their picture taken meet a tragic end.",
+        "Language": "English",
+        "Country": "Canada, Norway, USA",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTU2MDI0NDYxNl5BMl5BanBnXkFtZTgwMDAxOTQxMjI@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "4.9/10"
+          }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "4.9",
+        "imdbVotes": "185",
+        "imdbID": "tt5598292",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "https://www.rottentomatoes.com/m/polaroid_2017",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "Dimension Films",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Menntaskólaneminn Bird Fisher starfar með skólanum í antíkverslun þar sem hún rekst dag einn á forláta polaroid-vél sem enn virðist í fínu lagi. Bird byrjar að taka myndir af sjálfri sér og skólafélögum sínum en ekki líður á löngu uns hún gerir sér grein fyrir að þeim sem myndaðir eru með vélinni eru búin hroðaleg örlög. Tilraunir til að eyðileggja myndirnar\nskapa bara enn meiri skelfingu því það sem kemur fyrir þær kemur einnig fyrir þá sem eru á þeim og myndavélina sjálfa er ekki heldur hægt að eyðileggja. Góð ráð verða því dýr en í æsilegu kapphlaupi við tímann áttar Bird sig á því að e.t.v. liggur lausnin í fortíðinni ..."
+  },
+  {
+    "id": 11945,
+    "ids": {
+      "imdb": "1946502",
+      "rotten": "",
+      "tmdb": null
+    },
+    "title": "UglyDolls",
+    "poster": "https://kvikmyndir.is/images/poster/ugly-1553879592.jpg",
+    "alternativeTitles": "",
+    "year": "2019",
+    "release-dateIS": "2019-05-10",
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 32,
+        "Name": "Ævintýramynd",
+        "NameEN\t": "Adventure"
+      },
+      {
+        "ID": 34,
+        "Name": "Fjölskyldumynd",
+        "NameEN\t": "Family"
+      },
+      {
+        "ID": 70,
+        "Name": "Teiknimynd",
+        "NameEN\t": "Animation"
+      }
+    ],
+    "actors_abridged": [
+      {
+        "name": "Kelly Clarkson"
+      },
+      {
+        "name": "Nick Jonas"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Kelly Asbury"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 454458,
+        "results": [
+          {
+            "id": "5bea3e870e0a263bf304ccf9",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "qjoomsFNgwg",
+            "name": "UglyDolls | Official Trailer [HD] | Coming Soon To Theaters",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/qjoomsFNgwg?rel=0"
+          },
+          {
+            "id": "5c776c4692514112a365feb8",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "7-VGKtQbS24",
+            "name": "UglyDolls | Official Trailer 2 | In Theaters May 3, 2019",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/7-VGKtQbS24?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "UglyDolls",
+        "Year": "2019",
+        "Rated": "PG",
+        "Released": "02 May 2019",
+        "Runtime": "N/A",
+        "Genre": "Animation, Adventure, Comedy, Family, Fantasy, Musical",
+        "Director": "Kelly Asbury",
+        "Writer": "David Horvath (based on characters by), Sun-min Kim (based on characters by), Alison Peck, Erica Rivinoja, Vivian Wang (additional writing)",
+        "Actors": "Kelly Clarkson, Nick Jonas, Janelle Monáe, Blake Shelton",
+        "Plot": "An animated adventure in which the free-spirited UglyDolls confront what it means to be different, struggle with a desire to be loved, and ultimately discover who you truly are is what matters most.",
+        "Language": "English",
+        "Country": "China, Canada, USA",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTc0NjE2ODM2OV5BMl5BanBnXkFtZTgwMjQyNDUzNzM@._V1_SX300.jpg",
+        "Ratings": [],
+        "Metascore": "N/A",
+        "imdbRating": "N/A",
+        "imdbVotes": "N/A",
+        "imdbID": "tt1946502",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "https://www.rottentomatoes.com/m/uglydolls",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "STXfilms",
+        "Website": "https://www.uglydolls.com/",
+        "Response": "True"
+      }
+    ],
+    "plot": "Ljótubrúðurnar búa í Ljótabæ þar sem þær una ágætlega við sitt. Það á eftir að breytast dálítið þegar nokkrar þeirra leggja land undir fót og uppgötva að hinum megin við stóra fjallið þeirra er annar bær, Fullkomnibær, þar sem allar brúðurnar eru fullkomnar en ekki ljótar eins og þær sjálfar. En eins og oft hefur verið sagt þá felst fegurðin ekki í útlitinu heldur því sem innra með brúðunum býr ..."
+  },
+  {
     "id": 11445,
     "ids": {
       "imdb": "2274648",
@@ -10,7 +223,7 @@
     "poster": "https://kvikmyndir.is/images/poster/hellboy-1546345984.jpg",
     "alternativeTitles": "Hellboy: Rise of the Blood Queen",
     "year": "2019",
-    "release-dateIS": "2019-05-03",
+    "release-dateIS": "2019-05-10",
     "genres": [
       {
         "ID": 1,
@@ -121,220 +334,7 @@
         "Response": "True"
       }
     ],
-    "plot": "Kvikmyndin fjallar um það þegar Hellboy og vinir hans etja kappi við illa seiðkonu í hefndarhug."
-  },
-  {
-    "id": 11480,
-    "ids": {
-      "imdb": "5598292",
-      "rotten": "",
-      "tmdb": null
-    },
-    "title": "Polaroid",
-    "poster": "https://kvikmyndir.is/images/poster/pola-1507819571.jpg",
-    "alternativeTitles": "",
-    "year": "2019",
-    "release-dateIS": "2019-05-03",
-    "genres": [
-      {
-        "ID": 4,
-        "Name": "Drama",
-        "NameEN\t": "Drama"
-      },
-      {
-        "ID": 5,
-        "Name": "Hrollvekja",
-        "NameEN\t": "Horror"
-      },
-      {
-        "ID": 6,
-        "Name": "Spennutryllir",
-        "NameEN\t": "Thriller"
-      }
-    ],
-    "actors_abridged": [
-      {
-        "name": "Kathryn Prescott"
-      },
-      {
-        "name": "Shauna Macdonald"
-      }
-    ],
-    "directors_abridged": [
-      {
-        "name": "Lars Klevberg"
-      }
-    ],
-    "trailers": [
-      {
-        "id": 431075,
-        "results": []
-      }
-    ],
-    "omdb": [
-      {
-        "Title": "Polaroid",
-        "Year": "2019",
-        "Rated": "PG-13",
-        "Released": "10 Jan 2019",
-        "Runtime": "88 min",
-        "Genre": "Drama, Horror, Thriller",
-        "Director": "Lars Klevberg",
-        "Writer": "Blair Butler (screenplay by)",
-        "Actors": "Kathryn Prescott, Tyler Young, Samantha Logan, Keenan Tracey",
-        "Plot": "High school loner Bird Fitcher has no idea what dark secrets are tied to the mysterious Polaroid vintage camera she stumbles upon, but it doesn't take long to discover that those who have their picture taken meet a tragic end.",
-        "Language": "English",
-        "Country": "Canada, Norway, USA",
-        "Awards": "N/A",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMTU2MDI0NDYxNl5BMl5BanBnXkFtZTgwMDAxOTQxMjI@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "4.9/10"
-          }
-        ],
-        "Metascore": "N/A",
-        "imdbRating": "4.9",
-        "imdbVotes": "185",
-        "imdbID": "tt5598292",
-        "Type": "movie",
-        "tomatoMeter": "N/A",
-        "tomatoImage": "N/A",
-        "tomatoRating": "N/A",
-        "tomatoReviews": "N/A",
-        "tomatoFresh": "N/A",
-        "tomatoRotten": "N/A",
-        "tomatoConsensus": "N/A",
-        "tomatoUserMeter": "N/A",
-        "tomatoUserRating": "N/A",
-        "tomatoUserReviews": "N/A",
-        "tomatoURL": "https://www.rottentomatoes.com/m/polaroid_2017",
-        "DVD": "N/A",
-        "BoxOffice": "N/A",
-        "Production": "Dimension Films",
-        "Website": "N/A",
-        "Response": "True"
-      }
-    ],
-    "plot": "Framhaldsskólaneminn og einfarinn Bird Fitcher hefur engan grun um hvaða myrku leyndarmál tengjast gamalli dularfullri Poloroid myndavél sem hann rekst á, en fljótlega kemst hann að því að þeir sem tekið er mynd af, hljóta hræðileg örlög."
-  },
-  {
-    "id": 11945,
-    "ids": {
-      "imdb": "1946502",
-      "rotten": "",
-      "tmdb": null
-    },
-    "title": "Ugly Dolls",
-    "poster": "https://kvikmyndir.is/images/poster/ugly-1553879592.jpg",
-    "alternativeTitles": "",
-    "year": "2019",
-    "release-dateIS": "2019-05-10",
-    "genres": [
-      {
-        "ID": 2,
-        "Name": "Gamanmynd",
-        "NameEN\t": "Comedy"
-      },
-      {
-        "ID": 32,
-        "Name": "Ævintýramynd",
-        "NameEN\t": "Adventure"
-      },
-      {
-        "ID": 34,
-        "Name": "Fjölskyldumynd",
-        "NameEN\t": "Family"
-      },
-      {
-        "ID": 70,
-        "Name": "Teiknimynd",
-        "NameEN\t": "Animation"
-      }
-    ],
-    "actors_abridged": [
-      {
-        "name": "Kelly Clarkson"
-      },
-      {
-        "name": "Nick Jonas"
-      }
-    ],
-    "directors_abridged": [
-      {
-        "name": "Kelly Asbury"
-      }
-    ],
-    "trailers": [
-      {
-        "id": 454458,
-        "results": [
-          {
-            "id": "5bea3e870e0a263bf304ccf9",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "qjoomsFNgwg",
-            "name": "UglyDolls | Official Trailer [HD] | Coming Soon To Theaters",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Trailer",
-            "url": "https://www.youtube.com/embed/qjoomsFNgwg?rel=0"
-          },
-          {
-            "id": "5c776c4692514112a365feb8",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "7-VGKtQbS24",
-            "name": "UglyDolls | Official Trailer 2 | In Theaters May 3, 2019",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Trailer",
-            "url": "https://www.youtube.com/embed/7-VGKtQbS24?rel=0"
-          }
-        ]
-      }
-    ],
-    "omdb": [
-      {
-        "Title": "UglyDolls",
-        "Year": "2019",
-        "Rated": "PG",
-        "Released": "02 May 2019",
-        "Runtime": "N/A",
-        "Genre": "Animation, Adventure, Comedy, Family, Fantasy, Musical",
-        "Director": "Kelly Asbury",
-        "Writer": "David Horvath (based on characters by), Sun-min Kim (based on characters by), Alison Peck, Erica Rivinoja, Vivian Wang (additional writing)",
-        "Actors": "Kelly Clarkson, Nick Jonas, Janelle Monáe, Blake Shelton",
-        "Plot": "An animated adventure in which the free-spirited UglyDolls confront what it means to be different, struggle with a desire to be loved, and ultimately discover who you truly are is what matters most.",
-        "Language": "English",
-        "Country": "China, Canada, USA",
-        "Awards": "N/A",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMTc0NjE2ODM2OV5BMl5BanBnXkFtZTgwMjQyNDUzNzM@._V1_SX300.jpg",
-        "Ratings": [],
-        "Metascore": "N/A",
-        "imdbRating": "N/A",
-        "imdbVotes": "N/A",
-        "imdbID": "tt1946502",
-        "Type": "movie",
-        "tomatoMeter": "N/A",
-        "tomatoImage": "N/A",
-        "tomatoRating": "N/A",
-        "tomatoReviews": "N/A",
-        "tomatoFresh": "N/A",
-        "tomatoRotten": "N/A",
-        "tomatoConsensus": "N/A",
-        "tomatoUserMeter": "N/A",
-        "tomatoUserRating": "N/A",
-        "tomatoUserReviews": "N/A",
-        "tomatoURL": "https://www.rottentomatoes.com/m/uglydolls",
-        "DVD": "N/A",
-        "BoxOffice": "N/A",
-        "Production": "STXfilms",
-        "Website": "https://www.uglydolls.com/",
-        "Response": "True"
-      }
-    ],
-    "plot": "Hinar léttu og skemmtilegu UglyDolls takast á við þá staðreynd að þær eru öðruvísi, en þrá ást og umhyggju. Mestu skiptir þó að vera maður sjálfur."
+    "plot": "Anung Un Rama, öðru nafni Hellboy, er að hálfu leyti djöfull og að hálfu leyti mennskur, alinn upp af prófessor Trevor Bruttenholm og starfar fyrir B.P.R.D. (Bureau for Paranormal Research and Defense) að því að uppræta ýmis ill öfl sem ógna\nmannkyninu. Þótt hann líti út eins og djöfull og sé með horn hala og klaufir, er hjarta hans mennskt og slær fyrir réttlæti.\nHellboy er einnig rammur að afli, ónæmur fyrir sjúkdómum og gæddur yfirnáttúrulegum hæfileikum til að lækna og græða líkama\nsinn af öllum sárum sem hann hlýtur, bæði fljótt og vel. Hægri hönd hans er úr grjóti og þeir eru ekki margir sem þurfa meira en eitt högg frá henni til að hverfa endanlega yfir til forfeðra sinna. Sagan hefst reyndar löngu áður en Hellboy fæðist, þ.e. þegar Artúr konungur stöðvar blóðdrottninguna Nimue og hennar illu áform um að leggja banvæn álög á þegna hans. En þótt Artúr hafi síðan bútað Nimue í sundur með sverðinu Excalibur og falið líkamsleifar hennar víða um England hefur sú hætta ávallt verið fyrir hendi að einhver óvætturinn nái að vekja hana til lífsins á ný. Sú stund er einmitt runnin upp núna og þar með fær Hellboy nóg að gera!"
   },
   {
     "id": 12143,
@@ -480,7 +480,7 @@
         "Response": "True"
       }
     ],
-    "plot": "Í heimi þar sem fólk safnar Pókemonum til að láta þá berjast, þá finnur einn strákur bráðgáfaðan Pikachu sem getur talað, og langar að verða rannsóknarlögreglumaður. Sagan hefst þegar rannsóknarlöggan Harry Goodman hverfur á dularfullan hátt, og sonur hans, hinn 21 árs gamli Tim, reyni að finna pabba sinn. Honum til aðstoðar er fyrrum Pókemon félagi Harry, Detectice Picachu, orðheppinn og sniðugur Pikachu. Þeir Tim og Pikachu ná vel saman og þeir lenda í ýmsum ævintýralegum uppákomum."
+    "plot": "Harry Goodman er einkaspæjari í borginni Ryme þar sem mannfólkið og pókémonar búa saman, að mestu í sátt og\nsamlyndi þótt þeir eigi ekki auðvelt með að skilja hvers annars tungumál og siði. Þegar Harry hverfur dag einn gersamlega\nspor- og orðalaust af skrifstofu sinni kemur það í hlut tvítugs sonar hans, Tims, ásamt fyrrverandi félaga Harrys, pókémonspæjaranum Pikachu, að leysa málið, helst með hraði. Samstarf þeirra Tims og Pikachus byrjar að vísu ekkert allt of vel enda hefur Tim lítið álit á pókémonum yfirleitt og vissi þess utan ekki að faðir hans hafði þekkt Pikachu. Auk þess þjáist Pikachu af minnisleysi eftir höfuðhögg sem gæti allt eins tengst hvarfi Harrys, hvernig sem það má annars vera. En eftir byrjunarörðugleika í samskiptum hefjast þeir Tim og Pikachu handa við að safna gögnum og vísbendingum um hvarf Harrys sem eiga fljótlega eftir að leiða þá á slóð illa innrættra aðila sem ógna ekki bara friðinum í Ryme-borg heldur hafa á\nprjónunum að gera út af við alla pókémona fyrir fullt og allt ..."
   },
   {
     "id": 11778,
@@ -572,7 +572,7 @@
         "Response": "True"
       }
     ],
-    "plot": "Endurgerð gamanmyndarinnar Dirty Rotten Scoundrels frá árinu 1988, þar sem tveir svikahrappar fara í keppni sem snýst um að \"taparinn\" fari úr bænum."
+    "plot": "Tvær konur, önnur í lágklasssa og hin í háklassa, sem hafa sérhæft sig í svikum og prettum taka höndum saman um að\nsvindla hressilega á forríkum mönnum og fá þá til að gefa sér hluta af auðæfum sínum. Allt gengur upp eins og í sögu þar til tæknifrömuðurinn og milljarðamæringurinn Thomas stígur inn í myndina og veldur því að ýmislegt byrjar að fara úrskeiðis."
   },
   {
     "id": 12258,
@@ -593,14 +593,9 @@
         "NameEN\t": "Action"
       },
       {
-        "ID": 2,
-        "Name": "Gamanmynd",
-        "NameEN\t": "Comedy"
-      },
-      {
-        "ID": 75,
-        "Name": "Íslensk mynd",
-        "NameEN\t": "Icelandic movie"
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
       }
     ],
     "actors_abridged": [
@@ -666,7 +661,7 @@
       "rotten": "",
       "tmdb": null
     },
-    "title": "John Wick 3: Parabellum",
+    "title": "John Wick: Chapter 3 - Parabellum",
     "poster": "https://kvikmyndir.is/images/poster/john-1553881966.jpg",
     "alternativeTitles": "",
     "year": "2019",
@@ -781,7 +776,7 @@
         "Response": "True"
       }
     ],
-    "plot": "John Wick er nú með alla leigumorðingja New York borgar á hælunum, eftir að settir voru 14 milljónir bandaríkjadalir til höfuðs honum."
+    "plot": "Það bíða margir spenntir eftir þriðju myndinni um leigumorðingjann John Wick sem í lok myndar númer tvö neyddist til að\nleggja á flótta þegar ljóst varð að nánast hver og einn einasti leigumorðingi í heimi myndi innan klukkustundar hefja leit að\nhonum í því skyni að drepa hann til að geta innheimt þær 14 milljónir dollara sem settar hafa verið honum til höfuðs.\n„Winston. Segðu þeim, segðu þeim öllum, að hver sem kemur, hver sem það er, að ég muni drepa hann. Að ég muni drepa þau öll,“ voru lokaorð Johns Wick þegar við skildum við hann síðast, aðeins klukkustund áður en hann yrði réttdræpur í augum leigumorðingja heimsins. Þessi þriðji kafli sögunnar hefst innan þessarar sömu klukkustundar sem er einnig sá tími sem John hefur til að undirbúa sig undir það sem verða vill. Sá undirbúningur felst auðvitað helst í\nþví að verða sér úti um vopn og skotfæri í miklu magni, enda mun ekki veita af. Og nú er bara að sjá hvernig John reiðir af og hvort honum takist að sleppa lifandi frá þeim hasar sem framundan er ..."
   },
   {
     "id": 12221,
@@ -809,10 +804,10 @@
     ],
     "actors_abridged": [
       {
-        "name": "Josephine Langford"
+        "name": "Hero Fiennes Tiffin"
       },
       {
-        "name": "Hero Fiennes Tiffin"
+        "name": "Josephine Langford"
       }
     ],
     "directors_abridged": [
@@ -891,7 +886,7 @@
         "Response": "True"
       }
     ],
-    "plot": "Ung kona, Tessa, 18 ára, verður ástfangin af manni, Hardin Scott, sem býr yfir myrku leyndarmáli, og þau hefja stormasamt samband."
+    "plot": "Tessa er ung og ábyrg stúlka sem er nýbyrjuð í framhaldsskóla fjarri heimaslóðunum. Skömmu eftir að hafa komið sér fyrir á heimavistinni hittir hún Hardin Scott sem við fyrstu kynni virðist vera einn af þeim strákum sem Tessa ætti að halda sig fjarri. En þrátt fyrir framkomu hans er eitthvað við hann sem heillar Tessu og í gang fer atburðarás með afar óvæntri fléttu."
   },
   {
     "id": 12295,
@@ -914,10 +909,10 @@
     ],
     "actors_abridged": [
       {
-        "name": "Diane Keaton"
+        "name": "Pam Grier"
       },
       {
-        "name": "Jacki Weaver"
+        "name": "Diane Keaton"
       }
     ],
     "directors_abridged": [
@@ -971,7 +966,7 @@
         "Response": "True"
       }
     ],
-    "plot": "POMS fjallar um hóp kvenna sem stofnar klappstýrulið á elliheimilinu, og sanna fyrir öllum að maður er aldrei of gmaall til að slá í gegn!"
+    "plot": "Martha er orðin dálítið leið á hlutunum og ákveður að fara á elliheimili til að deyja (að eigin sögn). En undir þessu hrjúfa yfirborði býr kraftur og áræðni sem kemur vel í ljós þegar hún fær þá hugdettu að stofna klappstýrusveit ásamt hinum konunum á elliheimilinu og taka þátt í klappstýrukeppni fyrir 18 ára og eldri. Að sjálfsögðu fær hugmynd Mörthu um hvatningarsveitina frekar dræmar undirtektir hjá stjórnendum elliheimilisins, a.m.k. í byrjun enda virðast fæstar konurnar vera í því formi sem slíkt útheimtir, hvað þá að vera færar um að taka þátt í keppni á móti stúlkum sem eru meira en 50 árum yngri en þær. En lengi lifir í gömlum glæðum ..."
   },
   {
     "id": 12347,
@@ -1000,6 +995,11 @@
         "ID": 42,
         "Name": "Æviágrip",
         "NameEN\t": "Biography"
+      },
+      {
+        "ID": 83,
+        "Name": "Netflix",
+        "NameEN\t": "Netflix"
       }
     ],
     "actors_abridged": [
@@ -1097,7 +1097,7 @@
         "Response": "True"
       }
     ],
-    "plot": "Sagan af fjöldamorðingjanum bandaríska Ted Bundy, séð frá sjónarhóli kærustu hans, Elizabeth Kloepfer, sem neitaði að trúa neinu slæmu upp á hann í mörg ár."
+    "plot": "Ted Bundy var afar geðfelldur maður sem átti auðvelt með að heilla konur með nærveru sinni og lágstemmdri framkomu. Útlitið skemmdi heldur ekki fyrir, en hann þótti bæði myndarlegur og kynþokkafullur. En undir þessu\nyfirborði bjó einhver allra grimmasti fjöldamorðingi í sögu Bandaríkjanna sem að lokum játaði á sig 30 morð en er talinn hafa myrt mun fleiri en það. Myndin er byggð á bókinni The Phantom Prince: My Life with Ted Bundy eftir Elizabeth Kloepfer sem var um tíma unnusta Teds Bundy og átti lengi vel erfitt með að trúa að hann væri sá fjöldamorðingi sem\nhann reyndist þó vera því sjálf hafði hún allt aðra reynslu af honum og gat ekki gert sér í hugarlund að undir mjúku yfirborðinu byggi allt annar maður en sá sem hún þekkti."
   },
   {
     "id": 12144,
@@ -1210,7 +1210,7 @@
         "Response": "True"
       }
     ],
-    "plot": "Hvað ef barn frá öðrum heimi myndi brotlenda á Jörðinni, og í staðinn fyrir að verða hetja sem bjargaði mannkyni, þá yrði það eitthvað mun djöfullegra?"
+    "plot": "Bændahjónin Kyle og Tori Breyer vita ekki hvaðan á sig stendur veðrið þegar eitthvað sem líkist lofsteini skellur á landareign þeirra. Við athugun á málinu finna þau kornabarn sem virðist hafa komið með þessari sendingu utan úr geimnum og ákveða að ganga því í foreldra stað. Það á ekki eftir að fara vel. Hafa ýmsir bent á að grunnsagan í myndinni líkist sögunni um það þegar Súperman kom til jarðar og var tekinn í fóstur af Kent-hjónunum. Munurinn er hins vegar sá að þegar þessi ungi maður utan úr geimnum, sem Breyer-hjónin nefna Brandon, vex úr grasi og uppgötvar að hann er gæddur nánast sömu ofurkröftum og Súperman nýtir hann þá ekki til góðs heldur til að hefna sín á þeim sem hann telur hafa gert á sinn hlut. Þar eru skólafélagarnir efstir á blaði eftir að hafa veist að honum um árabil og beitt hann einelti og ekki síður skólayfirvöld sem sýndu honum lítinn skilning ..."
   },
   {
     "id": 12046,
@@ -1329,7 +1329,7 @@
         "Response": "True"
       }
     ],
-    "plot": "Leikin útgáfa af ævintýramyndinni um Aladdin, sem frumsýnd var árið 1992. Aladdin er götustrákur sem hittir hina heillandi og ákveðnu Jasmine prinsessu og andann í glasinu, sem gæti verið lykillinn að framtíð þeirra."
+    "plot": "Sagan er í stuttu máli um þjófinn og „strætisrottuna“ Aladdín sem Jafar, stórvesírinn valdagráðugi, sendir út af örkinni til að finna forláta lampa í helli einum og færa sér. Aladdín veit ekki fyrr en hann hefur lampann í höndunum að í honum býr andi sem getur veitt og uppfyllt þrjár óskir þess sem á honum heldur. Það verður til þess að Aladdín ákveður að standa ekki við samkomulagið við Jafar heldur nýta sér óskirnar í eigin þágu og til að vinna ástir dóttur soldánsins, hinnar fögru Jasmín prinsessu. En Jafar gefst ekki svo glatt upp og staðráðinn í að komast yfir lampann sendir hann sína menn af stað til að klófesta Aladdín ..."
   },
   {
     "id": 11933,
@@ -1538,7 +1538,7 @@
         "Response": "True"
       }
     ],
-    "plot": "Saga breska tónlistarmannsins Elton John, allt frá því þegar hann var við nám í the Royal Academy of Music, og í gegnum ferillinn og samstarf hans við textasmiðinn Bernie Taupin."
+    "plot": "Elton John þarf engrar kynningar við enda hefur hann trónað á toppnum í popptónlistinni allar götur frá því hann sló fyrst í gegn árið 1970 með lagi sínu Your Song. En tónlistarsaga hans nær mun lengra aftur í tímann en það og í þessari mynd leikstjórans Dexters Fletcher er farið yfir feril hans frá byrjun. Sir Elton Hercules John, eða Reginald Kenneth Dwight eins og hann hét áður en hann breytti nafni sínu á sjöunda áratug síðustu aldar (og bætti síðan við millinafninu Hercules), fæddist í Pinner Í Middlesex 25. mars 1947 og er því nýorðinn 72 ára. Í myndinni er lögð áhersla á að segja frá æsku hans og uppvexti, fyrstu skrefum hans í tónlistinni og þeim umbreytingum sem urðu á lagasmíðum hans þegar hann og ljóðskáldið og textahöfundurinn Bernie Taupin voru fyrir tilviljun leiddir saman árið 1967. Við fylgjum síðan sögu hans og fólksins í kringum hann allt til heimsfrægðar og fáum að sjálfsögðu að heyra mörg af hans þekktustu lögum sem gerðu hann að þeirri súperstjörnu sem hann hefur verið upp frá því."
   },
   {
     "id": 10332,
@@ -1551,7 +1551,7 @@
     "poster": "https://kvikmyndir.is/images/poster/godzilla-1546346381.jpg",
     "alternativeTitles": "",
     "year": "2019",
-    "release-dateIS": "2019-05-31",
+    "release-dateIS": "2019-05-29",
     "genres": [
       {
         "ID": 1,
@@ -1571,7 +1571,7 @@
     ],
     "actors_abridged": [
       {
-        "name": "Kyle Chandler"
+        "name": "Charles Dance"
       },
       {
         "name": "Vera Farmiga"
@@ -1673,7 +1673,7 @@
         "Response": "True"
       }
     ],
-    "plot": "Monarch skrímslastofnunin berst við gríðarstór skrímsli, þar á meðal hina goðumlíku Godzillu, sem sjálf slæst við skrímslin Mothra, Rodan og erkióvininn, hinn þríhöfða King Ghidorah. Þegar þessi ævafornu skrímsli, sem allir töldu að væru einungis til í goðsögnum, vakna til lífsins, þá vilja þau öll ná yfirráðum yfir Jörðinni, og tilvist mannkyns er því í stórhættu."
+    "plot": "Godzilla: King of the Monsters er óbeint framhald myndarinnar Godzilla sem var frumsýnd sumarið 2014. Hér heldur ævintýrið áfram og í þetta sinn þarf Godzilla m.a. að takast á við hið þríhöfða skrímsli Ghidorah sem ætlar sér alheimsyfirráð, en í þeim hrikalegu átökum má mannfólkið síns lítils – eða hvað?  Fyrir utan Godzillu koma hér við sögu ýmis önnur skrímsli sem tilheyra sögunni um hana, svo sem Mothra og Rodan ásamt þríhöfðanum Ghidorah sem eirir engu sem í vegi hans stendur. Í gang fer hrikaleg barátta, annars vegar á milli skrímslanna og hins vegar á milli manna sem hafa mismunandi sýn á hvernig höndla eigi ástandið – og um leið á stefnuna sem framtíð mannkynsins tekur ..."
   },
   {
     "id": 12316,
@@ -1696,10 +1696,10 @@
     ],
     "actors_abridged": [
       {
-        "name": "Kaitlyn Dever"
+        "name": "Skyler Gisondo"
       },
       {
-        "name": "Skyler Gisondo"
+        "name": "Kaitlyn Dever"
       }
     ],
     "directors_abridged": [
@@ -1778,7 +1778,7 @@
         "Response": "True"
       }
     ],
-    "plot": "Tvær eldklárar stelpur og bestu vinkonur átta sig á því þegar þær eru að útskrifast úr menntaskóla, að kannski hefðu þær átt að læra minna og skemmta sér meira. Nú ákveða þær að endurheimta menntaskólaárin með því að skemmta sér ærlega, og troða þannig fjögurra ára partýhanldi inn á eitt kvöld."
+    "plot": "Skólafélagarnir og vinkonurnar Amy og Molly eru fyrirmyndarnemendur sem hafa með mikilli elju uppskorið góðar einkunnir sem duga til að komast inn í bestu framhaldsskólana. En þessi árangur hefur einnig kostað þær miklar fórnir á félagslega sviðinu og nú er kominn tími til að bæta úr því í eitt skipti fyrir öll!  Myndin gerist á lokadegi skólaársins þegar síðasta tækifærið til að skvetta úr klaufunum er runnið upp og það tækifæri ætla þær Amy og Molly ekki að láta sér\núr greipum ganga. En hvernig fara námshestar eins og þær að því að bæta sér upp margra ára félagslega einangrun á einum degi?"
   },
   {
     "id": 12204,

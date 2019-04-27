@@ -3,15 +3,10 @@ var config = require('../config/api');
 var HttpService = require('./httpservice');
 var FileService = require('./fileservice');
 var fs = require('fs-extra');
-var movieObject = require('../models/moviemodels');
-var request = require('request');
 var logger = require('./logservice');
 var utils = require('../utils/utils');
-var path = require('path');
-var q = require('q');
 var extraImageService = require('./extraimageservice');
 var DBService = require('./dbservice');
-var _underscore = require('underscore');
 var readFile = require('fs-readfile-promise');
 
 /**

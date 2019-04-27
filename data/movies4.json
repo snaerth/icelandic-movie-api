@@ -47,165 +47,174 @@
     },
     "showtimes": [
       {
-        "cinema": "1",
+        "cinema": {
+          "id": 1,
+          "name": "Smárabíó"
+        },
         "schedule": [
           {
             "time": "15.00 (S)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00001041/#51817"
+            "purchase_url": "https://www.smarabio.is/mynd/HO00001041/#51834"
           },
           {
             "time": "15.20 (2)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00001041/#51814"
+            "purchase_url": "https://www.smarabio.is/mynd/HO00001041/#51831"
           },
           {
             "time": "16.20 (1)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00001041/#51812"
-          },
-          {
-            "time": "18.10 (4)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00001041/#51821"
+            "purchase_url": "https://www.smarabio.is/mynd/HO00001041/#51829"
           },
           {
             "time": "18.50 (S)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00001041/#51818"
+            "purchase_url": "https://www.smarabio.is/mynd/HO00001041/#51835"
           },
           {
-            "time": "19.10 (2)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00001041/#51815"
+            "time": "19.00 (2)",
+            "purchase_url": "https://www.smarabio.is/mynd/HO00001041/#51838"
           },
           {
             "time": "20.00 (1)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00001041/#51813"
+            "purchase_url": "https://www.smarabio.is/mynd/HO00001041/#51830"
           },
           {
-            "time": "22.00 (4)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00001041/#51822"
+            "time": "21.50 (4)",
+            "purchase_url": "https://www.smarabio.is/mynd/HO00001041/#51839"
           },
           {
             "time": "22.40 (S)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00001041/#51819"
+            "purchase_url": "https://www.smarabio.is/mynd/HO00001041/#51836"
           },
           {
             "time": "22.50 (2)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00001041/#51816"
+            "purchase_url": "https://www.smarabio.is/mynd/HO00001041/#51833"
           }
         ]
       },
       {
-        "cinema": "4",
+        "cinema": {
+          "id": 4,
+          "name": "Laugarásbíó"
+        },
         "schedule": [
           {
+            "time": "14:00 (L)",
+            "purchase_url": "http://kvikmyndahusio.azurewebsites.net/websales/show/496496/"
+          },
+          {
             "time": "17:30 (L)",
-            "purchase_url": "http://kvikmyndahusio.azurewebsites.net/websales/show/496475/"
+            "purchase_url": "http://kvikmyndahusio.azurewebsites.net/websales/show/496498/"
           },
           {
             "time": "21:00 (L)",
-            "purchase_url": "http://kvikmyndahusio.azurewebsites.net/websales/show/496480/"
-          },
-          {
-            "time": "22:00 (A)",
-            "purchase_url": "http://kvikmyndahusio.azurewebsites.net/websales/show/496481/"
+            "purchase_url": "http://kvikmyndahusio.azurewebsites.net/websales/show/496497/"
           }
         ]
       },
       {
-        "cinema": "6",
+        "cinema": {
+          "id": 6,
+          "name": "Álfabakki"
+        },
         "schedule": [
           {
-            "time": "17:20 (3)",
-            "purchase_url": "http://www.sambio.is/websales/show/276130/"
+            "time": "14:20 (P)",
+            "purchase_url": "http://www.sambio.is/websales/show/275598/"
+          },
+          {
+            "time": "14:40 (1)",
+            "purchase_url": "http://www.sambio.is/websales/show/275517/"
           },
           {
             "time": "18:00 (P)",
-            "purchase_url": "http://www.sambio.is/websales/show/275586/"
+            "purchase_url": "http://www.sambio.is/websales/show/275581/"
           },
           {
             "time": "18:20 (1)",
-            "purchase_url": "http://www.sambio.is/websales/show/275513/"
+            "purchase_url": "http://www.sambio.is/websales/show/275518/"
           },
           {
             "time": "20:00 (A)",
-            "purchase_url": "http://www.sambio.is/websales/show/276123/"
+            "purchase_url": "http://www.sambio.is/websales/show/276124/"
           },
           {
-            "time": "21:00 (3)",
-            "purchase_url": "http://www.sambio.is/websales/show/276129/"
+            "time": "20:50 (3)",
+            "purchase_url": "http://www.sambio.is/websales/show/276131/"
           },
           {
             "time": "21:40 (P)",
-            "purchase_url": "http://www.sambio.is/websales/show/275597/"
+            "purchase_url": "http://www.sambio.is/websales/show/275582/"
           },
           {
             "time": "22:00 (1)",
-            "purchase_url": "http://www.sambio.is/websales/show/275516/"
+            "purchase_url": "http://www.sambio.is/websales/show/275519/"
           }
         ]
       },
       {
-        "cinema": "7",
+        "cinema": {
+          "id": 7,
+          "name": "Kringlubíó"
+        },
         "schedule": [
           {
             "time": "15:10 (1)",
-            "purchase_url": "http://www.sambio.is/websales/show/275555/"
+            "purchase_url": "http://www.sambio.is/websales/show/275546/"
           },
           {
             "time": "18:50 (1)",
-            "purchase_url": "http://www.sambio.is/websales/show/275556/"
+            "purchase_url": "http://www.sambio.is/websales/show/275547/"
           },
           {
             "time": "21:45 (2)",
-            "purchase_url": "http://www.sambio.is/websales/show/276143/"
+            "purchase_url": "http://www.sambio.is/websales/show/276144/"
           },
           {
             "time": "22:30 (1)",
-            "purchase_url": "http://www.sambio.is/websales/show/275545/"
+            "purchase_url": "http://www.sambio.is/websales/show/275561/"
           }
         ]
       },
       {
-        "cinema": "8",
+        "cinema": {
+          "id": 9,
+          "name": "Sambíóin, Akureyri"
+        },
         "schedule": [
           {
-            "time": "16:00 (1)",
-            "purchase_url": "http://www.sambio.is/websales/show/275672/"
+            "time": "14:40 (A)",
+            "purchase_url": "http://www.sambio.is/websales/show/275524/"
           },
           {
-            "time": "18:00 (3)",
-            "purchase_url": "http://www.sambio.is/websales/show/275678/"
+            "time": "18:20 (A)",
+            "purchase_url": "http://www.sambio.is/websales/show/275570/"
           },
           {
-            "time": "20:00 (1)",
-            "purchase_url": "http://www.sambio.is/websales/show/275661/"
+            "time": "22:00 (B)",
+            "purchase_url": "http://www.sambio.is/websales/show/276149/"
           },
           {
-            "time": "22:00 (3)",
-            "purchase_url": "http://www.sambio.is/websales/show/276153/"
+            "time": "22:00 (A)",
+            "purchase_url": "http://www.sambio.is/websales/show/275571/"
           }
         ]
       },
       {
-        "cinema": "9",
+        "cinema": {
+          "id": 11,
+          "name": "Sambíóin, Keflavík"
+        },
         "schedule": [
           {
-            "time": "17:30 (A)",
-            "purchase_url": "http://www.sambio.is/websales/show/275566/"
+            "time": "14:40 (1)",
+            "purchase_url": "http://www.sambio.is/websales/show/275520/"
           },
-          {
-            "time": "21:10 (A)",
-            "purchase_url": "http://www.sambio.is/websales/show/275567/"
-          }
-        ]
-      },
-      {
-        "cinema": "11",
-        "schedule": [
           {
             "time": "18:20 (1)",
-            "purchase_url": "http://www.sambio.is/websales/show/275526/"
+            "purchase_url": "http://www.sambio.is/websales/show/275528/"
           },
           {
             "time": "22:00 (1)",
-            "purchase_url": "http://www.sambio.is/websales/show/275527/"
+            "purchase_url": "http://www.sambio.is/websales/show/275529/"
           }
         ]
       }
@@ -944,6 +953,17 @@
             "size": 1080,
             "type": "Teaser",
             "url": "https://www.youtube.com/embed/n92qDDd9E1U?rel=0"
+          },
+          {
+            "id": "5cc34c9ac3a368776c8ff6f2",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "AMSITikqKiM",
+            "name": "Marvel Studios' Avengers: Endgame | Policy Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/AMSITikqKiM?rel=0"
           }
         ]
       }
@@ -1035,53 +1055,18 @@
     },
     "showtimes": [
       {
-        "cinema": "1",
+        "cinema": {
+          "id": 1,
+          "name": "Smárabíó"
+        },
         "schedule": [
           {
             "time": "17.10 (5)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00001036/#51824"
+            "purchase_url": "https://www.smarabio.is/mynd/HO00001036/#51841"
           },
           {
             "time": "19.50 (5)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00001036/#51825"
-          },
-          {
-            "time": "22.30 (5)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00001036/#51826"
-          }
-        ]
-      },
-      {
-        "cinema": "3",
-        "schedule": [
-          {
-            "time": "17:50",
-            "purchase_url": "https://midi.frettabladid.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/8/2060"
-          },
-          {
-            "time": "20:00",
-            "purchase_url": "https://midi.frettabladid.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/8/2060"
-          },
-          {
-            "time": "22:00",
-            "purchase_url": "https://midi.frettabladid.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/8/2060"
-          }
-        ]
-      },
-      {
-        "cinema": "4",
-        "schedule": [
-          {
-            "time": "17:30 (B)",
-            "purchase_url": "http://kvikmyndahusio.azurewebsites.net/websales/show/496476/"
-          },
-          {
-            "time": "19:40 (A)",
-            "purchase_url": "http://kvikmyndahusio.azurewebsites.net/websales/show/496478/"
-          },
-          {
-            "time": "22:10 (B)",
-            "purchase_url": "http://kvikmyndahusio.azurewebsites.net/websales/show/496482/"
+            "purchase_url": "https://www.smarabio.is/mynd/HO00001036/#51842"
           }
         ]
       }
@@ -1225,29 +1210,18 @@
     },
     "showtimes": [
       {
-        "cinema": "1",
+        "cinema": {
+          "id": 1,
+          "name": "Smárabíó"
+        },
         "schedule": [
           {
-            "time": "15.30 (4)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00000996/#51820"
-          }
-        ]
-      },
-      {
-        "cinema": "2",
-        "schedule": [
+            "time": "15.10 (4)",
+            "purchase_url": "https://www.smarabio.is/mynd/HO00000996/#51845"
+          },
           {
-            "time": "18.00 (3)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00000996/#27392"
-          }
-        ]
-      },
-      {
-        "cinema": "4",
-        "schedule": [
-          {
-            "time": "17:30 (A)",
-            "purchase_url": "http://kvikmyndahusio.azurewebsites.net/websales/show/496477/"
+            "time": "17.30 (4)",
+            "purchase_url": "https://www.smarabio.is/mynd/HO00000996/#51837"
           }
         ]
       }
@@ -1350,42 +1324,42 @@
     },
     "showtimes": [
       {
-        "cinema": "6",
+        "cinema": {
+          "id": 6,
+          "name": "Álfabakki"
+        },
         "schedule": [
           {
             "time": "22:20 (2)",
-            "purchase_url": "http://www.sambio.is/websales/show/276087/"
+            "purchase_url": "http://www.sambio.is/websales/show/276081/"
           }
         ]
       },
       {
-        "cinema": "7",
+        "cinema": {
+          "id": 7,
+          "name": "Kringlubíó"
+        },
         "schedule": [
           {
             "time": "19:00 (3)",
-            "purchase_url": "http://www.sambio.is/websales/show/276098/"
+            "purchase_url": "http://www.sambio.is/websales/show/276100/"
           },
           {
             "time": "21:10 (3)",
-            "purchase_url": "http://www.sambio.is/websales/show/276099/"
+            "purchase_url": "http://www.sambio.is/websales/show/276101/"
           }
         ]
       },
       {
-        "cinema": "9",
-        "schedule": [
-          {
-            "time": "22:00 (B)",
-            "purchase_url": "http://www.sambio.is/websales/show/276108/"
-          }
-        ]
-      },
-      {
-        "cinema": "11",
+        "cinema": {
+          "id": 11,
+          "name": "Sambíóin, Keflavík"
+        },
         "schedule": [
           {
             "time": "22:20 (2)",
-            "purchase_url": "http://www.sambio.is/websales/show/276113/"
+            "purchase_url": "http://www.sambio.is/websales/show/276114/"
           }
         ]
       }
@@ -1530,51 +1504,70 @@
     },
     "showtimes": [
       {
-        "cinema": "2",
+        "cinema": {
+          "id": 6,
+          "name": "Álfabakki"
+        },
         "schedule": [
           {
-            "time": "18.10 (4)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00001050/#27393"
-          }
-        ]
-      },
-      {
-        "cinema": "6",
-        "schedule": [
+            "time": "13:15 (3)",
+            "purchase_url": "http://www.sambio.is/websales/show/276036/"
+          },
+          {
+            "time": "14:00 (A)",
+            "purchase_url": "http://www.sambio.is/websales/show/276029/"
+          },
+          {
+            "time": "16:00 (A)",
+            "purchase_url": "http://www.sambio.is/websales/show/276027/"
+          },
           {
             "time": "18:00 (A)",
-            "purchase_url": "http://www.sambio.is/websales/show/276034/"
+            "purchase_url": "http://www.sambio.is/websales/show/276028/"
           }
         ]
       },
       {
-        "cinema": "7",
+        "cinema": {
+          "id": 7,
+          "name": "Kringlubíó"
+        },
         "schedule": [
           {
+            "time": "13:00 (2)",
+            "purchase_url": "http://www.sambio.is/websales/show/276060/"
+          },
+          {
             "time": "15:00 (2)",
-            "purchase_url": "http://www.sambio.is/websales/show/276049/"
+            "purchase_url": "http://www.sambio.is/websales/show/276051/"
           },
           {
             "time": "17:00 (2)",
-            "purchase_url": "http://www.sambio.is/websales/show/276050/"
+            "purchase_url": "http://www.sambio.is/websales/show/276059/"
           }
         ]
       },
       {
-        "cinema": "9",
+        "cinema": {
+          "id": 9,
+          "name": "Sambíóin, Akureyri"
+        },
         "schedule": [
           {
-            "time": "17:20 (B)",
-            "purchase_url": "http://www.sambio.is/websales/show/276064/"
+            "time": "15:00 (B)",
+            "purchase_url": "http://www.sambio.is/websales/show/276070/"
           }
         ]
       },
       {
-        "cinema": "11",
+        "cinema": {
+          "id": 11,
+          "name": "Sambíóin, Keflavík"
+        },
         "schedule": [
           {
-            "time": "17:40 (2)",
-            "purchase_url": "http://www.sambio.is/websales/show/276073/"
+            "time": "15:00 (2)",
+            "purchase_url": "http://www.sambio.is/websales/show/276074/"
           }
         ]
       }
@@ -1735,17 +1728,21 @@
     "plot": "Dögg er ung og ákaflega hugmyndarík stúlka sem með aðstoð móður sinnar skapar ekki bara söguna um Undragarðinn,\nstórkostlegan skemmtigarð sem stjórnað er af dýrum, heldur byggir upp hluta hans heima hjá þeim mæðgum. Þegar Dögg finnur síðan fyrir tilviljun gamlan og gleymdan skemmtigarð í niðurníðslu reynist ímyndunarafl hennar svo sterkt að garðurinn hreinlega lifnar við ásamt dýrunum sem Dögg skapaði. Fyrir utan Dögg, sem óhætt er að segja að sé gædd miklum sköpunarkrafti, kynnumst við hér kostulegum dýrahópi, þ. á m. bláa birninum Þrym, villigeltinum Grétu, bjórunum og bræðrunum Kobba og Bunka, broddgeltinum Stebba (sem er ástfanginn af Grétu) og apanum Smára, en þessi dýr\neiga eftir að hjálpa Dögg að láta Undragarðinn standa undir nafni!"
   },
   {
-    "id": 12203,
+    "id": 12340,
     "ids": {
-      "imdb": "6556670",
+      "imdb": "9249432",
       "rotten": null,
       "tmdb": null
     },
-    "title": "Ömurleg brúðkaup 2",
-    "alternativeTitles": "Serial Bad Weddings 2",
+    "title": "Miszmasz czyli Kogel Mogel 3",
+    "alternativeTitles": "",
     "year": "2019",
-    "certificateIS": "12 ára",
-    "durationMinutes": 99,
+    "certificateIS": {
+      "is": "N/A",
+      "color": "green",
+      "number": "L"
+    },
+    "durationMinutes": 95,
     "genres": [
       {
         "ID": 2,
@@ -1753,116 +1750,76 @@
         "NameEN\t": "Comedy"
       },
       {
-        "ID": 4,
-        "Name": "Drama",
-        "NameEN\t": "Drama"
+        "ID": 3,
+        "Name": "Rómantísk",
+        "NameEN\t": "Romance"
       }
     ],
-    "poster": "http://kvikmyndir.is/images/poster/ommurleg-1553881187.png",
+    "poster": "http://kvikmyndir.is/images/poster/msss-1555351048.jpg",
     "actors_abridged": [
       {
-        "name": "Christian Clavier"
+        "name": "Grazyna Blecka-Kolska"
       },
       {
-        "name": "Chantal Lauby"
+        "name": "Monika Dryl"
       }
     ],
     "directors_abridged": [
       {
-        "name": "Philippe de Chauveron"
+        "name": "Kordian Piwowarski"
       }
     ],
     "ratings": {
-      "imdb": "6.1",
+      "imdb": "4.4",
       "rotten_audience": null,
       "rotten_critics": null
     },
     "showtimes": [
       {
-        "cinema": "2",
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
         "schedule": [
           {
-            "time": "18.10 (2)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00001026/#27394"
-          },
-          {
-            "time": "21.00 (2)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00001026/#27397"
-          }
-        ]
-      },
-      {
-        "cinema": "3",
-        "schedule": [
-          {
-            "time": "20:00",
-            "purchase_url": "https://midi.frettabladid.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/8/2055"
-          },
-          {
-            "time": "22:10",
-            "purchase_url": "https://midi.frettabladid.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/8/2055"
-          }
-        ]
-      },
-      {
-        "cinema": "4",
-        "schedule": [
-          {
-            "time": "20:00 (B)",
-            "purchase_url": "http://kvikmyndahusio.azurewebsites.net/websales/show/496479/"
+            "time": "20.00 (3)",
+            "purchase_url": "https://tix.is/is/buyingflow/tickets/7837/"
           }
         ]
       }
     ],
-    "certificate": {
-      "is": "12 ára",
-      "color": "yellow",
-      "number": "12"
-    },
     "trailers": [
       {
-        "id": 505436,
-        "results": [
-          {
-            "id": "5ca3673c0e0a2605a68e7327",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "0_m1Y13NjL8",
-            "name": "MONSIEUR CLAUDE 2 Trailer German Deutsch (2019)",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Trailer",
-            "url": "https://www.youtube.com/embed/0_m1Y13NjL8?rel=0"
-          }
-        ]
+        "id": 569905,
+        "results": []
       }
     ],
     "omdb": [
       {
-        "Title": "Serial (Bad) Weddings 2",
+        "Title": "Miszmasz czyli Kogel Mogel 3",
         "Year": "2019",
         "Rated": "N/A",
-        "Released": "30 Jan 2019",
-        "Runtime": "99 min",
-        "Genre": "Comedy, Drama",
-        "Director": "Philippe de Chauveron",
-        "Writer": "Guy Laurent (adaptation), Guy Laurent (dialogue), Guy Laurent (screenplay), Philippe de Chauveron (adaptation), Philippe de Chauveron (dialogue), Philippe de Chauveron (screenplay)",
-        "Actors": "Christian Clavier, Chantal Lauby, Ary Abittan, Medi Sadoun",
-        "Plot": "Claude and Marie Verneuil face a new crisis. The four spouses of their daughters, David, Rachid, Chao and Charles decided to leave France for various reasons. Here they are imagining their lives elsewhere.",
-        "Language": "French, Hebrew, Portuguese",
-        "Country": "France",
+        "Released": "25 Jan 2019",
+        "Runtime": "100 min",
+        "Genre": "Comedy, Romance",
+        "Director": "Kordian Piwowarski",
+        "Writer": "Ilona Lepkowska (screenplay)",
+        "Actors": "Grazyna Blecka-Kolska, Monika Dryl, Mayu Gralinska Sakai, Aleksandra Hamkalo",
+        "Plot": "N/A",
+        "Language": "Polish",
+        "Country": "Poland",
         "Awards": "N/A",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMmQ0MTRiNmUtYTAyYi00NGViLWExYjEtYzQwZWEyZWFmMDQ4XkEyXkFqcGdeQXVyNTc5OTMwOTQ@._V1_SX300.jpg",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNTY4Yjg5MTgtYTViYi00YmU3LTk5NDctOGU4NjBmN2RmNDMwXkEyXkFqcGdeQXVyMTEwMTY3NDI@._V1_SX300.jpg",
         "Ratings": [
           {
             "Source": "Internet Movie Database",
-            "Value": "6.1/10"
+            "Value": "4.4/10"
           }
         ],
         "Metascore": "N/A",
-        "imdbRating": "6.1",
-        "imdbVotes": "900",
-        "imdbID": "tt6556670",
+        "imdbRating": "4.4",
+        "imdbVotes": "70",
+        "imdbID": "tt9249432",
         "Type": "movie",
         "tomatoMeter": "N/A",
         "tomatoImage": "N/A",
@@ -1874,15 +1831,14 @@
         "tomatoUserMeter": "N/A",
         "tomatoUserRating": "N/A",
         "tomatoUserReviews": "N/A",
-        "tomatoURL": "https://www.rottentomatoes.com/m/serial_2019",
+        "tomatoURL": "N/A",
         "DVD": "N/A",
         "BoxOffice": "N/A",
         "Production": "N/A",
         "Website": "N/A",
         "Response": "True"
       }
-    ],
-    "plot": "Í þetta sinn snúast vandamál Verneuilhjónanna um að dætur hjónanna og menn þeirra eru að spá í að flytja frá Frakklandi og til upprunalands eiginmannanna, þ.e. Alsírs, Kína, Ísraels og Fílabeinsstrandarinnar. Á þær hugmyndir geta þau\nClaude og Marie ekki fallist og ákveða að fara í róttækar aðgerðir til að sanna að Frakkland sé besta land í heimi til að búa í. Inn í málin blandast svo foreldrar eins tengdasonarins sem komnir eru til Frakklands til að vera viðstaddir brúðkaup systur hans og komast þá að því sér til mikillar skelfingar að hún er að fara að giftast konu ..."
+    ]
   },
   {
     "id": 12047,
@@ -1927,11 +1883,14 @@
     },
     "showtimes": [
       {
-        "cinema": "6",
+        "cinema": {
+          "id": 6,
+          "name": "Álfabakki"
+        },
         "schedule": [
           {
             "time": "22:20 (B)",
-            "purchase_url": "http://www.sambio.is/websales/show/276014/"
+            "purchase_url": "http://www.sambio.is/websales/show/276009/"
           }
         ]
       }
@@ -2110,46 +2069,62 @@
     },
     "showtimes": [
       {
-        "cinema": "6",
+        "cinema": {
+          "id": 6,
+          "name": "Álfabakki"
+        },
         "schedule": [
           {
-            "time": "17:00 (2)",
-            "purchase_url": "http://www.sambio.is/websales/show/275955/"
+            "time": "15:15 (3)",
+            "purchase_url": "http://www.sambio.is/websales/show/275967/"
+          },
+          {
+            "time": "18:00 (3)",
+            "purchase_url": "http://www.sambio.is/websales/show/275968/"
           },
           {
             "time": "19:40 (B)",
-            "purchase_url": "http://www.sambio.is/websales/show/275953/"
+            "purchase_url": "http://www.sambio.is/websales/show/275954/"
           }
         ]
       },
       {
-        "cinema": "7",
+        "cinema": {
+          "id": 7,
+          "name": "Kringlubíó"
+        },
         "schedule": [
           {
             "time": "16:15 (3)",
-            "purchase_url": "http://www.sambio.is/websales/show/275983/"
+            "purchase_url": "http://www.sambio.is/websales/show/275984/"
           },
           {
             "time": "19:00 (2)",
-            "purchase_url": "http://www.sambio.is/websales/show/275987/"
+            "purchase_url": "http://www.sambio.is/websales/show/275978/"
           }
         ]
       },
       {
-        "cinema": "9",
+        "cinema": {
+          "id": 9,
+          "name": "Sambíóin, Akureyri"
+        },
         "schedule": [
           {
             "time": "19:20 (B)",
-            "purchase_url": "http://www.sambio.is/websales/show/276000/"
+            "purchase_url": "http://www.sambio.is/websales/show/275995/"
           }
         ]
       },
       {
-        "cinema": "11",
+        "cinema": {
+          "id": 11,
+          "name": "Sambíóin, Keflavík"
+        },
         "schedule": [
           {
             "time": "19:40 (2)",
-            "purchase_url": "http://www.sambio.is/websales/show/276001/"
+            "purchase_url": "http://www.sambio.is/websales/show/276002/"
           }
         ]
       }
@@ -2255,143 +2230,6 @@
     "plot": "Billy Batson er 14 ára munaðarlaus strákur sem í byrjun sögunnar\ner að flytja inn á sitt sjöunda fósturheimili eftir að hafa\nverið úthýst af því sjötta vegna slæmrar hegðunar, rétt eins\nog í hin fimm skiptin. Kvöld eitt þegar hann er á flótta undan\nstrákum sem ætla að berja hann lendir hann í nokkurs konar\nhliðarveröld þar sem verulega dularfullur galdrakarl gefur\nhonum krafta til að breyta sér í fullorðnu ofurhetjuna Shazam! Til að byrja með\nhefur Billy/Shazam! ekki nokkra hugmynd um hvaða ofurkröftum\nhann býr yfir og því síður hvernig hann á að stjórna þeim. Sú\nþekking kemur auðvitað með reynslunni og ekki seinna vænna\nþví framundan er barátta við hinn hræðilega dr. Thaddeus Sivana ..."
   },
   {
-    "id": 12205,
-    "ids": {
-      "imdb": "6491178",
-      "rotten": null,
-      "tmdb": null
-    },
-    "title": "Dragged Across Concrete",
-    "alternativeTitles": "",
-    "year": "2019",
-    "certificateIS": "16 ára",
-    "durationMinutes": 159,
-    "genres": [
-      {
-        "ID": 1,
-        "Name": "Spennumynd",
-        "NameEN\t": "Action"
-      },
-      {
-        "ID": 4,
-        "Name": "Drama",
-        "NameEN\t": "Drama"
-      },
-      {
-        "ID": 8,
-        "Name": "Glæpamynd",
-        "NameEN\t": "Crime"
-      }
-    ],
-    "poster": "http://kvikmyndir.is/images/poster/draggged-1553365538.jpg",
-    "actors_abridged": [
-      {
-        "name": "Mel Gibson"
-      },
-      {
-        "name": "Vince Vaughn"
-      }
-    ],
-    "directors_abridged": [
-      {
-        "name": "S. Craig Zahler"
-      }
-    ],
-    "ratings": {
-      "imdb": "7.2",
-      "rotten_audience": null,
-      "rotten_critics": "73"
-    },
-    "showtimes": [
-      {
-        "cinema": "2",
-        "schedule": [
-          {
-            "time": "20.30 (3)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00001018/#27395"
-          }
-        ]
-      }
-    ],
-    "certificate": {
-      "is": "16 ára",
-      "color": "red",
-      "number": "16"
-    },
-    "trailers": [
-      {
-        "id": 438674,
-        "results": [
-          {
-            "id": "5c6edfcbc3a3686fb6e4fcbd",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "2p5pdWyyZoc",
-            "name": "Dragged Across Concrete (2019 Movie) Official Trailer – Mel Gibson, Vince Vaughn, Jennifer Carpenter",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Trailer",
-            "url": "https://www.youtube.com/embed/2p5pdWyyZoc?rel=0"
-          }
-        ]
-      }
-    ],
-    "omdb": [
-      {
-        "Title": "Dragged Across Concrete",
-        "Year": "2018",
-        "Rated": "R",
-        "Released": "22 Mar 2019",
-        "Runtime": "159 min",
-        "Genre": "Action, Crime, Drama, Thriller",
-        "Director": "S. Craig Zahler",
-        "Writer": "S. Craig Zahler",
-        "Actors": "Mel Gibson, Vince Vaughn, Tory Kittles, Michael Jai White",
-        "Plot": "Once two overzealous cops get suspended from the force, they must delve into the criminal underworld to get their proper compensation.",
-        "Language": "English",
-        "Country": "Canada, USA",
-        "Awards": "N/A",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BZjAwZTljODItYjkyYS00Y2M3LWI4ZmUtM2M0YjRhOTY2ZjI1XkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "7.2/10"
-          },
-          {
-            "Source": "Rotten Tomatoes",
-            "Value": "73%"
-          },
-          {
-            "Source": "Metacritic",
-            "Value": "62/100"
-          }
-        ],
-        "Metascore": "62",
-        "imdbRating": "7.2",
-        "imdbVotes": "9,521",
-        "imdbID": "tt6491178",
-        "Type": "movie",
-        "tomatoMeter": "N/A",
-        "tomatoImage": "N/A",
-        "tomatoRating": "N/A",
-        "tomatoReviews": "N/A",
-        "tomatoFresh": "N/A",
-        "tomatoRotten": "N/A",
-        "tomatoConsensus": "N/A",
-        "tomatoUserMeter": "N/A",
-        "tomatoUserRating": "N/A",
-        "tomatoUserReviews": "N/A",
-        "tomatoURL": "https://www.rottentomatoes.com/m/dragged_across_concrete",
-        "DVD": "30 Apr 2019",
-        "BoxOffice": "N/A",
-        "Production": "Summit Entertainment",
-        "Website": "N/A",
-        "Response": "True"
-      }
-    ],
-    "plot": "Þegar lögreglumennirnir Brett Ridgeman og Anthony Lurasetti\neru sendir í sex mánaða\nlaunalaust „leyfi“ fyrir að hafa gengið fullharkalega fram\nvið síðustu handtöku ákveða þeir að gerast sjálfir ræningjar,\nenda hafa þeir bæði kunnáttuna og þekkinguna sem til þarf!\nHvorugur gerir sér grein fyrir afleiðingunum ..."
-  },
-  {
     "id": 12050,
     "ids": {
       "imdb": "3861390",
@@ -2436,11 +2274,54 @@
     },
     "showtimes": [
       {
-        "cinema": "6",
+        "cinema": {
+          "id": 6,
+          "name": "Álfabakki"
+        },
+        "schedule": [
+          {
+            "time": "14:30 (B)",
+            "purchase_url": "http://www.sambio.is/websales/show/275925/"
+          },
+          {
+            "time": "17:00 (B)",
+            "purchase_url": "http://www.sambio.is/websales/show/275937/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 7,
+          "name": "Kringlubíó"
+        },
+        "schedule": [
+          {
+            "time": "13:45 (3)",
+            "purchase_url": "http://www.sambio.is/websales/show/275942/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 9,
+          "name": "Sambíóin, Akureyri"
+        },
         "schedule": [
           {
             "time": "17:00 (B)",
-            "purchase_url": "http://www.sambio.is/websales/show/275935/"
+            "purchase_url": "http://www.sambio.is/websales/show/275947/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 11,
+          "name": "Sambíóin, Keflavík"
+        },
+        "schedule": [
+          {
+            "time": "17:20 (2)",
+            "purchase_url": "http://www.sambio.is/websales/show/275943/"
           }
         ]
       }
@@ -2577,11 +2458,14 @@
     },
     "showtimes": [
       {
-        "cinema": "1",
+        "cinema": {
+          "id": 1,
+          "name": "Smárabíó"
+        },
         "schedule": [
           {
             "time": "15.00 (5)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00001015/#51823"
+            "purchase_url": "https://www.smarabio.is/mynd/HO00001015/#51840"
           }
         ]
       }
@@ -2657,182 +2541,6 @@
     "plot": "Eftir að Sjóðríkur dettur niður úr tré og fótbrotnar þar sem\nhann var að ná í mistiltein með hinni gullnu sigð tilkynnir hann\nbæjarbúum að það sé tími til kominn fyrir hann að draga sig\ní hlé og að finna þurfi yngri seiðkarl til að elda töfradrykkinn\nsem komið hefur í veg fyrir að Rómverjar hertaki Gaulverjabæ.\nAð sjálfsögðu þurfa þeir Ástríkur og Steinríkur að fara í málið."
   },
   {
-    "id": 12140,
-    "ids": {
-      "imdb": "6857112",
-      "rotten": null,
-      "tmdb": null
-    },
-    "title": "Us",
-    "alternativeTitles": "UsMovie",
-    "year": "2019",
-    "certificateIS": "16 ára",
-    "durationMinutes": 120,
-    "genres": [
-      {
-        "ID": 5,
-        "Name": "Hrollvekja",
-        "NameEN\t": "Horror"
-      },
-      {
-        "ID": 6,
-        "Name": "Spennutryllir",
-        "NameEN\t": "Thriller"
-      }
-    ],
-    "poster": "http://kvikmyndir.is/images/poster/us-1554547407.jpg",
-    "actors_abridged": [
-      {
-        "name": "Lupita Nyong'o"
-      },
-      {
-        "name": "Winston Duke"
-      }
-    ],
-    "directors_abridged": [
-      {
-        "name": "Jordan Peele"
-      }
-    ],
-    "ratings": {
-      "imdb": "7.4",
-      "rotten_audience": null,
-      "rotten_critics": "94"
-    },
-    "showtimes": [
-      {
-        "cinema": "2",
-        "schedule": [
-          {
-            "time": "20.50 (4)",
-            "purchase_url": "https://www.smarabio.is/mynd/HO00001011/#27396"
-          }
-        ]
-      }
-    ],
-    "certificate": {
-      "is": "16 ára",
-      "color": "red",
-      "number": "16"
-    },
-    "trailers": [
-      {
-        "id": 458723,
-        "results": [
-          {
-            "id": "5c2238fc0e0a264df2ef7cd4",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "hNCmb-4oXJA",
-            "name": "Official Trailer",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Trailer",
-            "url": "https://www.youtube.com/embed/hNCmb-4oXJA?rel=0"
-          },
-          {
-            "id": "5c98f5d8925141780cf4748f",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "CzAbe1Expkk",
-            "name": "Behind the Scenes With Jordan Peele",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Behind the Scenes",
-            "url": "https://www.youtube.com/embed/CzAbe1Expkk?rel=0"
-          },
-          {
-            "id": "5c9d8f7d0e0a2638daec1539",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "axWdqTw66sI",
-            "name": "A Look Inside Featurette",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Featurette",
-            "url": "https://www.youtube.com/embed/axWdqTw66sI?rel=0"
-          },
-          {
-            "id": "5c9d8fbec3a3686f02ff889a",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "lKuvOrCmFTY",
-            "name": "Nightmare",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Teaser",
-            "url": "https://www.youtube.com/embed/lKuvOrCmFTY?rel=0"
-          },
-          {
-            "id": "5ca7e9489251415657fcd0ac",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "KceZ8KfUIIE",
-            "name": "Trailer Christmas Day",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Teaser",
-            "url": "https://www.youtube.com/embed/KceZ8KfUIIE?rel=0"
-          }
-        ]
-      }
-    ],
-    "omdb": [
-      {
-        "Title": "Us",
-        "Year": "2019",
-        "Rated": "R",
-        "Released": "22 Mar 2019",
-        "Runtime": "116 min",
-        "Genre": "Horror, Thriller",
-        "Director": "Jordan Peele",
-        "Writer": "Jordan Peele",
-        "Actors": "Lupita Nyong'o, Winston Duke, Elisabeth Moss, Tim Heidecker",
-        "Plot": "A family's serene beach vacation turns to chaos when their doppelgängers appear and begin to terrorize them.",
-        "Language": "English",
-        "Country": "USA, Japan",
-        "Awards": "N/A",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BZTliNWJhM2YtNDc1MC00YTk1LWE2MGYtZmE4M2Y5ODdlNzQzXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "7.4/10"
-          },
-          {
-            "Source": "Rotten Tomatoes",
-            "Value": "94%"
-          },
-          {
-            "Source": "Metacritic",
-            "Value": "81/100"
-          }
-        ],
-        "Metascore": "81",
-        "imdbRating": "7.4",
-        "imdbVotes": "61,075",
-        "imdbID": "tt6857112",
-        "Type": "movie",
-        "tomatoMeter": "N/A",
-        "tomatoImage": "N/A",
-        "tomatoRating": "N/A",
-        "tomatoReviews": "N/A",
-        "tomatoFresh": "N/A",
-        "tomatoRotten": "N/A",
-        "tomatoConsensus": "N/A",
-        "tomatoUserMeter": "N/A",
-        "tomatoUserRating": "N/A",
-        "tomatoUserReviews": "N/A",
-        "tomatoURL": "https://www.rottentomatoes.com/m/untitled_jordan_peele_project",
-        "DVD": "N/A",
-        "BoxOffice": "N/A",
-        "Production": "Universal Pictures",
-        "Website": "https://www.usmovie.com/",
-        "Response": "True"
-      }
-    ],
-    "plot": "Wilson-hjónin Gabe og Adelaide eru í fríi og á leið í afslöppun\ná ströndina ásamt börnum sínum tveimur, Zoru og Jason, þar\nsem þau ætla að hitta vini og taka því rólega í nokkra daga. Sú\náætlun fer þó fyrir lítið þegar vægast sagt dularfullir tvífarar\nþeirra fara að gera þeim lífið leitt og breyta áætlun þeirra úr\nþví að hafa það náðugt í æsispennandi baráttu fyrir lífinu. Enginn veit hvaðan þessi\nilla útgáfa af Wilson-fjölskyldunni kemur og því síður hvað henni\ngengur til, en það má bóka að eftir að þau Gabe, Adelaide, Jason\nog Zora átta sig á alvöru málsins munu þau snúast til varnar ..."
-  },
-  {
     "id": 11867,
     "ids": {
       "imdb": "4154664",
@@ -2885,11 +2593,22 @@
     },
     "showtimes": [
       {
-        "cinema": "6",
+        "cinema": {
+          "id": 6,
+          "name": "Álfabakki"
+        },
         "schedule": [
           {
+            "time": "14:20 (2)",
+            "purchase_url": "http://www.sambio.is/websales/show/275913/"
+          },
+          {
+            "time": "17:00 (2)",
+            "purchase_url": "http://www.sambio.is/websales/show/275914/"
+          },
+          {
             "time": "19:40 (2)",
-            "purchase_url": "http://www.sambio.is/websales/show/275921/"
+            "purchase_url": "http://www.sambio.is/websales/show/275915/"
           }
         ]
       }
@@ -3237,221 +2956,113 @@
     "plot": "Upprunasaga ofurhetjunnar ms. Marvel sem síðar var nefnd\nCaptain Marvel og er að margra mati svalasta og kraftmesta\nofurhetja Avengers-gengisins. Myndin gerist á tíunda áratug síðustu aldar þegar Carol, sem er\norrustuflugmaður í Bandaríkjaher, lendir ásamt félögum sínum og\nöðrum Jarðarbúum mitt á milli í stríði tveggja ógnvekjandi geimverutegunda\nsem berjast hatrammlega um alheimsyfirráð. Sú styrjöld\nhefði sennilega gert út af við lífið á Jörðinni ef Carol hefði ekki\nborið gæfu til að öðlast þá ofurkrafta sem gerðu henni kleift að\nbreyta sér í Captain Marvel og um leið í bjargvætt mannkynsins ..."
   },
   {
-    "id": 12241,
+    "id": 12240,
     "ids": {
-      "imdb": "6386748",
+      "imdb": "8267604",
       "rotten": null,
       "tmdb": null
     },
-    "title": "Birds of Passage",
-    "alternativeTitles": "Pájaros de verano",
+    "title": "Capernaum",
+    "alternativeTitles": "Capharnaüm",
     "year": "2018",
-    "certificateIS": "16 ára",
-    "durationMinutes": 125,
-    "genres": [
-      {
-        "ID": 4,
-        "Name": "Drama",
-        "NameEN\t": "Drama"
-      }
-    ],
-    "poster": "http://kvikmyndir.is/images/poster/birds-1551017626.jpg",
-    "actors_abridged": [
-      {
-        "name": "Carmiña Martínez"
-      },
-      {
-        "name": "Natalia Reyes"
-      }
-    ],
-    "directors_abridged": [
-      {
-        "name": "Ciro Guerra"
-      },
-      {
-        "name": "Cristina Gallego"
-      }
-    ],
-    "ratings": {
-      "imdb": "7.9",
-      "rotten_audience": null,
-      "rotten_critics": null
-    },
-    "showtimes": [
-      {
-        "cinema": "5",
-        "schedule": [
-          {
-            "time": "17.30 (3)",
-            "purchase_url": "https://tix.is/is/buyingflow/tickets/7745/"
-          }
-        ]
-      }
-    ],
-    "certificate": {
-      "is": "16 ára",
+    "certificateIS": {
+      "is": "R",
       "color": "red",
       "number": "16"
     },
-    "trailers": [
-      {
-        "id": 438146,
-        "results": [
-          {
-            "id": "5c46e68e0e0a26494dc94a65",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "QV0uWf72ZQw",
-            "name": "BIRDS OF PASSAGE (2018) | Official US Trailer HD",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Trailer",
-            "url": "https://www.youtube.com/embed/QV0uWf72ZQw?rel=0"
-          }
-        ]
-      }
-    ],
-    "omdb": [
-      {
-        "Title": "Pájaros de verano",
-        "Year": "2018",
-        "Rated": "N/A",
-        "Released": "13 Feb 2019",
-        "Runtime": "125 min",
-        "Genre": "Drama",
-        "Director": "Cristina Gallego, Ciro Guerra",
-        "Writer": "Maria Camila Arias, Jacques Toulemonde Vidal, Cristina Gallego (original idea)",
-        "Actors": "Carmiña Martínez, José Acosta, Natalia Reyes, Jhon Narváez",
-        "Plot": "During the marijuana bonanza, a violent decade that saw the origins of drug trafficking in Colombia, Rapayet and his indigenous family get involved in a war to control the business that ends up destroying their lives and their culture.",
-        "Language": "Wayuu, Spanish, English",
-        "Country": "Colombia, Denmark, Mexico, Germany, Switzerland",
-        "Awards": "N/A",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMjUxODM5ODUyM15BMl5BanBnXkFtZTgwNzA3Nzg3NjM@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "7.9/10"
-          },
-          {
-            "Source": "Metacritic",
-            "Value": "86/100"
-          }
-        ],
-        "Metascore": "86",
-        "imdbRating": "7.9",
-        "imdbVotes": "2,891",
-        "imdbID": "tt6386748",
-        "Type": "movie",
-        "tomatoMeter": "N/A",
-        "tomatoImage": "N/A",
-        "tomatoRating": "N/A",
-        "tomatoReviews": "N/A",
-        "tomatoFresh": "N/A",
-        "tomatoRotten": "N/A",
-        "tomatoConsensus": "N/A",
-        "tomatoUserMeter": "N/A",
-        "tomatoUserRating": "N/A",
-        "tomatoUserReviews": "N/A",
-        "tomatoURL": "N/A",
-        "DVD": "N/A",
-        "BoxOffice": "N/A",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-      }
-    ],
-    "plot": "Uppruni kólumbísku eiturlyfja viðskiptanna, séð með augum Wayuu fjölskyldunnar sem flækist inn í\neiturlyfjasölu til amerískrar æsku á áttunda áratugnum. Þegar græðgi, ástríða og heiður takast á\nstofnar það lífi þeirra, menningu og hefðum í hættu."
-  },
-  {
-    "id": 12236,
-    "ids": {
-      "imdb": "8286628",
-      "rotten": null,
-      "tmdb": null
-    },
-    "title": "Taka 5",
-    "alternativeTitles": "",
-    "year": "2019",
-    "certificateIS": {
-      "is": "N/A",
-      "color": "green",
-      "number": "L"
-    },
-    "durationMinutes": 91,
+    "durationMinutes": 126,
     "genres": [
-      {
-        "ID": 2,
-        "Name": "Gamanmynd",
-        "NameEN\t": "Comedy"
-      },
       {
         "ID": 4,
         "Name": "Drama",
         "NameEN\t": "Drama"
-      },
-      {
-        "ID": 75,
-        "Name": "Íslensk mynd",
-        "NameEN\t": "Icelandic movie"
       }
     ],
-    "poster": "http://kvikmyndir.is/images/poster/taka-1551013111.jpg",
+    "poster": "http://kvikmyndir.is/images/poster/caper-1551016976.jpg",
     "actors_abridged": [
       {
-        "name": "Hilmir Jensson"
+        "name": "Zain Al Rafeea"
       },
       {
-        "name": "Gudmundur Thorvaldsson"
+        "name": "Yordanos Shiferaw"
       }
     ],
     "directors_abridged": [
       {
-        "name": "Magnús Jónsson"
+        "name": "Nadine Labaki"
       }
     ],
     "ratings": {
-      "imdb": "8.6",
+      "imdb": "8.4",
       "rotten_audience": null,
-      "rotten_critics": null
+      "rotten_critics": "89"
     },
     "showtimes": [
       {
-        "cinema": "5",
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
         "schedule": [
           {
-            "time": "22.15 (3)",
-            "purchase_url": "https://tix.is/is/buyingflow/tickets/7725/"
+            "time": "17.30 (3)",
+            "purchase_url": "https://tix.is/is/buyingflow/tickets/7734/"
           }
         ]
       }
     ],
-    "trailers": [],
+    "trailers": [
+      {
+        "id": 517814,
+        "results": [
+          {
+            "id": "5bebb9af0e0a266ab10029d7",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "ULUo0048xZE",
+            "name": "Capernaum | Official US Trailer HD (2018)",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/ULUo0048xZE?rel=0"
+          }
+        ]
+      }
+    ],
     "omdb": [
       {
-        "Title": "Taka 5",
-        "Year": "2019",
-        "Rated": "N/A",
-        "Released": "03 Mar 2019",
-        "Runtime": "91 min",
-        "Genre": "Comedy, Drama",
-        "Director": "Magnús Jónsson",
-        "Writer": "Magnús Jónsson",
-        "Actors": "Hilmir Jensson, Thora Karitas, Gudmundur Thorvaldsson, Margrét Kristín Sigurðardóttir",
-        "Plot": "A young farmer dreams of being an actor in a movie. One day he desides to fulfill his dream so he kidnaps 5 artist from the city and forces them to make a movie with him in the barn.",
-        "Language": "Icelandic",
-        "Country": "Iceland",
+        "Title": "Capernaum",
+        "Year": "2018",
+        "Rated": "R",
+        "Released": "20 Sep 2018",
+        "Runtime": "126 min",
+        "Genre": "Drama",
+        "Director": "Nadine Labaki",
+        "Writer": "Nadine Labaki (screenplay), Jihad Hojeily (screenplay), Michelle Keserwany (screenplay), Georges Khabbaz (in collaboration with), Khaled Mouzanar (in collaboration with)",
+        "Actors": "Zain Al Rafeea, Yordanos Shiferaw, Boluwatife Treasure Bankole, Kawsar Al Haddad",
+        "Plot": "While serving a five-year sentence for a violent crime, a 12-year-old boy sues his parents for neglect.",
+        "Language": "Arabic, Amharic",
+        "Country": "Lebanon, France, USA",
         "Awards": "N/A",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMWY5ZjExZWItOTlmNi00OGFiLWFiZmItOGIzZTAyZmZkM2MwXkEyXkFqcGdeQXVyNTA0MTI5MTQ@._V1_SX300.jpg",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMmExNzU2ZWMtYzUwYi00YmM2LTkxZTQtNmVhNjY0NTMyMWI2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
         "Ratings": [
           {
             "Source": "Internet Movie Database",
-            "Value": "8.6/10"
+            "Value": "8.4/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "89%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "75/100"
           }
         ],
-        "Metascore": "N/A",
-        "imdbRating": "8.6",
-        "imdbVotes": "5",
-        "imdbID": "tt8286628",
+        "Metascore": "75",
+        "imdbRating": "8.4",
+        "imdbVotes": "14,158",
+        "imdbID": "tt8267604",
         "Type": "movie",
         "tomatoMeter": "N/A",
         "tomatoImage": "N/A",
@@ -3463,15 +3074,15 @@
         "tomatoUserMeter": "N/A",
         "tomatoUserRating": "N/A",
         "tomatoUserReviews": "N/A",
-        "tomatoURL": "N/A",
-        "DVD": "N/A",
+        "tomatoURL": "https://www.rottentomatoes.com/m/capernaum",
+        "DVD": "26 Mar 2019",
         "BoxOffice": "N/A",
-        "Production": "N/A",
-        "Website": "N/A",
+        "Production": "Sony Pictures Classics",
+        "Website": "https://sonyclassics.com/capernaum/",
         "Response": "True"
       }
     ],
-    "plot": "Ungan bónda, dreymir um að verða leikari og leika í bíómynd. En enginn vill leika við hann.\nFastur í eigin heimi leikur hann senur úr gömlum bíómyndum við sjálfan sig, allan liðslangann daginn.\nDag einn ákveður hann að láta draum sinn rætast og rænir 5 listamönnum úr borginni.\nLeikkonu, rithöfundi, tónlistarmanni, leikstjóra og myndlistarmanni og neyðir þau til að gera bíómynd með sér\nmeð gömlu VHS vélinni sinni úti í hlöðu."
+    "plot": "Fimm ára drengur kærir foreldra sína fyrir vanrækslu á meðan hann tekur út 5 ára fangelsisdóm fyrir\nofbeldisfullan glæp."
   },
   {
     "id": 11911,
@@ -3517,11 +3128,14 @@
     },
     "showtimes": [
       {
-        "cinema": "5",
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
         "schedule": [
           {
-            "time": "17.30 (2)",
-            "purchase_url": "https://tix.is/is/buyingflow/tickets/7917/"
+            "time": "20.00 (1)",
+            "purchase_url": "https://tix.is/is/buyingflow/tickets/7916/"
           }
         ]
       }
@@ -3635,11 +3249,14 @@
     },
     "showtimes": [
       {
-        "cinema": "5",
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
         "schedule": [
           {
-            "time": "20.00 (3)",
-            "purchase_url": "https://tix.is/is/buyingflow/tickets/7836/"
+            "time": "22.15 (2)",
+            "purchase_url": "https://tix.is/is/buyingflow/tickets/7835/"
           }
         ]
       }
@@ -3717,5 +3334,360 @@
       }
     ],
     "plot": "Hin 15 ára Lara er ákveðin í að verða atvinnu balletdansari. Með stuðningi föður síns eltir hún þann\ndraum í nýjum skóla. Gremja og óþolinmæði unglingsáranna magnast upp hjá Lara þegar hún gerir sér grein fyrir því að líkami hennar beygist ekki eins auðveldlega eftir ströngum reglum balletsins, en ástæður þess má aðallega rekja til þess að henni var úthlutað vitlausu kyni við fæðingu."
+  },
+  {
+    "id": 11731,
+    "ids": {
+      "imdb": "1727824",
+      "rotten": "",
+      "tmdb": null
+    },
+    "title": "Bohemian Rhapsody",
+    "alternativeTitles": "",
+    "year": "2018",
+    "certificateIS": "12 ára",
+    "durationMinutes": 134,
+    "genres": [
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 37,
+        "Name": "Tónlistarmynd",
+        "NameEN\t": "Music"
+      },
+      {
+        "ID": 42,
+        "Name": "Æviágrip",
+        "NameEN\t": "Biography"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/bohemin-1526392204.jpg",
+    "actors_abridged": [
+      {
+        "name": "Rami Malek"
+      },
+      {
+        "name": "Gwilym Lee"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Dexter Fletcher"
+      },
+      {
+        "name": "Bryan Singer"
+      }
+    ],
+    "ratings": {
+      "imdb": "8.1",
+      "rotten_audience": "0",
+      "rotten_critics": "61"
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 2,
+          "name": "Háskólabíó"
+        },
+        "schedule": [
+          {
+            "time": "20.40 (4)",
+            "purchase_url": "https://www.smarabio.is/mynd/HO00000886/#27419"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 424694,
+        "results": [
+          {
+            "id": "5b076f8ac3a3683daf000a3e",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "6S9c5nnDd_s",
+            "name": "Teaser Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "url": "https://www.youtube.com/embed/6S9c5nnDd_s?rel=0"
+          },
+          {
+            "id": "5b076faac3a3683da3001081",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "HlRd9Zy25zo",
+            "name": "Exclusive Sneak Peek",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "url": "https://www.youtube.com/embed/HlRd9Zy25zo?rel=0"
+          },
+          {
+            "id": "5b4e34019251417d20057d03",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "mP0VHJYFOAU",
+            "name": "Official Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/mP0VHJYFOAU?rel=0"
+          },
+          {
+            "id": "5bb557d69251410dd5001b7f",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "NWFG0M-7QJo",
+            "name": "Becoming Freddie",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "url": "https://www.youtube.com/embed/NWFG0M-7QJo?rel=0"
+          },
+          {
+            "id": "5bb558519251410dd1001d1a",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "l3iIJu08t-Y",
+            "name": "\"Can You Go a Bit Higher?\" Clip",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "url": "https://www.youtube.com/embed/l3iIJu08t-Y?rel=0"
+          },
+          {
+            "id": "5bd254760e0a2616e2000b23",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "27zlBpzdOZg",
+            "name": "Final Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/27zlBpzdOZg?rel=0"
+          },
+          {
+            "id": "5ca461930e0a260152a835de",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "7954xNZcRUI",
+            "name": "\"We Will Rock You\" Clip",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "url": "https://www.youtube.com/embed/7954xNZcRUI?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Bohemian Rhapsody",
+        "Year": "2018",
+        "Rated": "PG-13",
+        "Released": "02 Nov 2018",
+        "Runtime": "134 min",
+        "Genre": "Biography, Drama, Music",
+        "Director": "Bryan Singer",
+        "Writer": "Anthony McCarten (story by), Peter Morgan (story by), Anthony McCarten (screenplay by)",
+        "Actors": "Rami Malek, Lucy Boynton, Gwilym Lee, Ben Hardy",
+        "Plot": "The story of the legendary rock band Queen and lead singer Freddie Mercury, leading up to their famous performance at Live Aid (1985).",
+        "Language": "English",
+        "Country": "UK, USA",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTA2NDc3Njg5NDVeQTJeQWpwZ15BbWU4MDc1NDcxNTUz._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "8.1/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "61%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "49/100"
+          }
+        ],
+        "Metascore": "49",
+        "imdbRating": "8.1",
+        "imdbVotes": "314,530",
+        "imdbID": "tt1727824",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "https://www.rottentomatoes.com/m/bohemian_rhapsody",
+        "DVD": "12 Feb 2019",
+        "BoxOffice": "N/A",
+        "Production": "20th Century Fox",
+        "Website": "http://www.bohemianrhapsody.com",
+        "Response": "True"
+      }
+    ],
+    "plot": "Breska hljómsveitin Queen var stofnuð árið 1970 og átti eftir\nað afla sér heimsfrægðar á næstu fimmtán árum með lögum\nsem eru fyrir löngu orðin sígild og allir þekkja. Í Bohemian\nRhapsody er farið yfir feril sveitarinnar allt frá byrjun, með\nsérstakri áherslu á hlut píanóleikarans, laga- og textahöfundarins\nog eins besta söngvara allra tíma, Freddies Mercury,\nsem lést langt um aldur fram árið 1991, aðeins 45 ára að aldri. Hápunktur\nmyndarinnar er síðan Live Aid-tónleikarnir í júlí 1985 en\nframmistaða Queen á þeim hefur síðan margoft verið valin og\nnefnd besta tónleikaframmistaða rokksveitar fyrr og síðar ..."
+  },
+  {
+    "id": 12026,
+    "ids": {
+      "imdb": "5083738",
+      "rotten": "",
+      "tmdb": null
+    },
+    "title": "The Favourite",
+    "alternativeTitles": "",
+    "year": "2018",
+    "certificateIS": "12 ára",
+    "durationMinutes": 120,
+    "genres": [
+      {
+        "ID": 40,
+        "Name": "Söguleg",
+        "NameEN\t": "History"
+      },
+      {
+        "ID": 42,
+        "Name": "Æviágrip",
+        "NameEN\t": "Biography"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/favo-1538940955.jpg",
+    "actors_abridged": [
+      {
+        "name": "Olivia Colman"
+      },
+      {
+        "name": "Emma Stone"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Yorgos Lanthimos"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.7",
+      "rotten_audience": "0",
+      "rotten_critics": "93"
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 2,
+          "name": "Háskólabíó"
+        },
+        "schedule": [
+          {
+            "time": "18.00 (4)",
+            "purchase_url": "https://www.smarabio.is/mynd/HO00000939/#27418"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 375262,
+        "results": [
+          {
+            "id": "5b43611e9251414f3c01cec6",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "SojHxpqswV8",
+            "name": "THE FAVOURITE | Teaser Trailer | FOX Searchlight",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "url": "https://www.youtube.com/embed/SojHxpqswV8?rel=0"
+          },
+          {
+            "id": "5b8eee94925141356e00739c",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "SYb-wkehT1g",
+            "name": "THE FAVOURITE | Official Trailer | FOX Searchlight",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/SYb-wkehT1g?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "The Favourite",
+        "Year": "2018",
+        "Rated": "R",
+        "Released": "21 Dec 2018",
+        "Runtime": "119 min",
+        "Genre": "Biography, Comedy, Drama, History",
+        "Director": "Yorgos Lanthimos",
+        "Writer": "Deborah Davis, Tony McNamara",
+        "Actors": "Olivia Colman, Rachel Weisz, Emma Delves, Faye Daveney",
+        "Plot": "In early 18th century England, a frail Queen Anne occupies the throne and her close friend, Lady Sarah, governs the country in her stead. When a new servant, Abigail, arrives, her charm endears her to Sarah.",
+        "Language": "English",
+        "Country": "Ireland, UK, USA",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTg3Mzk4MjU0Ml5BMl5BanBnXkFtZTgwMzQ3MjkxNjM@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.7/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "93%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "90/100"
+          }
+        ],
+        "Metascore": "90",
+        "imdbRating": "7.7",
+        "imdbVotes": "97,364",
+        "imdbID": "tt5083738",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "https://www.rottentomatoes.com/m/the_favourite",
+        "DVD": "12 Feb 2019",
+        "BoxOffice": "N/A",
+        "Production": "Fox Searchlight Pictures, Film4 and Waypoint",
+        "Website": "http://www.foxsearchlight.com/thefavourite/",
+        "Response": "True"
+      }
+    ],
+    "plot": "Snemma á 18. öldinni á England í stríði við Frakka. Hin veikbyggða drottning Anne er við völd, en náin vinkona hennar Sarah, stjórnar landinu í hennar stað, ásamt því að sinna Anna. Þegar ný þjónustustúlka, Abigail, kemur, þá tekur Sarah Abigail undir sinn verndarvæng. En eftir því sem tími Sarah fer meira og meira í að sinna málum vegna stríðsins, fer Abigail meira í hennar hlutverk, sem fylgdarkona drottningar."
   }
 ]

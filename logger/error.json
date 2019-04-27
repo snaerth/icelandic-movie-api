@@ -20,3 +20,4 @@
 {"name":"error","hostname":"Snrs-MacBook-Pro.local","pid":90370,"level":30,"msg":"Error getting images for id: tt6095472 from moviedb, ErrorMessage : null","time":"2019-04-26T20:42:52.962Z","v":0}
 {"name":"error","hostname":"Snrs-MacBook-Pro.local","pid":90370,"level":30,"msg":"Error getting images for id: tt6139732 from moviedb, ErrorMessage : null","time":"2019-04-26T20:42:52.964Z","v":0}
 {"name":"error","hostname":"Snrs-MacBook-Pro.local","pid":90463,"level":30,"msg":"Error getting Missing Link fromhttps://kvikmyndir.is/api/movie/?imdb=8332426, ErrorMessage : Error: getaddrinfo ENOTFOUND kvikmyndir.is kvikmyndir.is:443","time":"2019-04-26T20:51:10.137Z","v":0}
+{"name":"error","hostname":"Snrs-MacBook-Pro.local","pid":91471,"level":30,"msg":"Error getting url /showtimes_by_date_x0, Error: Error: ESOCKETTIMEDOUT","time":"2019-04-27T09:18:31.180Z","v":0}
