@@ -16,7 +16,7 @@
 // GET Request for all movies playing now
 //---------------------------------------
 
-// Url: http://api.biomynd.is/movies 
+// Url: http://api.kvikmyndir.is/movies 
   {
     "_id": "572a43828d67709c36abc640",
     "id": 9650,
@@ -355,7 +355,7 @@
 // GET Request for all upcoming movies 
 //------------------------------------
 
-// Url: http://api.biomynd.is/upcoming 
+// Url: http://api.kvikmyndir.is/upcoming 
   {
     "_id": "572a440e8d67709c36abc6d1",
     "id": 9617,
@@ -486,7 +486,7 @@
 // GET Request for posters and backdrops images
 //---------------------------------------------
 
-// Url: http://api.biomynd.is/images?imdbid=tt2401878
+// Url: http://api.kvikmyndir.is/images?imdbid=tt2401878
 [
     {
         "imdbid": "tt2401878",
@@ -677,7 +677,7 @@
 // GET Request genres provided by kvikmyndir.is
 //---------------------------------------------
 
-// Url: http://api.biomynd.is/genres
+// Url: http://api.kvikmyndir.is/genres
 [
     {
         "ID": 1,
@@ -734,7 +734,7 @@
 // GET Request for cinemas in Iceland
 //-----------------------------------
 
-// Url: http://api.biomynd.is/theaters
+// Url: http://api.kvikmyndir.is/theaters
 [
     {
         "id": 1,
@@ -789,7 +789,7 @@
 
 // Request                       
 $.ajax({
-    url : 'http://api.biomynd.is/authenticate',
+    url : 'http://api.kvikmyndir.is/authenticate',
     type : 'POST',
     data : {
         username : "My Username",
@@ -835,7 +835,7 @@ $.ajax({
 // Request with token as query string    
 var token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI....;                 
 $.ajax({
-    url : 'http://api.biomynd.is/movies?token=' + token,
+    url : 'http://api.kvikmyndir.is/movies?token=' + token,
     type : 'GET'
     dataType : 'json',
     success : function (response) {
@@ -846,7 +846,7 @@ $.ajax({
 // Request with x-access-token header
 var token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI....;                 
 $.ajax({
-    url : 'http://api.biomynd.is/movies,
+    url : 'http://api.kvikmyndir.is/movies,
     type : 'GET',
     headers: { 
         x-access-token : token
@@ -884,7 +884,7 @@ $.ajax({
 // Request with token as query string    
 var token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI....;                 
 $.ajax({
-    url : 'http://api.biomynd.is/movies?title=The Revenant,
+    url : 'http://api.kvikmyndir.is/movies?title=The Revenant,
     type : 'GET'
     headers: { 
         x-access-token : token

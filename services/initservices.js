@@ -1,13 +1,13 @@
-'use strict';
-var config = require('../config/api');
-var HttpService = require('./httpservice');
-var FileService = require('./fileservice');
-var ExtraData = require('./extradata');
-var paradisScraper = require('./paradisscraper');
-var logger = require('./logservice');
-var DBService = require('./dbservice');
-var _underscore = require('underscore');
-var fs = require('fs-extra');
+"use strict";
+var config = require("../config/api");
+var HttpService = require("./httpservice");
+var FileService = require("./fileservice");
+var ExtraData = require("./extradata");
+var paradisScraper = require("./paradisscraper");
+var logger = require("./logservice");
+var DBService = require("./dbservice");
+var _underscore = require("underscore");
+var fs = require("fs-extra");
 
 /**
  * Initialize services
@@ -29,32 +29,32 @@ var initServices = function(callback) {
     HttpService.getContent(
       config.kvikmyndirBaseUrl +
         config.showtimesDate +
-        '/?dagur=' +
+        "/?dagur=" +
         day +
-        '&key=' +
+        "&key=" +
         config.kvikmyndirkey
     )
       .then(function(data) {
         if (data) {
           var result = ShowtimesFixer(JSON.parse(data));
           // Remove all documents from movies collection
-          DBService.removeDocument({}, 'movies' + day, function(err) {
+          DBService.removeDocument({}, "movies" + day, function(err) {
             if (err) {
               logger
                 .databaseError()
                 .info(
-                  'Error removing all documents from movies' +
+                  "Error removing all documents from movies" +
                     day +
-                    ' collection, Error: ' +
+                    " collection, Error: " +
                     err
                 );
             }
             if (day <= maxDays) {
               ExtraData.addExtraToMovies(
                 result,
-                config.dataBasePath + '/movies' + day + '.json',
+                config.dataBasePath + "/movies" + day + ".json",
                 null,
-                'movies' + day,
+                "movies" + day,
                 function() {
                   setTimeout(function() {
                     getFutureShowtimes(day + 1, maxDays);
@@ -74,10 +74,10 @@ var initServices = function(callback) {
         logger
           .error()
           .info(
-            'Error getting url ' +
+            "Error getting url " +
               config.showtimesDate +
               day +
-              ', Error: ' +
+              ", Error: " +
               err
           );
       });
@@ -95,20 +95,20 @@ var initServices = function(callback) {
       HttpService.getContent(
         config.kvikmyndirBaseUrl +
           config.upcomming +
-          '/?count=50' +
-          '&key=' +
+          "/?count=50" +
+          "&key=" +
           config.kvikmyndirkey
       )
         .then(function(data) {
           if (data) {
             var result = JSON.parse(data);
             // Remove all documents from upcoming collection
-            DBService.removeDocument({}, 'upcoming', function(err) {
+            DBService.removeDocument({}, "upcoming", function(err) {
               if (err) {
                 logger
                   .databaseError()
                   .info(
-                    'Error removing all documents from upcoming collection, Error: ' +
+                    "Error removing all documents from upcoming collection, Error: " +
                       err
                   );
               }
@@ -116,7 +116,7 @@ var initServices = function(callback) {
                 result,
                 config.upcommingfilepath,
                 config.extraImages,
-                'upcoming',
+                "upcoming",
                 callback
               );
             });
@@ -125,7 +125,7 @@ var initServices = function(callback) {
         .catch(function(err) {
           logger
             .error()
-            .info('Error getting url ' + config.upcomming + ', Error: ' + err);
+            .info("Error getting url " + config.upcomming + ", Error: " + err);
         });
     }, 10000); // Because of moviedb request limit is 30 requests per 10 second
   };
@@ -133,7 +133,7 @@ var initServices = function(callback) {
   // Get genres from services and write to json file
   // and save data to collection genres
   HttpService.getContent(
-    config.kvikmyndirBaseUrl + config.genres + '?key=' + config.kvikmyndirkey
+    config.kvikmyndirBaseUrl + config.genres + "?key=" + config.kvikmyndirkey
   )
     .then(function(data) {
       if (data) {
@@ -144,7 +144,7 @@ var initServices = function(callback) {
     .catch(function(err) {
       logger
         .error()
-        .info('Error getting url' + config.genresurl + ', Error: ' + err);
+        .info("Error getting url" + config.genresurl + ", Error: " + err);
     });
 
   // Gets future showtimes from kvikmyndir.is
@@ -173,7 +173,7 @@ var getBioparadis = function() {
         logger
           .error()
           .info(
-            'Error getting url' + config.bioparadisApiUrl + ', Error: ' + err
+            "Error getting url" + config.bioparadisApiUrl + ", Error: " + err
           );
       });
   }, 10000); // Moviedb request limit is 30 requests per 10 second
