@@ -1,0 +1,7 @@
+{
+  "name": "Movie api",
+  "script": "server.js",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
