@@ -1,558 +1,5 @@
 [
   {
-    "id": 11939,
-    "ids": {
-      "imdb": "1833116",
-      "rotten": "",
-      "tmdb": null
-    },
-    "title": "The Informer",
-    "poster": "https://kvikmyndir.is/images/poster/informer-1550177576.jpg",
-    "alternativeTitles": "Three Seconds",
-    "year": "2019",
-    "release-dateIS": "2020-02-07",
-    "genres": [
-      {
-        "ID": 4,
-        "Name": "Drama",
-        "NameEN\t": "Drama"
-      },
-      {
-        "ID": 8,
-        "Name": "Glæpamynd",
-        "NameEN\t": "Crime"
-      }
-    ],
-    "actors_abridged": [
-      {
-        "name": "Joel Kinnaman"
-      },
-      {
-        "name": "Rosamund Pike"
-      }
-    ],
-    "directors_abridged": [
-      {
-        "name": "Andrea Di Stefano"
-      }
-    ],
-    "trailers": [
-      {
-        "id": 466081,
-        "results": [
-          {
-            "id": "5bf26f270e0a2639d600ec3a",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "zm-wwAyeb44",
-            "name": "Official Trailer",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Trailer",
-            "url": "https://www.youtube.com/embed/zm-wwAyeb44?rel=0"
-          },
-          {
-            "id": "5d294206a294f000122af6d9",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "mIYrMUPdoWE",
-            "name": "Trailer 2",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Trailer",
-            "url": "https://www.youtube.com/embed/mIYrMUPdoWE?rel=0"
-          },
-          {
-            "id": "5dc433258d22fc00123e6965",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "jUakWaEpCmY",
-            "name": "Official Trailer",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Trailer",
-            "url": "https://www.youtube.com/embed/jUakWaEpCmY?rel=0"
-          }
-        ]
-      }
-    ],
-    "omdb": [
-      {
-        "Title": "The Informer",
-        "Year": "2019",
-        "Rated": "R",
-        "Released": "30 Aug 2019",
-        "Runtime": "113 min",
-        "Genre": "Crime, Drama, Thriller",
-        "Director": "Andrea Di Stefano",
-        "Writer": "Rowan Joffe (screenplay by), Andrea Di Stefano (screenplay by), Anders Roslund (novel), Matt Cook (screenplay), Börge Hellström (novel)",
-        "Actors": "Ana de Armas, Rosamund Pike, Joel Kinnaman, Clive Owen",
-        "Plot": "An ex-convict working undercover intentionally gets himself incarcerated again in order to infiltrate the mob at a maximum security prison.",
-        "Language": "English, Polish, Spanish",
-        "Country": "UK",
-        "Awards": "1 nomination.",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BN2YyYTgxYmYtNjg3My00YzI4LWJlZWItYmZhZGEyYTYxNWY3XkEyXkFqcGdeQXVyMjAwNTYzNDg@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "6.5/10"
-          },
-          {
-            "Source": "Rotten Tomatoes",
-            "Value": "52%"
-          },
-          {
-            "Source": "Metacritic",
-            "Value": "64/100"
-          }
-        ],
-        "Metascore": "64",
-        "imdbRating": "6.5",
-        "imdbVotes": "6,712",
-        "imdbID": "tt1833116",
-        "Type": "movie",
-        "tomatoMeter": "N/A",
-        "tomatoImage": "N/A",
-        "tomatoRating": "N/A",
-        "tomatoReviews": "N/A",
-        "tomatoFresh": "N/A",
-        "tomatoRotten": "N/A",
-        "tomatoConsensus": "N/A",
-        "tomatoUserMeter": "N/A",
-        "tomatoUserRating": "N/A",
-        "tomatoUserReviews": "N/A",
-        "tomatoURL": "https://www.rottentomatoes.com/m/three_seconds",
-        "DVD": "N/A",
-        "BoxOffice": "N/A",
-        "Production": "Aviron Pictures",
-        "Website": "N/A",
-        "Response": "True"
-      }
-    ],
-    "plot": "Fyrrverandi fangi reynir að smygla sér í raðir mafíunnar, í rammgerðu öryggisfangelsi."
-  },
-  {
-    "id": 12560,
-    "ids": {
-      "imdb": "1019959",
-      "rotten": null,
-      "tmdb": null
-    },
-    "title": "Les misérables",
-    "poster": "https://kvikmyndir.is/images/poster/12560_500.jpg",
-    "alternativeTitles": "",
-    "year": "2019",
-    "release-dateIS": "2020-02-07",
-    "genres": [
-      {
-        "ID": 4,
-        "Name": "Drama",
-        "NameEN\t": "Drama"
-      }
-    ],
-    "actors_abridged": [
-      {
-        "name": "Damien Bonnard"
-      },
-      {
-        "name": "Alexis Manenti"
-      }
-    ],
-    "directors_abridged": [
-      {
-        "name": "Ladj Ly"
-      }
-    ],
-    "trailers": [],
-    "omdb": [
-      {
-        "Title": "Sangre en el barrio",
-        "Year": "2002",
-        "Rated": "N/A",
-        "Released": "N/A",
-        "Runtime": "90 min",
-        "Genre": "Action",
-        "Director": "Luis Estrada",
-        "Writer": "Luis Estrada",
-        "Actors": "Eleazar Garcia Jr., Jorge Ortín, Flavio Peniche, Ismael Solis",
-        "Plot": "N/A",
-        "Language": "Spanish",
-        "Country": "Mexico",
-        "Awards": "N/A",
-        "Poster": "N/A",
-        "Ratings": [],
-        "Metascore": "N/A",
-        "imdbRating": "N/A",
-        "imdbVotes": "N/A",
-        "imdbID": "tt1019959",
-        "Type": "movie",
-        "tomatoMeter": "N/A",
-        "tomatoImage": "N/A",
-        "tomatoRating": "N/A",
-        "tomatoReviews": "N/A",
-        "tomatoFresh": "N/A",
-        "tomatoRotten": "N/A",
-        "tomatoConsensus": "N/A",
-        "tomatoUserMeter": "N/A",
-        "tomatoUserRating": "N/A",
-        "tomatoUserReviews": "N/A",
-        "tomatoURL": "N/A",
-        "DVD": "N/A",
-        "BoxOffice": "N/A",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-      }
-    ],
-    "plot": "Stéphane gengur til liðs við lögregluna í Montfermeil árið 1993. Hann hittir nýja félaga, Chris og Gwada, og upplifir spennuna á milli ólíkra hópa í hverfinu."
-  },
-  {
-    "id": 12555,
-    "ids": {
-      "imdb": "7713068",
-      "rotten": null,
-      "tmdb": null
-    },
-    "title": "Birds of Prey",
-    "poster": "https://kvikmyndir.is/images/poster/birds-1580207358.jpg",
-    "alternativeTitles": "Birds of Prey: And the Fantabulous Emancipation of One Harley Quinn",
-    "year": "2020",
-    "release-dateIS": "2020-02-07",
-    "genres": [
-      {
-        "ID": 1,
-        "Name": "Spennumynd",
-        "NameEN\t": "Action"
-      },
-      {
-        "ID": 8,
-        "Name": "Glæpamynd",
-        "NameEN\t": "Crime"
-      },
-      {
-        "ID": 32,
-        "Name": "Ævintýramynd",
-        "NameEN\t": "Adventure"
-      }
-    ],
-    "actors_abridged": [
-      {
-        "name": "Margot Robbie"
-      },
-      {
-        "name": "Mary Elizabeth Winstead"
-      }
-    ],
-    "directors_abridged": [
-      {
-        "name": "Cathy Yan"
-      }
-    ],
-    "trailers": [
-      {
-        "id": 495764,
-        "results": [
-          {
-            "id": "5c4f4389c3a368049c888e52",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "ptLZlrE8MrQ",
-            "name": "See You Soon",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Teaser",
-            "url": "https://www.youtube.com/embed/ptLZlrE8MrQ?rel=0"
-          },
-          {
-            "id": "5d937ac6960331002ba75495",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "kGM4uYZzfu0",
-            "name": "BIRDS OF PREY - Official Trailer 1",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Trailer",
-            "url": "https://www.youtube.com/embed/kGM4uYZzfu0?rel=0"
-          },
-          {
-            "id": "5e1132116f43ec00165b9cc1",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "cGAQNxgV8Z0",
-            "name": "BIRDS OF PREY \"Work Together\" TV Spot [HD] Margot Robbie, Mary Elizabeth Winstead, Ewan McGregor",
-            "site": "YouTube",
-            "size": 720,
-            "type": "Teaser",
-            "url": "https://www.youtube.com/embed/cGAQNxgV8Z0?rel=0"
-          },
-          {
-            "id": "5e175f15a9117f0016c8f277",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "x3HbbzHK5Mc",
-            "name": "BIRDS OF PREY – Official Trailer 2",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Trailer",
-            "url": "https://www.youtube.com/embed/x3HbbzHK5Mc?rel=0"
-          },
-          {
-            "id": "5e26a370c68b6900123d2a23",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "vu-9EXhG3FI",
-            "name": "BIRDS OF PREY – Soundtrack Trailer",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Trailer",
-            "url": "https://www.youtube.com/embed/vu-9EXhG3FI?rel=0"
-          }
-        ]
-      }
-    ],
-    "omdb": [
-      {
-        "Title": "Birds of Prey",
-        "Year": "2020",
-        "Rated": "R",
-        "Released": "07 Feb 2020",
-        "Runtime": "109 min",
-        "Genre": "Action, Adventure, Crime",
-        "Director": "Cathy Yan",
-        "Writer": "Christina Hodson",
-        "Actors": "Margot Robbie, Mary Elizabeth Winstead, Ewan McGregor, Jurnee Smollett-Bell",
-        "Plot": "After splitting with the Joker, Harley Quinn joins superheroes Black Canary, Huntress and Renee Montoya to save a young girl from an evil crime lord.",
-        "Language": "English",
-        "Country": "USA",
-        "Awards": "3 nominations.",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMzQ3NTQxMjItODBjYi00YzUzLWE1NzQtZTBlY2Y2NjZlNzkyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
-        "Ratings": [],
-        "Metascore": "N/A",
-        "imdbRating": "N/A",
-        "imdbVotes": "N/A",
-        "imdbID": "tt7713068",
-        "Type": "movie",
-        "tomatoMeter": "N/A",
-        "tomatoImage": "N/A",
-        "tomatoRating": "N/A",
-        "tomatoReviews": "N/A",
-        "tomatoFresh": "N/A",
-        "tomatoRotten": "N/A",
-        "tomatoConsensus": "N/A",
-        "tomatoUserMeter": "N/A",
-        "tomatoUserRating": "N/A",
-        "tomatoUserReviews": "N/A",
-        "tomatoURL": "https://www.rottentomatoes.com/m/birds_of_prey_2020",
-        "DVD": "N/A",
-        "BoxOffice": "N/A",
-        "Production": "Warner Bros. Pictures",
-        "Website": "N/A",
-        "Response": "True"
-      }
-    ],
-    "plot": "Eftir aðskilnað við Jókerinn, þá gengur Harley Quinn til liðs við ofurhetjurnar Black Canary, Huntress og Renee Montoya,  sem ætla í sameiningu að bjarga ungri stúlku frá illum glæpaforingja."
-  },
-  {
-    "id": 12717,
-    "ids": {
-      "imdb": "10590530",
-      "rotten": null,
-      "tmdb": null
-    },
-    "title": "Psy 3: W imie zasad",
-    "poster": "https://kvikmyndir.is/images/poster/12717_500.jpg",
-    "alternativeTitles": "",
-    "year": "2020",
-    "release-dateIS": "2020-02-07",
-    "genres": [
-      {
-        "ID": 1,
-        "Name": "Spennumynd",
-        "NameEN\t": "Action"
-      },
-      {
-        "ID": 4,
-        "Name": "Drama",
-        "NameEN\t": "Drama"
-      },
-      {
-        "ID": 8,
-        "Name": "Glæpamynd",
-        "NameEN\t": "Crime"
-      }
-    ],
-    "actors_abridged": [
-      {
-        "name": "Boguslaw Linda"
-      },
-      {
-        "name": "Marcin Dorocinski"
-      }
-    ],
-    "directors_abridged": [
-      {
-        "name": "Wladyslaw Pasikowski"
-      }
-    ],
-    "trailers": [
-      {
-        "id": 642700,
-        "results": []
-      }
-    ],
-    "omdb": [
-      {
-        "Title": "Psy 3: W imie zasad",
-        "Year": "2020",
-        "Rated": "N/A",
-        "Released": "17 Jan 2020",
-        "Runtime": "126 min",
-        "Genre": "Action, Crime, Drama",
-        "Director": "Wladyslaw Pasikowski",
-        "Writer": "Wladyslaw Pasikowski",
-        "Actors": "Boguslaw Linda, Marcin Dorocinski, Cezary Pazura, Jan Frycz",
-        "Plot": "Franz Maurer is released after 25 years in prison and finds a completely changed Poland.",
-        "Language": "Polish",
-        "Country": "Poland",
-        "Awards": "N/A",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BZjE5Mzk1NmYtMmU0Ny00NzgyLWEwOGUtZjdmZDMzZWJkNGJhXkEyXkFqcGdeQXVyMTEwMTY3NDI@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "6.5/10"
-          }
-        ],
-        "Metascore": "N/A",
-        "imdbRating": "6.5",
-        "imdbVotes": "244",
-        "imdbID": "tt10590530",
-        "Type": "movie",
-        "tomatoMeter": "N/A",
-        "tomatoImage": "N/A",
-        "tomatoRating": "N/A",
-        "tomatoReviews": "N/A",
-        "tomatoFresh": "N/A",
-        "tomatoRotten": "N/A",
-        "tomatoConsensus": "N/A",
-        "tomatoUserMeter": "N/A",
-        "tomatoUserRating": "N/A",
-        "tomatoUserReviews": "N/A",
-        "tomatoURL": "N/A",
-        "DVD": "N/A",
-        "BoxOffice": "N/A",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-      }
-    ],
-    "plot": "Franz Maurer sleppur úr fangelsi eftir 25 ára vist, en þegar hann kemur út í frelsið er Pólland annað en hann þekkti áður en hann fór í fangelsið. Örlögin valda því að Franz hittir “New” að nýju, en fundur þeirra mun breyta öllu."
-  },
-  {
-    "id": 12719,
-    "ids": {
-      "imdb": "7985692",
-      "rotten": null,
-      "tmdb": null
-    },
-    "title": "After the Wedding",
-    "poster": "https://kvikmyndir.is/images/poster/12719_500.jpg",
-    "alternativeTitles": "",
-    "year": "2019",
-    "release-dateIS": "2020-02-07",
-    "genres": [
-      {
-        "ID": 4,
-        "Name": "Drama",
-        "NameEN\t": "Drama"
-      }
-    ],
-    "actors_abridged": [
-      {
-        "name": "Julianne Moore"
-      },
-      {
-        "name": "Michelle Williams"
-      }
-    ],
-    "directors_abridged": [
-      {
-        "name": "Bart Freundlich"
-      }
-    ],
-    "trailers": [
-      {
-        "id": 527385,
-        "results": [
-          {
-            "id": "5d16645b665408001e99a1ad",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "22pa0wpGa9Q",
-            "name": "After The Wedding | Official Trailer HD (2019)",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Trailer",
-            "url": "https://www.youtube.com/embed/22pa0wpGa9Q?rel=0"
-          }
-        ]
-      }
-    ],
-    "omdb": [
-      {
-        "Title": "After the Wedding",
-        "Year": "2019",
-        "Rated": "PG-13",
-        "Released": "14 Aug 2019",
-        "Runtime": "112 min",
-        "Genre": "Drama",
-        "Director": "Bart Freundlich",
-        "Writer": "Bart Freundlich (screenplay), Susanne Bier (original screenplay), Anders Thomas Jensen (original screenplay)",
-        "Actors": "Julianne Moore, Michelle Williams, Billy Crudup, Abby Quinn",
-        "Plot": "A manager of an orphanage in Kolkata travels to New York to meet a benefactor.",
-        "Language": "English",
-        "Country": "USA",
-        "Awards": "N/A",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BNTI2NGVlMzAtMGQyYS00N2Q3LWE0ZDUtNzBmNGE1ZWE3NzQzXkEyXkFqcGdeQXVyOTgxNDIzMTY@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "6.1/10"
-          },
-          {
-            "Source": "Rotten Tomatoes",
-            "Value": "44%"
-          },
-          {
-            "Source": "Metacritic",
-            "Value": "50/100"
-          }
-        ],
-        "Metascore": "50",
-        "imdbRating": "6.1",
-        "imdbVotes": "2,499",
-        "imdbID": "tt7985692",
-        "Type": "movie",
-        "tomatoMeter": "N/A",
-        "tomatoImage": "N/A",
-        "tomatoRating": "N/A",
-        "tomatoReviews": "N/A",
-        "tomatoFresh": "N/A",
-        "tomatoRotten": "N/A",
-        "tomatoConsensus": "N/A",
-        "tomatoUserMeter": "N/A",
-        "tomatoUserRating": "N/A",
-        "tomatoUserReviews": "N/A",
-        "tomatoURL": "https://www.rottentomatoes.com/m/after_the_wedding_2019",
-        "DVD": "12 Nov 2019",
-        "BoxOffice": "N/A",
-        "Production": "Sony Pictures Classics",
-        "Website": "N/A",
-        "Response": "True"
-      }
-    ],
-    "plot": "Isabelle er að safna fjármunum fyrir byggingu munaðarleysingjahælis í Indlandi. Hún fer til New York til að hitta hina vellauðugu Theresa í þeim tilgangi. Þegar henni er boðið í brúðkaup, fer af stað atburðarás þar sem fortíðin og nútíðin skarast, og ráðgátur koma fram í dagsljósið."
-  },
-  {
     "id": 12283,
     "ids": {
       "imdb": "3794354",
@@ -752,22 +199,27 @@
       {
         "Title": "Klovn the Final",
         "Year": "2020",
-        "Rated": "N/A",
+        "Rated": "Not Rated",
         "Released": "30 Jan 2020",
-        "Runtime": "N/A",
+        "Runtime": "94 min",
         "Genre": "Comedy",
         "Director": "Mikkel Nørgaard",
         "Writer": "Casper Christensen, Frank Hvam",
-        "Actors": "Casper Christensen, Frank Hvam",
-        "Plot": "N/A",
+        "Actors": "Frank Hvam, Casper Christensen, Cassius Aasav Browning, Michael Carøe",
+        "Plot": "Frank turns 50 and his good friend, Casper, invites him to Iceland on a boy's trip. However, the trip does not go quite as planned.",
         "Language": "Danish",
         "Country": "Denmark",
         "Awards": "N/A",
         "Poster": "https://m.media-amazon.com/images/M/MV5BNWRkZjYwYmUtMTk4Yi00ZmEzLWFkNmYtZmI2Nzg0NDk1ODY5XkEyXkFqcGdeQXVyMjcwMjcwOTg@._V1_SX300.jpg",
-        "Ratings": [],
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.3/10"
+          }
+        ],
         "Metascore": "N/A",
-        "imdbRating": "N/A",
-        "imdbVotes": "N/A",
+        "imdbRating": "7.3",
+        "imdbVotes": "172",
         "imdbID": "tt10927554",
         "Type": "movie",
         "tomatoMeter": "N/A",
@@ -788,7 +240,517 @@
         "Response": "True"
       }
     ],
-    "plot": "Þriðja Klovn myndin. Sú fyrsta fjallaði um það þegar Frank vildi verða faðir. Önnur myndin fjallaði um vinskap hans og Caspers. Þriðja myndin fjallar um ástina."
+    "plot": "Í tilefni af 50 ára afmæli Caspers býður vinur hans Frank honum í strákaferð til Íslands. Ferðin fer hinsvegar ekki alveg samkvæmt áætlun."
+  },
+  {
+    "id": 12724,
+    "ids": {
+      "imdb": "7689310",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Die Goldfische",
+    "poster": "https://kvikmyndir.is/images/poster/12724_500.jpg",
+    "alternativeTitles": "The Goldfish",
+    "year": "2019",
+    "release-dateIS": "2020-02-14",
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      }
+    ],
+    "actors_abridged": [
+      {
+        "name": "Tom Schilling"
+      },
+      {
+        "name": "Jella Haase"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Alireza Golafshan"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 535092,
+        "results": []
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Die Goldfische",
+        "Year": "2019",
+        "Rated": "N/A",
+        "Released": "21 Mar 2019",
+        "Runtime": "111 min",
+        "Genre": "Comedy",
+        "Director": "Alireza Golafshan",
+        "Writer": "Alireza Golafshan",
+        "Actors": "Tom Schilling, Jella Haase, Birgit Minichmayr, Axel Stein",
+        "Plot": "N/A",
+        "Language": "German",
+        "Country": "Germany",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOTg2YTMyYjMtMTQ3Mi00OTU4LTlmMDEtYzQ2YjVjNWYxZDA1XkEyXkFqcGdeQXVyMDU5MDEyMA@@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "6.7/10"
+          }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "6.7",
+        "imdbVotes": "455",
+        "imdbID": "tt7689310",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Óliver er með allt á hreinu, ungur bankamaður á uppleið. Einn daginn lendir hann í bílslysi og þarf að takast á við nýjan veruleika í hjólastól í kjölfarið. Á endurhæfingaheimilinu kynnist hann hópi fjölbreyttra persóna sem kalla sig “gullfiskana” Þau komast á snoðir um auðvelda leið til þess að afla sér peninga og upphefst æsispennandi og sprenghlægileg atburðarás."
+  },
+  {
+    "id": 12727,
+    "ids": {
+      "imdb": "7125774",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Ballon",
+    "poster": "https://kvikmyndir.is/images/poster/12727_500.jpg",
+    "alternativeTitles": "",
+    "year": "2018",
+    "release-dateIS": "2020-02-14",
+    "genres": [
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 6,
+        "Name": "Spennutryllir",
+        "NameEN\t": "Thriller"
+      },
+      {
+        "ID": 40,
+        "Name": "Söguleg",
+        "NameEN\t": "History"
+      }
+    ],
+    "actors_abridged": [
+      {
+        "name": "Friedrich Mücke"
+      },
+      {
+        "name": "Karoline Schuch"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Michael Herbig"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 483983,
+        "results": [
+          {
+            "id": "5d37a34335811d31fcbcbc06",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "95LBIwTOR7Q",
+            "name": "BALLOON - Official Trailer - Dir. by Michael Herbig",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/95LBIwTOR7Q?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Ballon",
+        "Year": "2018",
+        "Rated": "N/A",
+        "Released": "21 Feb 2020",
+        "Runtime": "125 min",
+        "Genre": "Drama, History, Thriller",
+        "Director": "Michael Herbig",
+        "Writer": "Kit Hopkins (screenplay), Thilo Röscheisen (screenplay), Michael Herbig (screenplay)",
+        "Actors": "Friedrich Mücke, Karoline Schuch, David Kross, Alicia von Rittberg",
+        "Plot": "Balloon is a German thriller that deals with the crossing of the inner German border of the families Strelzyk and Wetzel from the GDR to West Germany with a homemade hot-air balloon.",
+        "Language": "German, English",
+        "Country": "Germany",
+        "Awards": "3 wins & 2 nominations.",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMDM0ODAxZTAtZjE4MS00OGQwLTlmYzctMzdlZTM4NGVlMTY4XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.6/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "64%"
+          }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "7.6",
+        "imdbVotes": "5,448",
+        "imdbID": "tt7125774",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "https://www.rottentomatoes.com/m/balloon_2018",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "Distrib  Films",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Myndin er byggð á einum æsilegasta flótta sem framkvæmdur var frá Austur Þýskalandi þar sem tvær fjölskyldur svifu yfir landamærin í heimagerðum loftbelg!"
+  },
+  {
+    "id": 12374,
+    "ids": {
+      "imdb": "5311542",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Never Look Away",
+    "poster": "https://kvikmyndir.is/images/poster/never-1557874544.jpg",
+    "alternativeTitles": "Werk ohne Autor",
+    "year": "2018",
+    "release-dateIS": "2020-02-15",
+    "genres": [
+      {
+        "ID": 3,
+        "Name": "Rómantísk",
+        "NameEN\t": "Romance"
+      },
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 40,
+        "Name": "Söguleg",
+        "NameEN\t": "History"
+      }
+    ],
+    "actors_abridged": [
+      {
+        "name": "Tom Schilling"
+      },
+      {
+        "name": "Sebastian Koch"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Florian Henckel von Donnersmarck"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 423612,
+        "results": [
+          {
+            "id": "5c46e55b9251410e0a507e2e",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "gCEYXnDNcrg",
+            "name": "Never Look Away | Official US Trailer HD (2018)",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/gCEYXnDNcrg?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Never Look Away",
+        "Year": "2018",
+        "Rated": "R",
+        "Released": "03 Oct 2018",
+        "Runtime": "189 min",
+        "Genre": "Drama, History, Romance, Thriller",
+        "Director": "Florian Henckel von Donnersmarck",
+        "Writer": "Florian Henckel von Donnersmarck",
+        "Actors": "Tom Schilling, Sebastian Koch, Paula Beer, Saskia Rosendahl",
+        "Plot": "German artist Kurt Barnert has escaped East Germany and now lives in West Germany, but is tormented by his childhood under the Nazis and the GDR-regime.",
+        "Language": "German, Russian",
+        "Country": "Germany, Italy",
+        "Awards": "Nominated for 2 Oscars. Another 5 wins & 15 nominations.",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNGUwYTQxZDYtYTZlMy00YmVhLTkyOTYtOTUwMzI2NTBlOWNhXkEyXkFqcGdeQXVyNTM2NTg3Nzg@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.7/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "77%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "68/100"
+          }
+        ],
+        "Metascore": "68",
+        "imdbRating": "7.7",
+        "imdbVotes": "10,111",
+        "imdbID": "tt5311542",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "https://www.rottentomatoes.com/m/never_look_away",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "Sony Pictures Classics",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Þýski myndlistamaðurinn Kurt Barnert flýr til Vestur Þýskalands, en minningar úr æsku, frá tímum Nasista í Þýskalandi, og frá tímum alræðisstjórnarinnar í Austur Þýskalandi, ásækja hann. Þegar hann hittir stúdínuna Ellie, þá er hann sannfærður um að hann hafi hitt hina einu sönnu ást, og byrjar að mála myndir sem endurspegla hans eigin örlög, en einnig sorgir heillar kynslóðar."
+  },
+  {
+    "id": 12725,
+    "ids": {
+      "imdb": "7205942",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Gundermann",
+    "poster": "https://kvikmyndir.is/images/poster/12725_500.jpg",
+    "alternativeTitles": "",
+    "year": "2018",
+    "release-dateIS": "2020-02-16",
+    "genres": [
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 37,
+        "Name": "Tónlistarmynd",
+        "NameEN\t": "Music"
+      },
+      {
+        "ID": 42,
+        "Name": "Æviágrip",
+        "NameEN\t": "Biography"
+      }
+    ],
+    "actors_abridged": [
+      {
+        "name": "Milan Peschel"
+      },
+      {
+        "name": "Alexander Scheer"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Andreas Dresen"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 484735,
+        "results": [
+          {
+            "id": "5c6c299bc3a3684fabe962b9",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "rNd9Xp4lGcE",
+            "name": "GUNDERMANN Trailer German Deutsch (2018)",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/rNd9Xp4lGcE?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Gundermann",
+        "Year": "2018",
+        "Rated": "N/A",
+        "Released": "23 Aug 2018",
+        "Runtime": "128 min",
+        "Genre": "Biography, Drama, Music",
+        "Director": "Andreas Dresen",
+        "Writer": "Laila Stieler (screenplay)",
+        "Actors": "Alexander Scheer, Bjarne Mädel, Axel Prahl, Peter Schneider",
+        "Plot": "The movie deals with the real life story of East German singer and writer Gerhard Gundermann and his struggles with music, life as a coal miner and his dealings with the secret police (STASI) of the GDR.",
+        "Language": "German",
+        "Country": "Germany",
+        "Awards": "10 wins & 7 nominations.",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMmUxMGQ4ZWEtOWY5Zi00MjkxLWJhOWQtNWM3OGQ3MDk3MTM0XkEyXkFqcGdeQXVyMjQ3NzUxOTM@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.4/10"
+          }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "7.4",
+        "imdbVotes": "1,142",
+        "imdbID": "tt7205942",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Myndin byggir á ævi Austur- Þýska tónlistarmannsins Gerhard Gundermann, áskorunum hans við lífið, tónlistina og lífsviðurværið sem vinnumanns í kolanámu. Svo flækist málið þegar leyniþjónusta þýska alþýðulýðveldisins (STASI) fer að skipta sér af Gundermann!"
+  },
+  {
+    "id": 12726,
+    "ids": {
+      "imdb": "8535968",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Systemsprenger",
+    "poster": "https://kvikmyndir.is/images/poster/12726_500.jpg",
+    "alternativeTitles": "System Crasher",
+    "year": "2019",
+    "release-dateIS": "2020-02-16",
+    "genres": [
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      }
+    ],
+    "actors_abridged": [
+      {
+        "name": "Helena Zengel"
+      },
+      {
+        "name": "Albrecht Schuch"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Nora Fingscheidt"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 567410,
+        "results": [
+          {
+            "id": "5da8d126a0f1a200186d5ead",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "ApR13iZ6v9s",
+            "name": "SYSTEM CRASHER clip | BFI London Film Festival 2019",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "url": "https://www.youtube.com/embed/ApR13iZ6v9s?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Systemsprenger",
+        "Year": "2019",
+        "Rated": "N/A",
+        "Released": "01 Feb 2019",
+        "Runtime": "110 min",
+        "Genre": "N/A",
+        "Director": "Nora Fingscheidt",
+        "Writer": "Nora Fingscheidt",
+        "Actors": "Helena Zengel, Albrecht Schuch, Gabriela Maria Schmeide, Lisa Hagmeister",
+        "Plot": "On her wild quest for love, 9-year-old Benni's untamed energy drives everyone around her to despair.",
+        "Language": "German",
+        "Country": "Germany",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNjQxZTM5NTEtNzYzNi00ODczLTg2ZDYtNjkxNDZkNjhhMmQwXkEyXkFqcGdeQXVyMjIxMDAyNzY@._V1_SX300.jpg",
+        "Ratings": [],
+        "Metascore": "N/A",
+        "imdbRating": "N/A",
+        "imdbVotes": "N/A",
+        "imdbID": "tt8535968",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Myndin fjallar um hina níu ára gömlu Benni sem er barn í stöðugu stríði við hið kerfislæga umhverfi sem hún passar illa inn í."
   },
   {
     "id": 12479,
@@ -993,122 +955,6 @@
       }
     ],
     "plot": "Líf heimilishundsins Buck breytist mikið þegar hann er skyndilega fluttur til óbyggða Alaska til að verða þar sleðahundur."
-  },
-  {
-    "id": 12561,
-    "ids": {
-      "imdb": "4916630",
-      "rotten": null,
-      "tmdb": null
-    },
-    "title": "Just Mercy",
-    "poster": "https://kvikmyndir.is/images/poster/mercy-1577059718.jpg",
-    "alternativeTitles": "",
-    "year": "2019",
-    "release-dateIS": "2020-02-28",
-    "genres": [
-      {
-        "ID": 4,
-        "Name": "Drama",
-        "NameEN\t": "Drama"
-      }
-    ],
-    "actors_abridged": [
-      {
-        "name": "Michael B. Jordan"
-      },
-      {
-        "name": "Jamie Foxx"
-      }
-    ],
-    "directors_abridged": [
-      {
-        "name": "Destin Daniel Cretton"
-      }
-    ],
-    "trailers": [
-      {
-        "id": 522212,
-        "results": [
-          {
-            "id": "5d6fb89977c01f001059879b",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "GVQbeG5yW78",
-            "name": "Official Trailer",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Trailer",
-            "url": "https://www.youtube.com/embed/GVQbeG5yW78?rel=0"
-          },
-          {
-            "id": "5d7035d577c01f621d5917fc",
-            "iso_639_1": "en",
-            "iso_3166_1": "US",
-            "key": "nuQ05k_OOQc",
-            "name": "Official Trailer Tease",
-            "site": "YouTube",
-            "size": 1080,
-            "type": "Teaser",
-            "url": "https://www.youtube.com/embed/nuQ05k_OOQc?rel=0"
-          }
-        ]
-      }
-    ],
-    "omdb": [
-      {
-        "Title": "Just Mercy",
-        "Year": "2019",
-        "Rated": "PG-13",
-        "Released": "10 Jan 2020",
-        "Runtime": "136 min",
-        "Genre": "Drama",
-        "Director": "Destin Daniel Cretton",
-        "Writer": "Destin Daniel Cretton, Andrew Lanham, Bryan Stevenson (based on the book by)",
-        "Actors": "Brie Larson, Michael B. Jordan, Jamie Foxx, Rafe Spall",
-        "Plot": "World-renowned civil rights defense attorney Bryan Stevenson works to free a wrongly condemned death row prisoner.",
-        "Language": "English",
-        "Country": "USA",
-        "Awards": "7 wins & 8 nominations.",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BYmM4YzA5NjUtZGEyOS00YzllLWJmM2UtZjhhNmJhM2E1NjUxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "6.4/10"
-          },
-          {
-            "Source": "Rotten Tomatoes",
-            "Value": "82%"
-          },
-          {
-            "Source": "Metacritic",
-            "Value": "68/100"
-          }
-        ],
-        "Metascore": "68",
-        "imdbRating": "6.4",
-        "imdbVotes": "1,551",
-        "imdbID": "tt4916630",
-        "Type": "movie",
-        "tomatoMeter": "N/A",
-        "tomatoImage": "N/A",
-        "tomatoRating": "N/A",
-        "tomatoReviews": "N/A",
-        "tomatoFresh": "N/A",
-        "tomatoRotten": "N/A",
-        "tomatoConsensus": "N/A",
-        "tomatoUserMeter": "N/A",
-        "tomatoUserRating": "N/A",
-        "tomatoUserReviews": "N/A",
-        "tomatoURL": "https://www.rottentomatoes.com/m/just_mercy",
-        "DVD": "N/A",
-        "BoxOffice": "N/A",
-        "Production": "Warner Bros. Pictures",
-        "Website": "N/A",
-        "Response": "True"
-      }
-    ],
-    "plot": "Lögfræðingurinn Bryan Stevenson berst fyrir lausn fanga af dauðadeild í fangelsi, en Walter McMillian var dæmdur til dauða árið 1987 fyrir morð á 18 ára gamalli stúlku, þrátt fyrir fjölda sönnunargagna sem bentu til sakleysis hans."
   },
   {
     "id": 12619,
@@ -1403,15 +1249,15 @@
             "url": "https://www.youtube.com/embed/HxKXiQvyG_o?rel=0"
           },
           {
-            "id": "5dfa6eab5ed9620013e33746",
+            "id": "5e3c4658ac8e6b0011cc0bbd",
             "iso_639_1": "en",
             "iso_3166_1": "US",
-            "key": "akzNIPEBZJE",
-            "name": "Onward (2020) Disney Primer Tráiler Oficial Español",
+            "key": "di1DPydyqdk",
+            "name": "Introducing Onward Featurette | In Theaters March 6",
             "site": "YouTube",
             "size": 1080,
-            "type": "Trailer",
-            "url": "https://www.youtube.com/embed/akzNIPEBZJE?rel=0"
+            "type": "Featurette",
+            "url": "https://www.youtube.com/embed/di1DPydyqdk?rel=0"
           }
         ]
       }
@@ -1641,16 +1487,16 @@
         "Year": "2020",
         "Rated": "N/A",
         "Released": "06 Mar 2020",
-        "Runtime": "N/A",
+        "Runtime": "108 min",
         "Genre": "Drama, Sport",
         "Director": "Gavin O'Connor",
         "Writer": "Brad Ingelsby (screenplay), Gavin O'Connor",
-        "Actors": "Ben Affleck, Janina Gavankar, Hayes MacArthur, Rachael Carpani",
+        "Actors": "Ben Affleck, Janina Gavankar, Michaela Watkins, Glynn Turman",
         "Plot": "A former HS basketball phenom, struggling with alcoholism, is offered a coaching job at his alma mater. As the team starts to win, he may have a reason to confront his old demons. But will it be enough to set him on the road to redemption?",
         "Language": "N/A",
         "Country": "USA",
         "Awards": "N/A",
-        "Poster": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYjJmOWE3ZTAtOTEzMC00OTEzLWJlMWUtYjA3ZDQwYTE5YmUyXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_SX300.jpg",
         "Ratings": [],
         "Metascore": "N/A",
         "imdbRating": "N/A",
@@ -1795,7 +1641,7 @@
       "tmdb": null
     },
     "title": "Síðasta veiðiferðin",
-    "poster": "https://kvikmyndir.is/images/poster/veidi-1575292482.jpg",
+    "poster": "https://kvikmyndir.is/images/poster/sidasta-1580837554.jpg",
     "alternativeTitles": "",
     "year": "2020",
     "release-dateIS": "2020-03-06",
@@ -2457,10 +2303,10 @@
     ],
     "actors_abridged": [
       {
-        "name": "Cillian Murphy"
+        "name": "Emily Blunt"
       },
       {
-        "name": "Emily Blunt"
+        "name": "Cillian Murphy"
       }
     ],
     "directors_abridged": [
@@ -2529,8 +2375,8 @@
         "Genre": "Horror, Thriller",
         "Director": "John Krasinski",
         "Writer": "Scott Beck (characters), John Krasinski, Bryan Woods (characters)",
-        "Actors": "Emily Blunt, Cillian Murphy, Noah Jupe, Djimon Hounsou",
-        "Plot": "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.",
+        "Actors": "Cillian Murphy, John Krasinski, Emily Blunt, Noah Jupe",
+        "Plot": "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize the creatures that hunt by sound are not the only threats lurking beyond the sand path.",
         "Language": "English",
         "Country": "USA",
         "Awards": "N/A",
@@ -2908,7 +2754,7 @@
         "Genre": "Animation, Adventure, Comedy, Family, Fantasy, Musical",
         "Director": "Walt Dohrn, David P. Smith(co-director)",
         "Writer": "Jonathan Aibel, Glenn Berger",
-        "Actors": "Anna Kendrick, Sam Rockwell, Jamie Dornan, James Corden",
+        "Actors": "Justin Timberlake, James Corden, Ozzy Osbourne, Rachel Bloom",
         "Plot": "Sequel to the 2016 animated hit.",
         "Language": "English",
         "Country": "USA",
@@ -3073,10 +2919,10 @@
     ],
     "actors_abridged": [
       {
-        "name": "Famke Janssen"
+        "name": "Joachim Król"
       },
       {
-        "name": "Naomi Battrick"
+        "name": "Eva Röse"
       }
     ],
     "directors_abridged": [
@@ -3131,6 +2977,38 @@
       }
     ],
     "plot": "Rannsóknarlögreglumaður í New York rannskar dauða dóttur sinnar, sem var myrt á brúðkaupsferðalagi í London. Hann fær hjálp frá skandinavískum blaðamanni, þegar önnur pör víða í Evrópu hljóta sömu örlög."
+  },
+  {
+    "id": 12729,
+    "ids": {
+      "imdb": "",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Hvernig á að vera klassa drusla",
+    "poster": "https://kvikmyndir.is/images/poster/klassa-1580985055.jpg",
+    "alternativeTitles": "",
+    "year": "2020",
+    "release-dateIS": "2020-04-03",
+    "genres": [
+      2,
+      75
+    ],
+    "actors_abridged": [
+      {
+        "name": "Ásta Júlía Elíasdóttir"
+      },
+      {
+        "name": "Ylfa Marín Haraldsdóttir"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Ólöf Birna Torfadóttir"
+      }
+    ],
+    "trailers": [],
+    "omdb": []
   },
   {
     "id": 12351,
@@ -3271,12 +3149,12 @@
         "tomatoURL": "https://www.rottentomatoes.com/m/bond_25",
         "DVD": "N/A",
         "BoxOffice": "N/A",
-        "Production": "N/A",
+        "Production": "MGM",
         "Website": "N/A",
         "Response": "True"
       }
     ],
-    "plot": "Myndin hefst þar sem Bond er að slaka á í Jamaíka, eftir að hafa lagt byssuna á hilluna. En allt það breytist þegar gamall vinur hans Felix Leiter frá bandarísku leyniþjónustunni CIA kemur og biður um aðstoð."
+    "plot": "Myndin hefst þar sem Bond er að slaka á í Jamaíka, eftir að hafa lagt byssuna á hilluna. En allt breytist þegar gamall vinur hans Felix Leiter frá bandarísku leyniþjónustunni CIA kemur og biður um aðstoð. Bond kemst nú á snoðir um ill áform dularfulls þorpara, sem býr yfir hættulegri nýrri tækni."
   },
   {
     "id": 12594,
@@ -3690,6 +3568,17 @@
             "size": 1080,
             "type": "Featurette",
             "url": "https://www.youtube.com/embed/MWOog_vCbl8?rel=0"
+          },
+          {
+            "id": "5e376eeb98f1f1001405caa6",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "lTL3OZkVMHQ",
+            "name": "Marvel Studios' Black Widow | Big Game Spot",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "url": "https://www.youtube.com/embed/lTL3OZkVMHQ?rel=0"
           }
         ]
       }
@@ -3906,8 +3795,8 @@
         "Genre": "Drama, War",
         "Director": "Aaron Schneider",
         "Writer": "C.S. Forester (novel), Tom Hanks (screenplay)",
-        "Actors": "Stephen Graham, Tom Hanks, Elisabeth Shue, Lee Norris",
-        "Plot": "During World War II, a Merchant Marine skipper must maintain his ship's place in a convoy being stalked by Nazi U-boat wolf packs.",
+        "Actors": "Tom Hanks, Elisabeth Shue, Stephen Graham, Manuel Garcia-Rulfo",
+        "Plot": "During World War II, a US Navy skipper must lead an Allied convoy being stalked by Nazi U-boat wolf packs.",
         "Language": "English",
         "Country": "USA",
         "Awards": "N/A",
@@ -4086,7 +3975,7 @@
     ],
     "actors_abridged": [
       {
-        "name": "Charlize Theron"
+        "name": "Vin Diesel"
       },
       {
         "name": "Jim Parrack"
@@ -4339,13 +4228,13 @@
         "Runtime": "N/A",
         "Genre": "Animation, Adventure, Comedy, Family",
         "Director": "Tim Hill",
-        "Writer": "Jonathan Aibel (screenplay), Glenn Berger (screenplay), Jordan Dunn, Tim Hill, Stephen Hillenburg (character created by), Michael Kvamme (screenplay), Kyle McCulloch (story), Paul Tibbitt (story)",
-        "Actors": "Clancy Brown, Awkwafina, Keanu Reeves, Tom Kenny",
+        "Writer": "Tim Hill (screenplay), Stephen Hillenburg (characters)",
+        "Actors": "Keanu Reeves, Awkwafina, Clancy Brown, Tom Kenny",
         "Plot": "After SpongeBob's beloved pet snail Gary is snail-napped, he and Patrick embark on an epic adventure to The Lost City of Atlantic City to bring Gary home.",
         "Language": "English",
         "Country": "South Korea, USA",
         "Awards": "N/A",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BNzI5MGM2OTQtYTQ5MC00MTQyLWE5NDUtNWFlYzUwYjU1NjcxXkEyXkFqcGdeQXVyMTAxNTcyMTc1._V1_SX300.jpg",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNGYwMTVlZGUtNDkxNy00OTc0LTg5ZjgtM2VlOTliNWJhYjNjXkEyXkFqcGdeQXVyODE2NjQ4MDQ@._V1_SX300.jpg",
         "Ratings": [],
         "Metascore": "N/A",
         "imdbRating": "N/A",
@@ -4552,7 +4441,7 @@
         "Genre": "Animation, Adventure, Family, Music, Sci-Fi",
         "Director": "Pete Docter, Kemp Powers(co-director)",
         "Writer": "Pete Docter, Mike Jones, Kemp Powers",
-        "Actors": "Jamie Foxx, Tina Fey, John Ratzenberger, Daveed Diggs",
+        "Actors": "Jamie Foxx, Tina Fey, Quest Love, Phylicia Rashad",
         "Plot": "A musician who has lost his passion for music is transported out of his body and must find his way back with the help of an infant soul learning about herself.",
         "Language": "English",
         "Country": "USA",
@@ -4643,15 +4532,26 @@
             "url": "https://www.youtube.com/embed/g4U4BQW9OEk?rel=0"
           },
           {
-            "id": "5dfa250f26dac10012589701",
+            "id": "5e3d86cd021cee00133e8c7b",
             "iso_639_1": "en",
             "iso_3166_1": "US",
-            "key": "MyiRiQCT1qs",
-            "name": "TOP GUN MAVERICK | AVIATION FEATURETTE  | PARAMOUNT PICTURES INDIA",
+            "key": "NSmkA7hcNjs",
+            "name": "Top Gun: Maverick (2020) – Big Game Spot – Paramount Pictures",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "url": "https://www.youtube.com/embed/NSmkA7hcNjs?rel=0"
+          },
+          {
+            "id": "5e3d874c43250f0013ca7d8e",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "tkc1PRdgs8Y",
+            "name": "Top Gun Maverick | Aviation Featurette | Paramount Pictures UK",
             "site": "YouTube",
             "size": 1080,
             "type": "Featurette",
-            "url": "https://www.youtube.com/embed/MyiRiQCT1qs?rel=0"
+            "url": "https://www.youtube.com/embed/tkc1PRdgs8Y?rel=0"
           }
         ]
       }
@@ -5209,6 +5109,17 @@
             "size": 1080,
             "type": "Trailer",
             "url": "https://www.youtube.com/embed/ydnzilTiBcY?rel=0"
+          },
+          {
+            "id": "5e3c159c0c27100013775090",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "lKE8joQeD_k",
+            "name": "Jungle Cruise - INTL Trailer B - TEXTED 4K UHD",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/lKE8joQeD_k?rel=0"
           }
         ]
       }
