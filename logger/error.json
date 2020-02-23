@@ -1,0 +1,2 @@
+{"name":"error","hostname":"Snrs-MacBook-Pro.local","pid":72726,"level":30,"msg":"Error getting urlundefined, Error: Error: getaddrinfo ENOTFOUND kvikmyndir.is kvikmyndir.is:443","time":"2020-02-23T09:14:47.858Z","v":0}
+{"name":"error","hostname":"Snrs-MacBook-Pro.local","pid":72974,"level":30,"msg":"Error getting url /showtimes_by_date_x0, Error: Error: ESOCKETTIMEDOUT","time":"2020-02-23T17:15:34.242Z","v":0}
