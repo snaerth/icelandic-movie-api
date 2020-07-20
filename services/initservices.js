@@ -16,7 +16,7 @@ var fs = require("fs-extra");
  * @param {callback} callback function to run when all operations have finished
  * @author : Snær Seljan Þóroddsson
  */
-var initServices = function(callback) {
+var initServices = function (callback) {
   /**
    * SHOWTIMES AND FUTURE SHOWTIMES
    * Gets showtimes today and future showtimes for the next four days
@@ -25,7 +25,7 @@ var initServices = function(callback) {
    * @param {maxdays} Count of max days to get (maximum is 4 days)
    * @author : Snær Seljan Þóroddsson
    */
-  var getFutureShowtimes = function(day, maxDays) {
+  var getFutureShowtimes = function (day, maxDays) {
     HttpService.getContent(
       config.kvikmyndirBaseUrl +
         config.showtimesDate +
@@ -34,11 +34,11 @@ var initServices = function(callback) {
         "&key=" +
         config.kvikmyndirkey
     )
-      .then(function(data) {
+      .then(function (data) {
         if (data) {
           var result = ShowtimesFixer(JSON.parse(data));
           // Remove all documents from movies collection
-          DBService.removeDocument({}, "movies" + day, function(err) {
+          DBService.removeDocument({}, "movies" + day, function (err) {
             if (err) {
               logger
                 .databaseError()
@@ -55,8 +55,8 @@ var initServices = function(callback) {
                 config.dataBasePath + "/movies" + day + ".json",
                 null,
                 "movies" + day,
-                function() {
-                  setTimeout(function() {
+                function () {
+                  setTimeout(function () {
                     getFutureShowtimes(day + 1, maxDays);
                   }, 10000); // Because of moviedb request limit is 30 requests per 10 second
                 }
@@ -69,7 +69,7 @@ var initServices = function(callback) {
           getUpcoming();
         }
       })
-      .catch(function(err) {
+      .catch(function (err) {
         console.log(err);
         logger
           .error()
@@ -90,8 +90,8 @@ var initServices = function(callback) {
    * and saves it to database and to json files
    * @author : Snær Seljan Þóroddsson
    */
-  var getUpcoming = function() {
-    setTimeout(function() {
+  var getUpcoming = function () {
+    setTimeout(function () {
       HttpService.getContent(
         config.kvikmyndirBaseUrl +
           config.upcomming +
@@ -99,11 +99,11 @@ var initServices = function(callback) {
           "&key=" +
           config.kvikmyndirkey
       )
-        .then(function(data) {
+        .then(function (data) {
           if (data) {
             var result = JSON.parse(data);
             // Remove all documents from upcoming collection
-            DBService.removeDocument({}, "upcoming", function(err) {
+            DBService.removeDocument({}, "upcoming", function (err) {
               if (err) {
                 logger
                   .databaseError()
@@ -122,7 +122,7 @@ var initServices = function(callback) {
             });
           }
         })
-        .catch(function(err) {
+        .catch(function (err) {
           logger
             .error()
             .info("Error getting url " + config.upcomming + ", Error: " + err);
@@ -135,16 +135,16 @@ var initServices = function(callback) {
   HttpService.getContent(
     config.kvikmyndirBaseUrl + config.genres + "?key=" + config.kvikmyndirkey
   )
-    .then(function(data) {
+    .then(function (data) {
       if (data) {
         var result = JSON.parse(data);
         FileService.writeToJson(result, config.genresfilepath);
       }
     })
-    .catch(function(err) {
+    .catch(function (err) {
       logger
         .error()
-        .info("Error getting url" + config.genresurl + ", Error: " + err);
+        .info("Error getting url " + config.genresurl + ", Error: " + err);
     });
 
   // Gets future showtimes from kvikmyndir.is
@@ -159,17 +159,17 @@ var initServices = function(callback) {
  * @author : Snær Seljan Þóroddsson
  */
 // Bíó paradís movie scraper
-var getBioparadis = function() {
-  setTimeout(function() {
+var getBioparadis = function () {
+  setTimeout(function () {
     HttpService.getContent(config.bioparadisApiUrl + config.bioparadisApiKey)
-      .then(function(data) {
+      .then(function (data) {
         if (data) {
           var result = JSON.parse(data);
         } else {
           paradisScraper.init(callback);
         }
       })
-      .catch(function(err) {
+      .catch(function (err) {
         logger
           .error()
           .info(
@@ -187,9 +187,9 @@ var getBioparadis = function() {
  * @author Snær Seljan Þóroddsson
  */
 function ShowtimesFixer(movies) {
-  movies.forEach(function(movie) {
+  movies.forEach(function (movie) {
     if (movie.showtimes) {
-      movie.showtimes.forEach(function(showtime) {
+      movie.showtimes.forEach(function (showtime) {
         if (showtime.schedule) {
           showtime.schedule = _underscore._.uniq(showtime.schedule);
         }
