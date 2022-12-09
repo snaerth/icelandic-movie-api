@@ -20,7 +20,7 @@
     "cron": "^1.1.0",
     "debug": "^2.6.9",
     "ejs": "^2.4.1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-session": "^1.13.0",
     "fs-extra": "^0.26.2",
     "fs-readfile-promise": "^2.0.1",
